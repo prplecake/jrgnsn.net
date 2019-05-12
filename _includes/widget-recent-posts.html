@@ -1,0 +1,14 @@
+{{^is "index"}}
+<hr />
+
+<h3>Recent Posts</h3>
+<div class="recent-posts">
+  {% for post in site.posts limit:3 %}
+  <div class="post-stub">
+    {{ post.date || date: "%Y-%m-%d" }}<br />
+    <a class="recent-post-link" href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </div>
+  {% endfor %}
+</div>

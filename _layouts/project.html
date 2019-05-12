@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<h1 class="project-title">
+  {{ page.title }}
+</h1>
+
+<div class="content">
+  <p class="meta date">
+    {% if page.created %}Created {{ page.created }}{% endif %}
+    on <a href="/">{{ site.title }}</a>
+    <span class=" hidden-xs">
+      &mdash;
+      <a href="{{ page.url }}">
+        Permalink
+      </a>
+    </span>
+  </p>
+  <article>
+    {{ content }}
+  </article>
+</div>

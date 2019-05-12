@@ -1,0 +1,28 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+enableMenu: true
+---
+
+{% for project in site.projects %}
+<div class="project-title">
+  <h2>
+    <span class="date hidden-xs">
+      {{ project.created }}
+    </span>
+    <span class="title">
+      {% assign content = project.content | strip_newlines %}
+      {% if content == "" or content == nil or content == blank %}
+        {{ project.title }}
+      {% else %}
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      {% endif %}
+    </span>
+  </h2>
+  {% if project.tagline %}
+  &mdash;
+  {{ project.tagline }}
+  {% endif %}
+</div>
+{% endfor %}

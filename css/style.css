@@ -1,0 +1,444 @@
+/* Table of Contents
+/* --------------------------------------------------------------------------------
+
+This is a development CSS file which is built to a minified production
+stylesheet in asset/built/screen.css
+
+  1. Layout
+  2. Widgets
+  2.1. Hero Avatar
+  2.2. Author Bio
+  2.3. Navigation
+  2.4. External Links
+  2.5. Recent Posts
+  2.6. Tag cloud
+  3. Article
+  3.1. Article Meta
+  3.2. Article Stub (index)
+  4. Pagination Buttons
+  5. Footer
+  6. @media Properties
+  7. Ghost Required Classes
+
+*/
+
+/* 1. Layout - Basic Layout & Main Content
+/* ---------------------------------------------------------- */
+html, body {
+  /* overflow-x: hidden; */
+  font-family: sans-serif;
+  font-size: 12pt;
+}
+
+body {
+  background: #fff;
+  padding-bottom: 2rem;
+  max-width: 100%;
+}
+
+article p {
+  line-height: 1.25;
+  font-size: 12pt;
+}
+
+pre {
+  border: 1px #ddd solid;
+  border-radius: 0;
+  overflow-x: auto;
+  background: transparent;
+  line-height: 1.2;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #efefef;
+  display: grid;
+}
+
+pre code {
+  white-space: pre;
+  word-wrap: normal;
+  font-size: 10pt;
+  display: inline-block;
+  overflow-x: scroll;
+}
+
+code {
+  font-family: monospace;
+  color: #000;
+}
+
+blockquote {
+
+}
+blockquote p {
+  font-size: 11pt !important;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+hr {
+    border-top: red;
+    width: 85%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.container .content {
+  grid-column-start: 1;
+}
+
+.post-class .post-title,
+.container .site-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.page-title {
+  margin-bottom: 0;
+}
+
+.container .site-title a {
+  color: black;
+  text-decoration: none;
+}
+
+/* 2. Widgets
+/* ---------------------------------------------------------- */
+.container .sidebar {
+  grid-column-start: 2;
+  padding-left: 1rem;
+}
+
+.sidebar,
+.sidebar a {
+  color: #444;
+}
+
+.sidebar hr {
+  border-top: #aaa;
+  width: 75%;
+}
+
+/* 2.1. Hero Avatar
+/* ---------------------------------------------------------- */
+.hero-avatar {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+img.avatar {
+  border-radius: 10%;
+}
+
+/* 2.2. Author Bio
+/* ---------------------------------------------------------- */
+.hero-greeting,
+.hero-bio {
+  font-size: 12pt;
+}
+
+/* 2.3. Navigation
+/* ---------------------------------------------------------- */
+.navigation {
+  text-align: center;
+  position: relative;
+  margin: 1em;
+  overflow: hidden;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -1px;
+}
+
+.navigation li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: .25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .navigation a {
+  color: blue;
+}
+
+li[role=menuitem] {
+  display: inline;
+}
+
+/* 2.4. External Links
+/* ---------------------------------------------------------- */
+.external-links .context {
+  position: absolute;
+  top: -0.9rem;
+  left: 0;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.external-links > p {
+  position: relative;
+}
+
+.external-links > p:not(:last-child) {
+  padding-bottom: 0.5rem;
+}
+
+/* 2.5. Recent Posts
+/* ---------------------------------------------------------- */
+.recent-posts {
+  font-size: 11pt;
+  padding-bottom: 1rem;
+}
+
+.recent-post-item {
+  margin: .5rem 0;
+}
+
+.recent-post-date {
+
+}
+
+.recent-post-link {
+
+}
+
+/* 3. Article
+/* ---------------------------------------------------------- */
+
+.post-content {
+  margin: 6px 0;
+}
+
+.post-footer .post-tags {
+  font-size: 10pt;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  padding-top: 0px;
+  font-size: 16pt;
+}
+
+.post-stub h2 {
+  font-size: 12pt;
+}
+
+.post-stub .date {
+  color: #999;
+  display: inline-block;
+  min-width: 6rem;
+}
+
+@media (min-width: 576px) {
+  .visible-xs {
+  display: none;
+  }
+}
+
+.post-content p {
+  line-height: 1.25;
+  font-size: 12pt;
+}
+
+/* 3.1. Article Meta
+/* ---------------------------------------------------------- */
+
+.post-meta-container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.meta {
+  color: #999;
+}
+
+.meta a {
+  color: #999;
+}
+
+.post-feature-image-container {
+
+}
+
+.post-feature-image {
+
+}
+
+/* 3.2. Article Stub (index)
+/* ---------------------------------------------------------- */
+
+.post-stub .post-content a {
+  color: #444;
+}
+
+.post-stub .post-tags {
+  font-size: 10pt;
+}
+
+/* 4. Pagination Buttons
+/* ---------------------------------------------------------- */
+
+.pagination-container {
+  display: grid;
+  grid-template-areas:
+  'left center right';
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.pull-left {
+  margin-right: auto;
+  grid-area: left;
+}
+
+.pull-center {
+  text-align: center;
+  grid-area: center;
+}
+
+.pull-center > p {
+  font-size: 11pt;
+}
+
+.pull-right {
+  margin-left: auto;
+  grid-area: right;
+}
+
+.btn {
+  display: inline-block;
+  padding: .1rem .75rem;
+  background: #e9ecef;
+  border: #343a40 1px solid;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  margin: 12px 0 0 0;
+  transition: color .15s ease-in-out,
+  background-color .15s ease-in-out,
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out;
+}
+.btn:hover {
+  text-decoration: none;
+  background: #f8f9fa;
+  color: #000;
+}
+
+.icon {
+  display: inline-block;
+  line-height: 0.75em;
+  width: 0.4em;
+  vertical-align: -0.2em;
+}
+
+.icon path {
+  fill: currentColor;
+}
+
+/* #. Projects
+/* ---------------------------------------------------------- */
+.project-title h2 {
+  font-size: 12pt;
+  display: inline;
+}
+
+.project-title .date {
+  display: inline-block;
+  min-width: 3rem;
+}
+
+/* #. Special Formatting
+/* ---------------------------------------------------------- */
+.alert, .tip {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.alert {
+  color: white;
+  background-color: #f64d27;
+  border-color: #ab2e14;
+}
+
+.tip {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+/* 5. Footer
+/* ---------------------------------------------------------- */
+.site-footer {
+  font-size: 10pt;
+  padding-top: 0.5rem;
+}
+
+/* 6. @media Properties
+/* ---------------------------------------------------------- */
+@media (max-width: 768px) {
+  .container {
+    display:block
+  }
+  .container .sidebar {
+    padding: 3rem 0 0 0;
+  }
+  .site-footer {
+    text-align: center;
+  }
+  .btn {
+   font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .visible-xs {
+  display:none
+  }
+}
+
+/* 7. Ghost Required Classes
+/* The following classes are required for this theme to pass
+/* gscan validation. 
+/* ---------------------------------------------------------- */
+.kg-gallery-container,
+.kg-gallery-row,
+.kg-gallery-image {
+
+}
+.kg-width-full img,
+.kg-width-wide img{
+
+}

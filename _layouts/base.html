@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Document Settings -->
+  <heta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Page Meta -->
+  <title>{{ site.title }}</title>
+  <meta name="description=" content="True" />
+  <link rel="icon" type="image/png" href="/avatar.png" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    {{ content }}
+
+    <div class="sidebar">
+
+      {%- include widget-author-bio.html -%}
+
+      {%- include navigation.html -%}
+
+      {%- include widget-external-links.html -%}
+
+      {% if page.url != '/' %}
+      {%- include widget-recent-posts.html -%}
+      {% endif %}
+
+      <hr />
+
+      {%- include footer.html -%}
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+<h1 class="page-title">
+  {% if page.title %}
+  {{ page.title }}
+  {% else %}
+  {{ site.title }}
+  {% endif %}
+</h1>
+
+<div class="content">
+  {% if page.url contains '/archive/' %}
+  {% else %}
+  {% unless page.url == '/' %}
+  <p class="meta date">
+    {% if page.date %}Published {{ page.date | date: "%Y-%m-%d" }}{% endif %}
+    on <a href="/">{{ site.title }}</a>
+    <span class=" hidden-xs">
+      &mdash;
+      <a href="{{ page.url }}">
+        Permalink
+      </a>
+    </span>
+  </p>
+  {% endunless %}
+  {% endif %}
+  <article>
+    {{ content }}
+  </article>
+</div>
