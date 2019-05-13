@@ -58,7 +58,7 @@ pre code {
   word-wrap: normal;
   font-size: 10pt;
   display: inline-block;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 code {
