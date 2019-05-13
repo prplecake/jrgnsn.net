@@ -13,4 +13,4 @@ paginate_path: /page/:num
 collections:
   projects:
     output: true
-    permalink: /project/:name
+    permalink: /projects/:name:output_ext
