@@ -1,0 +1,27 @@
+image: debian/stretch
+packages:
+  - rsync
+  - ruby
+  - ruby-dev
+  - zlib1g-dev
+sources:
+  - https://git.sr.ht/~mjorgensen/jrgnsn.net
+environment:
+  deploy: deploy@jrgnsn.net
+secrets:
+  - 65617e27-4d70-4a57-9688-22a2fe0bc6c0
+triggers:
+  - action: email
+    condition: always
+    to: notify@jrgnsn.net
+tasks:
+  - setup: |
+      sudo gem install bundler github-pages -N
+  - build: |
+      cd jrgnsn.net
+      bundle install
+      bundle exec jekyll build
+  - deploy: |
+      cd jrgnsn.net
+      sshopts="-o StrictHostKeyChecking=no"
+      rsync --rsh="ssh $sshopts" -rP _site/ ${deploy}:/var/www/test/
