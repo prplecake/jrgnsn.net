@@ -301,6 +301,19 @@ h1 {
   font-size: 10pt;
 }
 
+/* 3.3. Article Footnotes
+/* ---------------------------------------------------------- */
+.footnotes {
+  font-size: 10pt;
+  margin-top: 3rem;
+}
+.footnotes::before {
+  content: "Notes:";
+}
+.footnotes p {
+  font-size: unset;
+}
+
 /* 4. Pagination Buttons
 /* ---------------------------------------------------------- */
 
