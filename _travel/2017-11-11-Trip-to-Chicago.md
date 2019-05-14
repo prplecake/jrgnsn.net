@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Trip to Chicago
+dest: Chicago, IL
+_date: 2017-11
 ---
 
 *I went to Chicago over the weekend of 3 November 2017 to see the Used

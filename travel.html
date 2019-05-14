@@ -1,0 +1,24 @@
+---
+layout: page
+title: Travel
+permalink: /travel/
+---
+
+{% assign travel = site.travel | sort: '_date' | reverse %}
+{% for trip in travel %}
+<div class="trip-title">
+    <h2>
+        <span class="date hidden-xs">
+            {{ trip._date | date: "%Y-%m" }}
+        </span>
+        <span class="title">
+            {% assign content = trip.content | strip_newlines %}
+            {% if content == "" or content == nil or content == blank %}
+                {{ trip.dest }}
+            {% else %}
+                <a href="{{ trip.url }}">{{ trip.dest }}</a>
+            {% endif %}
+        </span>
+    </h2>
+</div>
+{% endfor %}

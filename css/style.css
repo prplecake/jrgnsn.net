@@ -389,6 +389,18 @@ h1 {
   min-width: 3rem;
 }
 
+/* #. Travel
+/* ---------------------------------------------------------- */
+.trip-title h2 {
+    font-size: unset;
+    display: inline;
+}
+
+.trip-title .date {
+    display: inline-block;
+    min-width: 4.5rem;
+}
+
 /* #. Special Formatting
 /* ---------------------------------------------------------- */
 .alert, .tip {
