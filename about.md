@@ -24,10 +24,10 @@ very young age.
 ## About This Site
 
 This website is a [jekyll][jekyll] blog. The server is hosted by
-[Linode][linode-ref]. 
+[Linode][linode-ref]. I use [Hover][hover-ref] to register my domains.
 
 I collect absolutely nothing from visitors. There's no tracking or data
-collection of any kind.
+collection of any kind. There may be referral links. 
 
 You can [browse the source code][source] for this website. It's licensed
 under the terms of the [MIT license][mit]. The articles themselves are 
@@ -36,6 +36,7 @@ under the terms of the [MIT license][mit]. The articles themselves are
 [jekyll]: https://jekyllrb.com/
 [aura-theme]: https://git.sr.ht/~mjorgensen/aura
 [linode-ref]: https://www.linode.com/?r=6bc69166de6a9b923e4e42b4259c0ed8e1769d8c
+[hover-ref]:https://hover.com/2RdnC5Ej
 [source]: https://git.sr.ht/~mjorgensen/jrgnsn.net
 [mit]: https://opensource.org/licenses/MIT/
 [cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
