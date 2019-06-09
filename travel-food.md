@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /temp2/
+permalink: /travel/food/
 ---
 
 Since I've started doing more traveling, I thought having a nice central
