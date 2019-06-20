@@ -9,7 +9,7 @@ sources:
 environment:
   deploy: deploy@jrgnsn.net
 secrets:
-  - 65617e27-4d70-4a57-9688-22a2fe0bc6c0
+  - 7a042c0a-91f1-4e14-b2cb-5e1aaf23411e
 triggers:
   - action: email
     condition: always
