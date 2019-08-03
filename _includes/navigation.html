@@ -3,7 +3,7 @@
 {%- if page_paths -%}
   <div class="navigation">
     <ul class="nav" role="menu">
-      <li class="nav-home{% if page.url == '/' %} nav-current{% endif %}"><a href="{{ site.url }}">Home</a></li>
+      <li class="nav-home{% if page.url == '/' %} nav-current{% endif %}"><a href="/">Home</a></li>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
