@@ -133,7 +133,6 @@ img.avatar {
   padding: 0 1em;
   text-align: center;
   border-left: 1px solid #ccc;
-  background-color: #fff;
 }
 
 .nav {
@@ -335,8 +334,7 @@ h1 {
   margin: 0
   0.5rem;
   padding: 0.5rem;
-  background:
-  #eee;
+  background: #eee;
 }
 .webring .article:first-child {
   margin-left: 0;
@@ -372,6 +370,16 @@ h1 {
   }
 }
 
+@media (max-width: 600px) {
+    .webring .articles {
+    display: block;
+  }
+  .webring .article {
+    display: block;
+    margin: 1rem 0 0 0;
+  }
+}
+
 @media (max-width: 550px) {
 
   .container .widgets {
@@ -381,17 +389,26 @@ h1 {
   .hero-bio {
     margin-bottom: 2rem;
   }
-  .webring .articles {
-    display: block;
-  }
-  .webring .article {
-    display: block;
-    margin: 1rem 0 0 0;
-  }
 }
 
 @media (min-width: 576px) {
   .visible-xs {
   display:none
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: lightgray;
+  }
+  a {
+    color: blueviolet;
+  }
+  .webring .article {
+    background: #111;
+  }
+  .webring .date {
+    color: gray;
   }
 }
