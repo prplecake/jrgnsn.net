@@ -28,8 +28,6 @@ ground yet.
 
 Stay tuned for a post announcing the project in the coming weeks.
 
----
-
 [git]:https://git.sr.ht/~mjorgensen/stocfs
 [todo]:https://todo.sr.ht/~mjorgensen/stocfs
 [man]:https://man.sr.ht/~mjorgensen/stocfs
