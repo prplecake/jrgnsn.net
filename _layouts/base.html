@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Document Settings -->
-  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Document Settings -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Page Meta -->
-  <title>{{ site.title }}</title>
-  <meta name="description=" content="True" />
-  <link rel="icon" type="image/png" href="/avatar.png" />
+    <!-- Page Meta -->
+    <title>{{ site.title }}</title>
+    <meta name="description=" content="True" />
+    <link rel="icon" type="image/png" href="/avatar.png" />
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 
 <body>
-  <div class="container">
+    <div class="container">
+        <header>
+            <h1 class="page-title">
+                {% if page.title %}
+                {{ page.title }}
+                {% else %}
+                {{ site.title }}
+                {% endif %}
+            </h1>
 
-    {{ content }}
+            <navigation>
+                {%- include navigation.html -%}
+            </navigation>
+        </header>
 
-    <div class="sidebar">
+        {{ content }}
 
-      {%- include widget-author-bio.html -%}
+            {% if page.url != '/' %}
+            <div class="recent-posts">
+                {%- include widget-recent-posts.html -%}
+            </div>
+            {% endif %}
+            
+        <div class="widgets">
+            <div class="widget-column-1">
+                <div class="author-bio">
+                    {%- include widget-author-bio.html -%}
+                </div>
+            </div>
+            <div class="widget-column-2">
+                <div class="external-links">
+                    {%- include widget-external-links.html -%}
+                </div>
 
-      {%- include navigation.html -%}
-
-      {%- include widget-external-links.html -%}
-
-      {% if page.url != '/' %}
-      {%- include widget-recent-posts.html -%}
-      {% endif %}
-
-      <hr />
-
-      {%- include footer.html -%}
-
+                {%- include footer.html -%}
+            </div>
+        </div>
     </div>
-  </div>
 </body>
 </html>
