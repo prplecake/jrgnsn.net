@@ -23,8 +23,8 @@ tasks:
       ../openring \
         -s https://drewdevault.com/feed.xml \
         -s https://www.jertype.com/feed.xml \
-        < _includes/webring-in.html \
-        > _includes/webring-out.html
+        < _includes/webring_in.html \
+        > _includes/webring_out.html
   - setup: |
       sudo gem install bundler github-pages -N
   - build: |
