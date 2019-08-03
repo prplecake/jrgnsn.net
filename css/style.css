@@ -408,6 +408,15 @@ h1 {
   .external-links .context {
     color: lightgray;
   }
+  .btn {
+    background: #161310;
+    border-color: #CBC5BF;
+    color: white;
+  }
+  .btn:hover {
+    background: #070605;
+    color: white;
+  }
   .webring .article {
     background: #111;
   }
