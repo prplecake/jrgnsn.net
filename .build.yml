@@ -1,5 +1,6 @@
 image: debian/stretch
 packages:
+  - curl
   - rsync
   - ruby
   - ruby-dev
