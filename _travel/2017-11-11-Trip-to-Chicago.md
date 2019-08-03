@@ -137,12 +137,12 @@ burger, and fries. I would go back.
 I was originally going to eat at the Chicago Diner, but after being told
 there was a 15-45 minute wait, I decided to take a 45 minute bus ride to
 the Handlebar, and I'm glad I did. As soon as you walk in the door
-you're greeted with psunk music and similar artwork on the wall. I
+you're greeted with punk music and similar artwork on the wall. I
 ordered a vegan breakfast burrito and a plate of chili cheese fries.
 
 ![IMG_0277](/content/trip-to-chicago/IMG_0277.JPG)
 
-I could've been fine with just the plate of chili cheese fries. the
+I could've been fine with just the plate of chili cheese fries. The
 plate was *massive.* However, leftovers are never a bad thing.
 
 ### Departure
