@@ -405,6 +405,9 @@ h1 {
   a {
     color: blueviolet;
   }
+  .external-links .context {
+    color: lightgray;
+  }
   .webring .article {
     background: #111;
   }
