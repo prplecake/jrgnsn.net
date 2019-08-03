@@ -26,7 +26,7 @@ FastMail's domain servers. This accomplishes several things:
 
 1. I don't have to worry about configuring all the MX, TXT, and other
 records related to mail systems.
-2. FastMail is much more convinient for me to access than CloudFlare.
+2. FastMail is much more convenient for me to access than CloudFlare.
 3. I don't necessarily require DDoS protection (which I wasn't paying
 for anyhow).
 4. FastMail makes it incredibly easy to serve a file or directory from
