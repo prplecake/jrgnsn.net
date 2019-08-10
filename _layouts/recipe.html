@@ -48,10 +48,15 @@
                 {{ content }}
             </div>
         </div>
-
-        <div id="recipe-footer">
-            {%- include footer.html -%}
+        {% if page.source %}
+        <div class="recipe-source">
+            {% if page.sourceURL %}
+            Source: <a href="{{ page.sourceURL }}" target="_blank">{{ page.source }}</a>
+            {% else %}
+            Source: {{ page.source }}
+            {% endif %}
         </div>
+        {% endif %}
     </div>
 </div>
 </div>
