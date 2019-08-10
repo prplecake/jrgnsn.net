@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Document Settings -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Page Meta -->
+    <title>{{ site.title }}</title>
+    <meta name="description=" content="True" />
+    <link rel="icon" type="image/png" href="/avatar.png" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/recipe.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">
+                {% if page.title %}
+                {{ page.title }}
+                {% else %}
+                {{ site.title }}
+                {% endif %}
+            </h1>
+            <navigation><div class="navigation">
+                <a href="/">Back to Blog</a>
+            </div></navigation>
+        </header>
+
+                {{ content }}
+
+        <div id="recipe-footer">
+            {%- include footer.html -%}
+        </div>
+    </div>
+</body>
+</html>

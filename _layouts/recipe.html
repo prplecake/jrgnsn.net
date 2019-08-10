@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Document Settings -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Page Meta -->
+    <title>{{ site.title }}</title>
+    <meta name="description=" content="True" />
+    <link rel="icon" type="image/png" href="/avatar.png" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    {% if page.layout == 'recipe' %}
+    <link rel="stylesheet" type="text/css" href="/css/recipe.css" />
+    {% endif %}
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">
+                {% if page.title %}
+                {{ page.title }}
+                {% else %}
+                {{ site.title }}
+                {% endif %}
+            </h1>
+            <navigation><div class="navigation">
+                <a href="/recipes">Back to Recipes</a>
+            </div></navigation>
+        </header>
+
+        <div class="recipe-container">
+            <div class="ingredients">
+                <h3>Ingredients</h3>
+                <div class="ingredient-list">
+                    {% for ingredient in page.ingredients %}
+                    <span class="qty">{{ ingredient.qty }}</span>
+                    <span class="name">{{ ingredient.name }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="directions">
+                <h3>Instructions</h3>
+                {{ content }}
+            </div>
+        </div>
+
+        <div id="recipe-footer">
+            {%- include footer.html -%}
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

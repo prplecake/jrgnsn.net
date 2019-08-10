@@ -1,0 +1,32 @@
+---
+layout: recipe_base
+title: Recipes
+permalink: /recipes/
+enableMenu: false
+---
+
+{% if site.recipes.size == 0 %}
+    <div class="info">There are no recipes.</div>
+{% else %}
+<ul>
+{% for recipe in site.recipes %}
+<li>
+    <span class="date hidden-xs">
+      {{ recipe.created }}
+    </span>
+    <span class="title">
+      {% assign content = recipe.content | strip_newlines %}
+      {% if content == "" or content == nil or content == blank %}
+        {{ recipe.title }}
+      {% else %}
+        <a href="{{ recipe.url }}">{{ recipe.title }}</a>
+      {% endif %}
+    </span>
+  {% if recipe.tagline %}
+  &mdash;
+  {{ recipe.tagline }}
+  {% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
