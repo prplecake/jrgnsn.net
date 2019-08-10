@@ -17,3 +17,6 @@ collections:
   travel:
     output: true
     permalink: /travel/:name:output_ext
+  recipes:
+    output: true
+    permalink: /recipe/:name:output_ext
