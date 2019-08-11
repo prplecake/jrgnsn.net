@@ -24,18 +24,19 @@ header {
 
 .ingredient-list {
     display: grid;
-    grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-columns: max-content;
     grid-row-gap: 0.3em;
-    margin: 0.3em 0;
+    grid-column-gap: 1em;
+    padding: 0 0.5em;
 }
 
 
 .ingredient-list .qty {
-    grid-column-start: 2;
+    grid-column-start: 1;
 }
 
 .ingredient-list .name {
-    grid-column-start: 3;
+    grid-column-start: 2;
 }
 
 .directions {
