@@ -1,3 +1,7 @@
+header {
+    display: grid;
+}
+
 .recipe-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -41,4 +45,10 @@
 
 .directions li {
     padding: 0 0.3em;
+}
+
+@media (max-width: 500px) {
+    .recipe-container {
+        display: block;
+    }
 }
