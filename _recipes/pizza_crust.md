@@ -3,18 +3,19 @@ layout: recipe
 title: Pizza Crust
 tagline: "Super Simple Pizza Crust"
 ingredients:
-  - name: 'flour'
-    qty: 1-1/4 cup
-  - name: yeast
-    qty: 1-1/8 tsp
-  - name: sugar
-    qty: 1 tsp
-  - name: salt
-    qty: 1/8 tsp
-  - name: olive oil
-    qty: 1 tbsp
-  - name: water
-    qty: 1/2 cup
+  - pizza crust:
+    - name: 'flour'
+      qty: 1-1/4 cup
+    - name: yeast
+      qty: 1-1/8 tsp
+    - name: sugar
+      qty: 1 tsp
+    - name: salt
+      qty: 1/8 tsp
+    - name: olive oil
+      qty: 1 tbsp
+    - name: water
+      qty: 1/2 cup
 source: My brother Phil
 ---
 
