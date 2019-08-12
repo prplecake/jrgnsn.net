@@ -34,17 +34,26 @@
 
         <div class="recipe-container">
             <div class="ingredients">
-                <h3>Ingredients</h3>
-                <div class="ingredient-list">
-                    {% for ingredient in page.ingredients %}
-                    <span class="qty">{{ ingredient.qty }}</span>
-                    <span class="name">{{ ingredient.name }}</span>
+                <h2>Ingredients</h2>
+                    <div class="ingredient-list"> 
+                    {% for keys in page.ingredients %}
+                        {% for key in keys %}
+                        {% if page.ingredients.size > 1 %}
+                        <h3>{{ key.first }}</h3>
+                        {% endif %}
+                            {% for ing in key %}
+                            {% for in in ing %}
+                                <span class="qty">{{in.qty }}</span>
+                                <span class="name">{{in.name}}</span>
+                            {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
                     {% endfor %}
                 </div>
             </div>
 
             <div class="directions">
-                <h3>Instructions</h3>
+                <h2>Instructions</h2>
                 {{ content }}
             </div>
         </div>
