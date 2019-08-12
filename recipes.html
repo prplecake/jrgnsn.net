@@ -15,12 +15,7 @@ enableMenu: false
       {{ recipe.created }}
     </span>
     <span class="title">
-      {% assign content = recipe.content | strip_newlines %}
-      {% if content == "" or content == nil or content == blank %}
-        {{ recipe.title }}
-      {% else %}
         <a href="{{ recipe.url }}">{{ recipe.title }}</a>
-      {% endif %}
     </span>
   {% if recipe.tagline %}
   &mdash;
