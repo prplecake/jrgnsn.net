@@ -16,6 +16,11 @@ triggers:
     condition: always
     to: notify@jrgnsn.net
 tasks:
+  - is-master: |
+      cd jrgnsn.net
+      if [ "$(git rev-parse master)" != "$(git rev-parse HEAD)" ]; then
+        complete-build;
+      fi
   - openring: |
       curl -O https://yukari.sr.ht/openring
       chmod +x openring
