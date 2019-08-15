@@ -14,7 +14,7 @@
       {% endif %}
     </span>
   </h2>
-  {% if include.post._url %}
+  {% if include.post._url or include.no_excerpt %}
   {% else %}
   {{ include.post.excerpt }}
   {% endif %}
