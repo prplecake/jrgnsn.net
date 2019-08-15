@@ -320,6 +320,10 @@ h1 {
   border-color: #B8DAFF;
 }
 
+.text-muted {
+  color: #444;
+}
+
 .site-footer {
   font-size: 10pt;
   padding-top: 0.5rem;
