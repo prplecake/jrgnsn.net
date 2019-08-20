@@ -29,6 +29,8 @@ tasks:
         -s https://drewdevault.com/feed.xml \
         -s https://www.jertype.com/feed.xml \
         -s https://marco.org/rss.xml \
+        -s https://jlelse.blog/posts/index.xml \
+        -s https://write.as/gokigen/feed/ \
         < _includes/webring_in.html \
         > _includes/webring_out.html
   - setup: |
