@@ -60,7 +60,7 @@ Serving admin-fe was a little bit of a hassle, mostly due to my limited
 knowledge of nginx configuration. At first, my config looked like this:
 
 ```
-location /_aadmin-fe/ {
+location /_admin-fe/ {
 	root /var/www/pleroma/admin-fe;
 	index index.html
 }
