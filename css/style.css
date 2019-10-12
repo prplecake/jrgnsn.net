@@ -348,6 +348,9 @@ h1 {
 .webring .articles {
 	display: flex;
 }
+.webring h3 {
+	font-size: 1.1em;
+}
 .webring .title {
 	margin: 0;
 }
