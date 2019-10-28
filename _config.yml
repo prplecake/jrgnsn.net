@@ -11,6 +11,8 @@ plugins:
   - jekyll-paginate
 paginate: 10
 paginate_path: /page/:num
+sass:
+  style: compressed
 collections:
   projects:
     output: true
