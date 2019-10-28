@@ -21,11 +21,15 @@ the Account ID and Key to be base64 encoded in the following format:
 
 Try this in a Python 2 shell:
 
-    base64.b64encode('A string')
+```python
+base64.b64encode('A string')
+```
     
 You get an output like:
 
-    'QSBzdHJpbmc='
+```
+'QSBzdHJpbmc='
+```
     
 Try running the same thing in a Python 3 shell and you see something
 closer to this:
@@ -41,12 +45,16 @@ string in `UTF-8`. Then, once it's base64 encoded, you decode that as
 
 This works:
 
-    base64.b64encode('A string'.encode('UTF-8')).decode('ascii')
+```python
+base64.b64encode('A string'.encode('UTF-8')).decode('ascii')
+```
 
 After doing some more scouring, I found [this Stackoverflow thread][1].
 
-    # The following works, too, and looks a little neater.
-    base64.b64encode(bytes('A string', 'utf-8')).decode('ascii')
+```python
+# The following works, too, and looks a little neater.
+base64.b64encode(bytes('A string', 'utf-8')).decode('ascii')
+```
 
 Here's [another Stackoverflow thread][2] explaining why.
 

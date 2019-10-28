@@ -34,7 +34,7 @@ this WMI Filer *Non-client OSes*. I renamed it after I added the query
 to check if the machine in question is one of my VMs. Since my VMs have
 a standard naming convention, my **two** WMI queries looked like this:
 
-```
+```sql
 SELECT Name FROM Win32_OperatingSystem WHERE ProductType > 1
 SELECT Name FROM Win32_ComputerSystem WHERE NOT Name LIKE 'MLJ-VM%'
 ```
