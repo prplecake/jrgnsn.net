@@ -14,7 +14,9 @@ notably, my hobbies include:
 <div class="col-2-list"><ul>
 <li>bicycling</li>
 <li>camping</li>
-<li>canoeing/kayaking/sailing</li>
+<li>canoeing</li>
+<li>kayaking</li>
+<li>sailing</li>
 <li>hiking</li>
 <li>programming</li>
 <li>photography</li>
