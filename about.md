@@ -39,9 +39,6 @@ This website is a [jekyll][jekyll] blog. The server is hosted by
 domains. [builds.sr.ht][builds] builds the site and deploys it to my
 web server whenever I push to the git repo. 
 
-I collect absolutely nothing from visitors. There's no tracking or data
-collection of any kind. There may be referral links. 
-
 You can [browse the source code][source] for this website. It's licensed
 under the terms of the [MIT license][mit]. The articles themselves are 
 [CC-BY-SA 4.0][cc-by-sa-4.0].
