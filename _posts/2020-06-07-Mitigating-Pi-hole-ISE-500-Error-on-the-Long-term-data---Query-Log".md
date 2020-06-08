@@ -1,6 +1,5 @@
 ---
-title: Mitigating Pi-hole ISE 500 Error on the "Long term data - Query
-Log"
+title: Mitigating Pi-hole ISE 500 Error on the "Long term data - Query Log"
 layout: post
 ---
 
@@ -8,7 +7,7 @@ When selecting a large date range on the long term data Query Log, say
 last 30 or even last 7 days, I'd be greeted with the following error
 message and some more information in `Lighttpd`'s logs.
 
-!["An unknown error occurred while loading the data." alert dialog](/content/2020-06-07/an_unknown_error_occurred_while_loading_the_data.png)
+!['An unknown error occurred while loading the data.' alert dialog](/content/2020-06-07/an_unknown_error_occurred_while_loading_the_data.png)
 
 And a relevant line in `/var/log/lighttpd/error.log`:
 
