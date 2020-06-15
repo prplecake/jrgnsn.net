@@ -9,11 +9,12 @@ message and some more information in `Lighttpd`'s logs.
 
 !['An unknown error occurred while loading the data.' alert dialog](/content/2020-06-07/an_unknown_error_occurred_while_loading_the_data.png)
 
-And a relevant line in `/var/log/lighttpd/error.log`:
+And the relevant line in `/var/log/lighttpd/error.log`:
 
-```
-2020-06-07 19:40:24: (mod_fastcgi.c.421) FastCGI-stderr: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10489856 bytes) in /var/www/html/admin/api_db.php on line 422
-```
+> 2020-06-07 19:40:24: (mod_fastcgi.c.421) FastCGI-stderr: PHP Fatal
+> error:  Allowed memory size of 134217728 bytes exhausted (tried to
+> allocate 10489856 bytes) in /var/www/html/admin/api_db.php on line 422
+
 
 I'm running Pi-hole on an old desktop system with greater resources than
 the Raspberry Pis I own. That box has 4GB RAM.
