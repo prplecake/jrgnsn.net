@@ -43,14 +43,14 @@ pre code {
 
 code {
 	font-family: monospace;
+	font-size: 0.9em;
 }
 
 blockquote {
-
-}
-
-blockquote p {
-	font-size: 11pt !important;
+	border-left: 1px solid black;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: 1em;
 }
 
 a {
