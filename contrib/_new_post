@@ -1,0 +1,20 @@
+#!/bin/sh -eu
+DATE=$(date +%F)
+
+cd ..
+echo $DATE
+read -p 'Enter a title: ' title
+titleSlug=${title// /-}
+newTitle="$DATE-$titleSlug.md"
+echo $newTitle
+p="./_posts/$newTitle"
+cat << EOF > $p
+---
+title: $title
+layout: post
+---
+
+
+EOF
+
+$EDITOR $p
