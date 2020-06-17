@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Block Sponsored Posts on Nextdoor with Pi-hole
+tags:
+  - Pi-hole
+  - Nextdoor
 ---
 
 I occasionally use Nextdoor to list items for sale, or to see what's going on in my neighborhood and surrounding area. I have to say, I like Nextdoor since it allows me to connect with my neighbors in a relatively locked-down place, even though I'm sure most of them are in local Facebook groups already.

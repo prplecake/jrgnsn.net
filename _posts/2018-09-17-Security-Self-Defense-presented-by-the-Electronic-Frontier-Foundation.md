@@ -2,6 +2,10 @@
 layout: post
 title: >-
   Security Self-Defense, presented by the Electronic Frontier Foundation
+tags:
+  - Electronic Frontier Foundation
+  - Privacy
+  - Security
 ---
 
 For awhile now, I've been aware of the [Electronic Frontier Foundation][eff]

@@ -2,6 +2,8 @@
 layout: post
 title: "Request Tracker: Automatically Set Ticket Owner to Specific
 User"
+tags:
+  - Request Tracker
 ---
 
 Request Tracker is an insanely powerful ticketing system. I started

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Pleroma: admin-fe"
+tags:
+  - Pleroma
 ---
 
 I recently switched from Mastodon to Pleroma, for no real reason in

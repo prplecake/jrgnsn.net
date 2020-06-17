@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Base64 Encoding in Python 3
+tags: 
+  - Python 3
+  - Base64
 ---
 
 Recently I've been working on a backup script to backup a folder to a

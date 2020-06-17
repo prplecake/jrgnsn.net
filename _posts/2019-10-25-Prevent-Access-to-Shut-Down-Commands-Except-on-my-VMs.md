@@ -2,6 +2,9 @@
 layout: post
 title: "Remove and Prevent Access to Shut Down Commands Except on my
 VMs"
+tags:
+  - Windows Group Policy
+  - WMI Queries
 ---
 
 I would do anything in my power to prevent the accidental shutdown of a

@@ -1,6 +1,8 @@
 ---
 title: Mitigating Pi-hole ISE 500 Error on the "Long term data - Query Log"
 layout: post
+tags:
+  - Pi-hole
 ---
 
 When selecting a large date range on the long term data Query Log, say
