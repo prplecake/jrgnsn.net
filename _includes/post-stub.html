@@ -16,6 +16,6 @@
   </h2>
   {% if include.post._url or include.no_excerpt %}
   {% else %}
-  {{ include.post.excerpt }}
+  {{ include.post.excerpt | strip_footnotes }}
   {% endif %}
 </div>

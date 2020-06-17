@@ -10,6 +10,7 @@ highlighter: rouge
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
+  - nokogiri
 paginate: 10
 paginate_path: /page/:num
 sass:
