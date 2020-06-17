@@ -6,7 +6,7 @@ layout: base
   {% if page.url contains '/archive/' %}
   {% else %}
   {% unless page.url == '/' %}
-  <p class="meta date">
+  <div class="meta date">
     {% if page.date %}Published {{ page.date | date: "%Y-%m-%d" }}{% endif %}
     on <a href="/">{{ site.title }}</a>
     <span class=" hidden-xs">
@@ -15,7 +15,16 @@ layout: base
         Permalink
       </a>
     </span>
-  </p>
+    <div class="page-tags hidden-xs">
+      {% unless page.tags.size == 0 %}
+        Tags:
+        {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+        {% endfor %}
+      {% endunless %}
+    </div>
+  </div>
   {% endunless %}
   {% endif %}
   <article>
