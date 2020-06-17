@@ -25,3 +25,7 @@ newTitle=$DATE-$f
 mv "$e" "./_posts/$newTitle"
 echo "Published!"
 exit
+
+# https://stackoverflow.com/questions/16623835/remove-a-fixed-prefix-suffix-from-a-string-in-bash
+# https://stackoverflow.com/questions/44862384/dynamically-generated-bash-menu
+# https://stackoverflow.com/questions/21112707/check-if-a-string-matches-a-regex-in-bash-script
