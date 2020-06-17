@@ -29,7 +29,7 @@ access. I hopped into vSphere and opened the console on the machine in
 question.
 
 <pre style="color:lightgray;background-color:black;">
-	<code>An operating system wasn't found. Try disconnecting any drives that
+<code>An operating system wasn't found. Try disconnecting any drives that
 don't contain an operating system.
 Press Ctrl+Alt+Del to restart
 </code></pre>
