@@ -1,13 +1,35 @@
 #!/bin/sh -eu
 DATE=$(date +%F)
+IS_DRAFT=0
+OPEN_EDITOR=0
 
-cd ..
+for arg in "$@"
+do
+	case $arg in
+		-d|--draft)
+		IS_DRAFT=1
+		shift
+		;;
+		-e|--editor)
+		OPEN_EDITOR=1
+		shift
+		;;
+	esac
+done
+
+echo $(pwd)
 echo $DATE
 read -p 'Enter a title: ' title
 titleSlug=${title// /-}
-newTitle="$DATE-$titleSlug.md"
+if [ "$IS_DRAFT" == "1" ]
+then
+	newTitle="$titleSlug.md"
+	p="./_drafts/$newTitle"
+else
+	newTitle="$DATE-$titleSlug.md"
+	p="./_posts/$newTitle"
+fi
 echo $newTitle
-p="./_posts/$newTitle"
 cat << EOF > $p
 ---
 title: $title
@@ -17,4 +39,9 @@ layout: post
 
 EOF
 
-$EDITOR $p
+if [ "$OPEN_EDITOR" == "1" ]
+then
+	echo "Would open editor"
+	exit
+	$EDITOR $p
+fi
