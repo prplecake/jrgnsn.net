@@ -42,4 +42,4 @@ tasks:
   - deploy: |
       cd jrgnsn.net
       sshopts="-o StrictHostKeyChecking=no"
-      rsync --rsh="ssh $sshopts" -rP _site/ ${deploy}:/var/www/jrgnsn.net/
+      rsync --rsh="ssh $sshopts" -rP _site/ ${deploy}:/var/www/jrgnsn.net/ --delete
