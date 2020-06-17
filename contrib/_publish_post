@@ -1,0 +1,27 @@
+#!/bin/sh
+DATE=$(date +%F)
+DRAFTS_DIR="./_drafts/"
+
+echo $DATE
+drafts=("$DRAFTS_DIR"*)
+
+for i in "${!drafts[@]}"
+do
+	printf "%s) %s\n" "$i" "${drafts[$i]#"$DRAFTS_DIR"}"
+done
+printf "Select a draft from the above list: "
+read -r opt
+
+if [[ "$opt" =~ ^[0-9]+$ ]] && (( (opt >= 0) && (opt < "${#drafts[@]}") ))
+then
+	continue
+else
+	exit
+fi
+e="${drafts[$opt]}"
+f="${e#"$DRAFTS_DIR"}"
+newTitle=$DATE-$f
+
+mv "$e" "./_posts/$newTitle"
+echo "Published!"
+exit
