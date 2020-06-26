@@ -31,6 +31,7 @@ tasks:
         -s https://drewdevault.com/feed.xml \
         -s https://www.caseyliss.com/rss \
         -s https://stardust.fm/posts/rss.xml \
+        -s https://wowana.me/blog/feed.atom \
         < _includes/webring_in.html \
         > _includes/webring_out.html
   - setup: |
