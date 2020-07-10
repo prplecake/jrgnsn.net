@@ -37,11 +37,9 @@ company near Minneapolis, MN.
 This website is a [jekyll][jekyll] blog. The server is hosted by
 [prgmr.com][prgmr]. I use [Hover][hover-ref] to register my
 domains. [builds.sr.ht][builds] builds the site and deploys it to my
-web server whenever I push to the git repo. 
-
-You can [browse the source code][source] for this website. It's licensed
-under the terms of the [MIT license][mit]. The articles themselves are 
-[CC-BY-SA 4.0][cc-by-sa-4.0].
+web server whenever I push to the [git repo][source]. The code is
+licensed under the terms of the [MIT license][mit]. The articles
+themselves are [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
 
 [jekyll]: https://jekyllrb.com/
 [builds]: https://builds.sr.ht
@@ -51,4 +49,4 @@ under the terms of the [MIT license][mit]. The articles themselves are
 [hover-ref]:https://hover.com/2RdnC5Ej
 [source]: https://git.sr.ht/~mjorgensen/jrgnsn.net
 [mit]: https://opensource.org/licenses/MIT/
-[cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/
