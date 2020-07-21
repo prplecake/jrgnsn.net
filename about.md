@@ -50,3 +50,8 @@ themselves are [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
 [source]: https://git.sr.ht/~mjorgensen/jrgnsn.net
 [mit]: https://opensource.org/licenses/MIT/
 [cc-by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+If you're at all interested in supporting my work, you can find me on
+[Liberapay][liberapay].
+
+[liberapay]: https://liberapay.com/mjorgensen/
