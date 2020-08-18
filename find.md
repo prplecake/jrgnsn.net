@@ -6,11 +6,13 @@ permalink: /find/
 
 ## Social Media
 
-* [@mjorgensen@mastodon.technology][mastodon] (Fediverse)
+* [@matthew@jrgnsn.social][pleroma] (Fediverse)
+* [@AstroBadger@toomanycooks.social][tmcs] (Fediverse, but for cooking)
 * [Instagram][instagram]
 * [Twitter][twitter]
 
-[mastodon]:https://mastodon.technology/@mjorgensen
+[pleroma]:https://jrgnsn.social/matthew
+[tmcs]:https://toomanycooks.social/@AstroBadger
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/jrgnsn612
 
@@ -27,6 +29,12 @@ permalink: /find/
 [srht]:https://git.sr.ht/~mjorgensen
 [github]:https://github.com/AstroBadger
 [code-archive]:https://cgit.jrgnsn.net
+
+## Books
+
+* [inventaire][inventaire]
+
+[inventaire]:https://inventaire.io/inventory/matthew
 
 <br />
 
