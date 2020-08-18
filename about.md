@@ -8,7 +8,7 @@ permalink: /about/
 
 As you may already know by now, my name is Matthew Jorgensen. I live in
 Minneapolis, MN. During the day I oversee a plethora of servers and
-systems. By night I explore my hobbies to help keep me busy. Most
+systems. By night, I explore my hobbies to help keep me busy. Most
 notably, my hobbies include:
 
 <div class="col-2-list"><ul>
@@ -25,11 +25,11 @@ notably, my hobbies include:
 
 My fascination with computers, technology, and the Internet began at a
 very young age. I began playing around with HTML/CSS and eventually PHP
-*just as* myspace was starting to fall out of style. Some of the first
-CSS I wrote was for forums. I didn't start programming for real until
-about age 14. That's when I started getting into PHP a little more until
-I found Python. My skill set has greatly grown since then. I'm currently
-employed as a "Web Developer/Systems Engineer" for a medical software
+*just as* MySpace was starting to fall out of style. The first CSS I
+wrote was for forums. I didn't start programming for real until about
+age 14. That's when I started getting into PHP a little more until I
+found Python. My skill set has greatly grown since then. I'm currently
+employed as a "Web Developer/Systems Engineer" for a medical softwasre
 company near Minneapolis, MN. 
 
 ## About This Site

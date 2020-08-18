@@ -79,7 +79,7 @@ of buildings were hidden in the abyss.
 
 ### Kitchen17
 
-For lunch I ate at Kitchen17, an all-vegan pizzeria. This was my first
+For lunch, I ate at Kitchen17, an all-vegan pizzeria. This was my first
 experience with a Chicago-style deep dish pizza and I was thoroughly
 impressed. I was overly optimistic by thinking I could eat it all. I
 quickly learned I was wrong.
@@ -92,17 +92,17 @@ other experience with public transportation has been Metro Transit in
 Minneapolis, and CTA *blew it right out of the water.* There were plenty
 of routes to choose from, and the train got me out of the loop and to my
 next stop in half an hour flat. For comparison, that would've been about
-a 45 minutes drive, or at least an hour long bus ride.
+a 45 minutes drive, or at least an hour-long bus ride.
 
 ### Mall
 
 On Saturday evening I decided to go to the Water Tower Place, a mall in
 downtown Chicago in the Loop. It was fairly similar to the Mall of
-America, with less stores overall and more expensive/high-end stores.
+America, with fewer stores overall and more expensive/high-end stores.
 
 I learned that Amazon has some retail footprints (called pop-ups, I
 believe). I was looking for a longer lightning cable since I've been
-using USB extension cabled and they're starting to wear apart. An
+using USB extension cables and they're starting to wear apart. An
 employee noticed me looking at them and the exchange went something like
 this:
 
@@ -135,7 +135,7 @@ burger, and fries. I would go back.
 ### Handlebar
 
 I was originally going to eat at the Chicago Diner, but after being told
-there was a 15-45 minute wait, I decided to take a 45 minute bus ride to
+there was a 15-45 minute wait, I decided to take a 45-minute bus ride to
 the Handlebar, and I'm glad I did. As soon as you walk in the door
 you're greeted with punk music and similar artwork on the wall. I
 ordered a vegan breakfast burrito and a plate of chili cheese fries.
@@ -170,7 +170,7 @@ specifically because they serve vegan food.
 ## Monday
 
 Monday in Milwaukee was relatively uneventful. After all, it was Monday,
-and it Milwaukee is in Wisconsin. /s
+and Milwaukee is in Wisconsin. /s
 
 I did eat some rad vegan pizza thought. It was from Ian's Pizza by the
 Slice and I ordered the Taco Pizza.

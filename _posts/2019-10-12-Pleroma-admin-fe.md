@@ -54,11 +54,11 @@ error Command failed with exit code 127.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
 
-Which I solved simply by running `yarn` with no arguments. Finally,
+I solved this by simply running `yarn` with no arguments. Finally,
 `yarn build:prod` was successful and I had a built distribution of
 admin-fe. 
 
-Serving admin-fe was a little bit of a hassle, mostly due to my limited
+Serving admin-fe was a bit of a hassle, mostly due to my limited
 knowledge of nginx configuration. At first, my config looked like this:
 
 ```
@@ -68,14 +68,14 @@ location /_admin-fe/ {
 }
 ```
 
-Which was failing with an HTTP 404. Requests to example.com/_afe were
+Which was failing with an HTTP 404, requests to example.com/_afe were
 trying to be served from `/var/www/pleroma/admin-fe/_afe/`. I needed to
 switch the `root` directive for the `alias` directive, add a trailing
-slash and I was in business. 
+slash, and I was in business. 
 
 **Note:** I tried to pick a URL that *probably* wouldn't become a
 username. There was no hint towards what to call it in the limited
-documentation--not that it really matters on an instance on 1 anyway.
+documentation--not that it really matters on an instance for 1 anyway.
 
 The ending result is my `location` block ended up reading this:
 

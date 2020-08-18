@@ -6,7 +6,7 @@ tags:
   - Base64
 ---
 
-Recently I've been working on a backup script to backup a folder to a
+Recently I've been working on a backup script to back up a folder to a
 Backblaze B2 bucket. If only I had known I was about to spend an hour
 working on four silly lines of python code...
 

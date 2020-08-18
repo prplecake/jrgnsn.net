@@ -23,7 +23,7 @@ was on my way...
 
 Or so I thought. A few more minutes pass than usual when I notice my
 `ping` shell was scrolling along: `Destination Host Unreachable`.
-Usually, a reboot only produces a handful of `Request timed out`.
+Usually, a reboot only produces a handful of `Request timed out`
 messages. Fortunately, since this is an internal VM, I have console
 access. I hopped into vSphere and opened the console on the machine in
 question.

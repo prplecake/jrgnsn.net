@@ -34,7 +34,7 @@ for anyhow).
 4. FastMail makes it incredibly easy to serve a file or directory from
 my file storage at FastMail.
 
-Unfortunately, all of the existing issues remained and I even added a
+Unfortunately, all the existing issues remained and I even added a
 few issues to the list! `mail.jrgnsn.net` was still returning
 certificate errors. Additionally, `https://veganmsp.com` wasn't being
 resolved at all. dig-ing at `1.1.1.1`, `1.0.0.1`, `8.8.8.8`, and

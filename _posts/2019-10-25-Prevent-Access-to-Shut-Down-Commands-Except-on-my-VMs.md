@@ -13,7 +13,7 @@ accidentally shut down a computer.
 
 ![Windows Start Menu - With Shut Down Commands Available](/content/2019-10-25/with_shutdown_commands.png)
 
-Once slip of the wrist would cause you to "Shut down" a machine instead
+One slip of the wrist would cause you to "Shut down" a machine instead
 of "Sign out" of it. I'm not perfect, I've made that mistake before.
 
 Originally we created a Group Policy Object to control this behavior.

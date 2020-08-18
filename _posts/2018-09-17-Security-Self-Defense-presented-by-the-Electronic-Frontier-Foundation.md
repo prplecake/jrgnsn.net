@@ -8,7 +8,7 @@ tags:
   - Security
 ---
 
-For awhile now, I've been aware of the [Electronic Frontier Foundation][eff]
+For a while now, I've been aware of the [Electronic Frontier Foundation][eff]
 (the EFF), and I make good use of a fair number of their projects. The
 following is not an exhaustive list:
 

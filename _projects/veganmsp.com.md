@@ -24,7 +24,7 @@ This is embarrassingly simple: I just got done thinking I have to build
 all of my projects from scratch. (In terms of this project, that would
 have involved creating a CMS.) I have finally come to realize that the
 important thing was the data, not the presentation of the data. Thus, I
-have settled on using Wordpress for now. If Wordpress happens to be a
+have settled on using WordPress for now. If WordPress happens to be a
 wrong choice a year later, I'll reevaluate.
 
 ## Want to help?

@@ -22,5 +22,5 @@ Here's a little before and after:
 
 ![dark layout](/content/screenshot_2019-08-03_dark.png)
 
-There's still some improvements that could be made, but for now I'm
-really liking how everything turned out!
+There's still some improvements that could be made, but for now I how
+everything turned out!

@@ -6,7 +6,7 @@ layout: post
 August has been a month of revival. Six months of staying at home during
 the coronavirus pandemic has taken its toll on most aspects of my life.
 I'm fortunate enough to remain employed. Working from home had
-introduced it's unique set of challenges. Things like staying motivated
+introduced its unique set of challenges. Things like staying motivated
 and focused were especially hard during the earlier months.
 
 I moved, at the end of April, out of my brother's and into an apartment
@@ -19,7 +19,7 @@ here.
 Things that have been revived this month include my desire to write code
 and play video games. I [reworked my dotfiles][0] after finding [this
 project by Charles Gould][1]. Having a modular install script is
-something I've been meaning to write for awhile now and Charles'
+something I've been meaning to write for a while now and Charles'
 solution was perfect for me. I've started making my way through the book
 [Mazes for Programmers][2], which introduces programmatically
 maze-making using Ruby. This happens to be my first real foray into the
@@ -43,7 +43,7 @@ I spun up another tiny VPS for Grafana and Prometheus.
 
 [3]:https://min.io
 
-While keeping in mind all of the projects I've started that are *nowhere
+While keeping in mind all the projects I've started that are *nowhere
 near* complete, I'm been thinking about future projects. It's been a few
 years since I've been wanting to create a recipe manager for myself.
 I've tried using [Paprika 3][4], [Cookbook for Nextcloud][5], among
