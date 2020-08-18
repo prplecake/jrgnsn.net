@@ -7,6 +7,11 @@ Since I've started doing more traveling, I thought having a nice central
 location to save all of my favorite places to eat around the States. Goal:
 Cross a border and make this "Favorite Places to Eat in the World."
 
+## Table of Contents
+{:.no_toc}
+* TOC
+{:toc}
+
 ## Florida
 
 ### Tampa
