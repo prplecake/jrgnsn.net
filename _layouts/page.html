@@ -16,7 +16,7 @@ layout: base
       </a>
     </span>
     <div class="page-tags hidden-xs">
-      {% unless page.tags.size == 0 %}
+      {% if page.tags.size >= 1 %}
         Tags:
         {{ page.tags | join: ", "}}
         <!--{% for tag in page.tags %}
@@ -24,7 +24,7 @@ layout: base
           <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
           {{ tag_name }}
         {% endfor %}-->
-      {% endunless %}
+      {% endif %}
     </div>
   </div>
   {% endunless %}
