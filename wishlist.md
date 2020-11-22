@@ -1,5 +1,5 @@
 ---
-layout: wishlist
+layout: bare
 title: Wishlist
 permalink: /wishlist/
 enableMenu: false
