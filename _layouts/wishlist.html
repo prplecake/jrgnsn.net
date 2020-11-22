@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document Settings -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <base target="_blank" />
+    
+    {% if jekyll.environment == "production" %}
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://catfish.jrgnsn.net/script.js" site="LMCIGNUG" defer></script>
+    <!-- / Fathom -->
+    {% endif %}
+
+    <!-- Page Meta -->
+    <title>
+        {% if page.title %}
+        {{ page.title }} - Matthew's Blog
+        {% else %}
+        {{ site.title }}
+        {% endif %}
+    </title>
+    <meta name="description=" content="True" />
+    <link rel="icon" type="image/png" href="/avatar.png" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    {% seo title=false %}
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">
+                {% if page.title %}
+                {{ page.title }}
+                {% else %}
+                {{ site.title }}
+                {% endif %}
+            </h1>
+
+            <navigation>
+                {%- include navigation.html -%}
+            </navigation>
+        </header>
+
+        {{ content }}
+
+        </div>
+    </div>
+</body>
+</html>
