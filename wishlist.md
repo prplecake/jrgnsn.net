@@ -1,12 +1,9 @@
 ---
-layout: bare
+layout: bare_page
 title: Wishlist
 permalink: /wishlist/
 enableMenu: false
 ---
-
-<span class="text-muted">Last modified: {{ page.mdate | date: "%Y-%m-%d"
-}}</span>
 
 Presented in no particular order.
 
