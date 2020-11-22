@@ -1,7 +1,7 @@
 ---
 layout: wishlist
 title: Wishlist
-permalink: /Wishlist
+permalink: /wishlist/
 enableMenu: false
 ---
 
