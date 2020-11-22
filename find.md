@@ -2,6 +2,7 @@
 layout: page
 title: Where to Find Me
 permalink: /find/
+enableMenu: false
 ---
 
 ## Social Media
