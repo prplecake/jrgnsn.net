@@ -5,6 +5,9 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
+<span class="text-muted">Last modified: {{ page.mdate | date: "%Y-%m-%d"
+}}</span>
+
 Presented in no particular order.
 
 ## Board Games and Similar
