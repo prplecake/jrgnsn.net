@@ -14,6 +14,7 @@ home is ideal.
 
 ## Books
 * [*Every Tool's a Hammer* by Adam Savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
+* [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 
 ## Camera Accessories
 * [Nikon AF-S DX NIKKOR 35mm Prime lens](https://www.amazon.com/dp/B001S2PPT0)
