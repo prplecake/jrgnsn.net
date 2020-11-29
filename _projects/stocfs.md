@@ -12,8 +12,6 @@ filters.
 **Resources:**
 
 * [Source Code][git]
-* [Issue Tracker][todo]
-* [Documentation][man]
 
 ## Updates
 
@@ -28,7 +26,5 @@ ground yet.
 
 Stay tuned for a post announcing the project in the coming weeks.
 
-[git]:https://git.sr.ht/~mjorgensen/stocfs
-[todo]:https://todo.sr.ht/~mjorgensen/stocfs
-[man]:https://man.sr.ht/~mjorgensen/stocfs
+[git]:https://git.jrgnsn.net/matthew/stocfs
 [VeganMSP.com]: https://veganmsp.com
