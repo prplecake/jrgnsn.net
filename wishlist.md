@@ -13,7 +13,7 @@ home is ideal.
 * [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
 
 ## Books
-* [*Every Tool's a Hammer* by Adam savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
+* [*Every Tool's a Hammer* by Adam Savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
 
 ## Camera Accessories
 * [Nikon AF-S DX NIKKOR 35mm Prime lens](https://www.amazon.com/dp/B001S2PPT0)
