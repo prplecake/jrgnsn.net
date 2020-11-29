@@ -1,0 +1,7 @@
+PWD=$(pwd)
+
+echo "Working dir: $PWD"
+echo "### Building site ###"
+JEKYLL_ENV=production bundle exec jekyll build
+sshopts="-o StrictHostKeyChecking=no -i ~/.ssh/mario_rsa"
+rsync --rsh="ssh $sshopts" -rP _site/ deploy@jrgnsn.net:/var/www/jrgnsn.net/ --delete
