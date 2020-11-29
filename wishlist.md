@@ -5,15 +5,22 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
-Presented in no particular order.
+Presented in no particular order, though keep in mind stuff to do at
+home is ideal. 
 
 ## Board Games and Similar
-* Cribbage board
 * [Goody Grams Black Deck of Cards](https://www.amazon.com/dp/B004A9115U)
 * [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
 
+## Books
+* [*Every Tool's a Hammer* by Adam savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
+
 ## Camera Accessories
 * [Nikon AF-S DX NIKKOR 35mm Prime lens](https://www.amazon.com/dp/B001S2PPT0)
+
+## Electronics Kits
+I haven't found any, but anything you think I might enjoy is welcome!
+Keep an eye on this space. 
 
 ## Lego Sets
 *Model numbers in parenthesis*
