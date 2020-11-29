@@ -23,11 +23,11 @@ enableMenu: false
 
 ## Source Code
 
-* [sr.ht][srht]
+* [Gitea][gitea]
 * [GitHub][github]
 * [My code archive][code-archive]
 
-[srht]:https://git.sr.ht/~mjorgensen
+[gitea]:https://git.jrgnsn.net/matthew
 [github]:https://github.com/AstroBadger
 [code-archive]:https://cgit.jrgnsn.net
 
