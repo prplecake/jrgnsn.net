@@ -5,12 +5,12 @@
     </span>
     <span class="title">
       {% if include.post._url %}
-      <a href="{{ include.post._url }}" target="_blank">
+      <a href="{{ include.post._url }}">
         {{ include.post.title }}
         <i class="fa fa-external-link"></i>
       </a>
       {% else %}
-      <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+      <a href="{{ include.post.url }}" target="_self">{{ include.post.title }}</a>
       {% endif %}
     </span>
   </h2>

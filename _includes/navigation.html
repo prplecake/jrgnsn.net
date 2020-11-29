@@ -3,20 +3,20 @@
 {%- if page_paths -%}
   <div class="navigation">
     <ul class="nav" role="menu">
-      <li class="nav-home{% if page.url == '/' %} nav-current{% endif %}"><a href="/">Home</a></li>
+      <li class="nav-home{% if page.url == '/' %} nav-current{% endif %}"><a href="/" target="_self">Home</a></li>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
           {%- unless my_page.enableMenu == false -%}
           <li class="nav-{{ my_page.title | slugify }}{% if page.url == my_page.url %} nav-current{% endif %}" role="menuitem">
-          <a class="page-link" href="{{ my_page.url | relative_url }}">
+          <a class="page-link" href="{{ my_page.url | relative_url }}" target="_self">
           {{  | my_page.title | escape }}
           </a>
           </li>
             {%- endunless -%}
         {%- endif -%}
       {%- endfor -%}
-      <li class="nav-photos"><a href="https://photos.jrgnsn.net">Photos</a></li>
+      <li class="nav-photos"><a href="https://photos.jrgnsn.net" target="_self">Photos</a></li>
     </ul>
   </div>
 {%- endif -%}

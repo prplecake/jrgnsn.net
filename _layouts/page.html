@@ -9,10 +9,10 @@ layout: base
   <div class="meta date">
     {% if page.date %}Published {{ page.date | date: "%Y-%m-%d" }}
     {% else if page.mdate %}Last updated on {{ page.mdate | date: "%Y-%m-%d" }}{% endif %}
-    on <a href="/">{{ site.title }}</a>
+    on <a href="/" target="_self">{{ site.title }}</a>
     <span class=" hidden-xs">
       &mdash;
-      <a href="{{ page.url }}">
+      <a href="{{ page.url }}" target="_self">
         Permalink
       </a>
     </span>

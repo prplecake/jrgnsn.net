@@ -16,7 +16,7 @@ enableMenu: false
       {% if content == "" or content == nil or content == blank %}
         {{ project.title }}
       {% else %}
-        <a href="{{ project.url }}">{{ project.title }}</a>
+        <a href="{{ project.url }}" target="_self">{{ project.title }}</a>
       {% endif %}
     </span>
   </h2>
