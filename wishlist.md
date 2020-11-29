@@ -13,6 +13,7 @@ home is ideal.
 * [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
 
 ## Books
+* [*Emotional Design* by Donald Norman](https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367)
 * [*Every Tool's a Hammer* by Adam Savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 
