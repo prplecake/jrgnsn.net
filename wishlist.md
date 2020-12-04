@@ -16,13 +16,14 @@ home is ideal.
 * [*Emotional Design* by Donald Norman](https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367)
 * [*Every Tool's a Hammer* by Adam Savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
+* [*The Hitchhiker's Guide to the Galaxy* by Douglas Adams](https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345418913)
 
 ## Camera Accessories
 * [Nikon AF-S DX NIKKOR 35mm Prime lens](https://www.amazon.com/dp/B001S2PPT0)
 
 ## Electronics Kits
-I haven't found any, but anything you think I might enjoy is welcome!
-Keep an eye on this space. 
+I haven't found anything specific, but anything you think I might enjoy
+is welcome! Keep an eye on this space. 
 
 ## Lego Sets
 *Model numbers in parenthesis*
@@ -32,6 +33,10 @@ Keep an eye on this space.
 * [LEGO Creator Space Shuttle Explorer](https://www.amazon.com/dp/B0711MPYJN) (31066)
 * [LEGO Ideas Apollo Saturn V](https://www.amazon.com/dp/B071G3QMS2) (92176)
 * [LEGO Ideas International Space Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
+
+## Tech Stuff
+* A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
+cards
 
 ## Tools
 * [Accusize 4" Caliper](https://www.amazon.com/gp/product/B017ME2ALS)
