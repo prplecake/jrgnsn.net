@@ -11,8 +11,31 @@ Presented in no particular order.
 * [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
 
 ## Books
+* *A Piece of Cake: A Memoir* by Cupcake Brown
+* *Alice in Wonderland* by Lewis Carroll
+* *Artemis* by Andy Weir
+* *Black Skin, White Masks* by Frantz Fanon
 * [*Every Tool's a Hammer* by Adam Savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
+* *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
+* *Lost at Sea* by Bryan Lee O'Malley
+* *Neil Patrick Harris: Choose Your Own Autobiography* by Neil Patrick
+Harris
+* *Our Enemies in Blue: Police and Power in America* by Kristian
+Williams
+* *Rolling Away: My Agony with Ecstasy* by Lynn Marie Smith
+* *Smashed: Story of a Drunken Girlhood* by Koren Zailckas
+* *Snow Crash* by Neal Stephenson
+* *Stuff Matters: Exploring the Marvelous Materials That Shape Our
+Man-Made World* by Mark Miodownik
+* *The Dispossessed* by Ursula K. Le Guin
+* *The Field Guide to Understanding 'Human Error'* by Sidney Dekker
+* *The Martian* by Andy Weir
+* *The Three Body Problem* by Cixin Liu
+* *Tranny: Confessions of Punk Rock's Most Infamous Anarchist Sellout*
+by Laura Jane Grace
+* *White Fragility: Why It's So Hard For White People to Talk About
+Racism* by Robin DiAngelo
 
 ## Camera Accessories
 * [Nikon AF-S DX NIKKOR 35mm Prime lens](https://www.amazon.com/dp/B001S2PPT0)
