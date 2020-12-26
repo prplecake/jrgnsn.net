@@ -5,29 +5,24 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
-Presented in no particular order, though keep in mind stuff to do at
-home is ideal. 
+Presented in no particular order.
 
 ## Board Games and Similar
-* [Goody Grams Black Deck of Cards](https://www.amazon.com/dp/B004A9115U)
 * [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
 
 ## Books
-* [*Emotional Design* by Donald Norman](https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367)
 * [*Every Tool's a Hammer* by Adam Savage](https://www.amazon.com/Every-Tools-Hammer-Life-What/dp/1982113472)
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
-* [*The Hitchhiker's Guide to the Galaxy* by Douglas Adams](https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345418913)
 
 ## Camera Accessories
 * [Nikon AF-S DX NIKKOR 35mm Prime lens](https://www.amazon.com/dp/B001S2PPT0)
 
-## Electronics Kits
+## Electronics [Kits]
 I haven't found anything specific, but anything you think I might enjoy
 is welcome! Keep an eye on this space. 
 
 ## Lego Sets
 *Model numbers in parenthesis*
-* [LEGO Architecture Paris Skyline](https://www.amazon.com/dp/B07GXC4R9R) (21044)
 * [LEGO Architecture Seattle Space Needle](https://www.amazon.com/dp/B0025W1PMS) (21003)
 * [LEGO Creator Expert NASA Apollo 11 Lunar Lander](https://www.amazon.com/dp/B07W4M54CJ) (10266)
 * [LEGO Creator Space Shuttle Explorer](https://www.amazon.com/dp/B0711MPYJN) (31066)
@@ -37,6 +32,7 @@ is welcome! Keep an eye on this space.
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
+* Bluetooth Mouse (or a wireless mouse with a USB-C dongle)
 
 ## Tools
 * [Accusize 4" Caliper](https://www.amazon.com/gp/product/B017ME2ALS)
