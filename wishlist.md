@@ -42,6 +42,9 @@ Racism* by Robin DiAngelo
 I haven't found anything specific, but anything you think I might enjoy
 is welcome! Keep an eye on this space. 
 
+## Gaming Stuff
+* Pair of Joycons
+
 ## Lego Sets
 *Model numbers in parenthesis*
 * [LEGO Architecture Seattle Space Needle](https://www.amazon.com/dp/B0025W1PMS) (21003)
