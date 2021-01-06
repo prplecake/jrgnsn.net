@@ -52,7 +52,6 @@ is welcome! Keep an eye on this space.
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
-* Bluetooth Mouse (or a wireless mouse with a USB-C dongle)
 
 ## Tools
 
