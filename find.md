@@ -15,7 +15,7 @@ enableMenu: false
 [pleroma]:https://jrgnsn.social/matthew
 [tmcs]:https://toomanycooks.social/@AstroBadger
 [instagram]:https://www.instagram.com/matthewjorgensen/
-[twitter]:https://twitter.com/jrgnsn612
+[twitter]:https://twitter.com/prplecake
 
 ## IRC
 
@@ -25,11 +25,9 @@ enableMenu: false
 
 * [Gitea][gitea]
 * [GitHub][github]
-* [My code archive][code-archive]
 
 [gitea]:https://git.jrgnsn.net/matthew
-[github]:https://github.com/AstroBadger
-[code-archive]:https://cgit.jrgnsn.net
+[github]:https://github.com/prplecake
 
 ## Books
 
