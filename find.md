@@ -9,6 +9,7 @@ enableMenu: false
 
 * [@matthew@jrgnsn.social][pleroma] (Fediverse)
 * [@AstroBadger@toomanycooks.social][tmcs] (Fediverse, but for cooking)
+* [PeerTube][peertube]
 * [Instagram][instagram]
 * [Twitter][twitter]
 
@@ -16,6 +17,7 @@ enableMenu: false
 [tmcs]:https://toomanycooks.social/@AstroBadger
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
+[peertube]:https://jrgnsn.video/accounts/matthew
 
 ## IRC
 
