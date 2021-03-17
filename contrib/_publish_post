@@ -1,6 +1,17 @@
 #!/bin/sh
 DATE=$(date +%F)
 DRAFTS_DIR="./_drafts/"
+DEPLOY=0
+
+for arg in "$@"
+do
+	case $arg in
+		-D|--deploy)
+		DEPLOY=1
+		shift
+		;;
+	esac
+done
 
 echo $DATE
 drafts=("$DRAFTS_DIR"*)
@@ -24,7 +35,15 @@ newTitle=$DATE-$f
 
 mv "$e" "./_posts/$newTitle"
 echo "Published!"
-exit
+
+git add "./_posts/$newTitle"
+git commit -m "Publishing $newTitle"
+git push
+
+if [ "$DEPLOY" == "1" ]
+then
+	./contrib/deploy
+fi
 
 # https://stackoverflow.com/questions/16623835/remove-a-fixed-prefix-suffix-from-a-string-in-bash
 # https://stackoverflow.com/questions/44862384/dynamically-generated-bash-menu
