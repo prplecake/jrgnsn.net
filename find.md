@@ -5,12 +5,13 @@ permalink: /find/
 enableMenu: false
 ---
 
-## Social Media
+## Social Media and Other Networks
 
 * **[@matthew@jrgnsn.social][pleroma]** (Fediverse)
 * [@AstroBadger@toomanycooks.social][tmcs] (Fediverse, but for cooking)
 * [PeerTube][peertube]
 * [Instagram][instagram]
+* [Strava][strava]
 * [Twitter][twitter]
 
 [pleroma]:https://jrgnsn.social/matthew
@@ -18,6 +19,7 @@ enableMenu: false
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
 [peertube]:https://jrgnsn.video/accounts/matthew
+[strava]:https://www.strava.com/athletes/705724
 
 ## IRC
 
