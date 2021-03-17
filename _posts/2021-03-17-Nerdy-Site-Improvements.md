@@ -56,4 +56,4 @@ go to the ["updating hash" commit](https://git.sr.ht/~mjorgensen/jrgnsn.net/comm
 You can find these scripts in the [jrgnsn.net][git.sr.ht] repo incase
 you're bored and want to read some bad code.
 
-[git.sr.ht]:https://git.sr.ht/~mjorgensen/jrgnsn.net
+[git.sr.ht]:https://git.sr.ht/~mjorgensen/jrgnsn.net/tree/master/item/contrib
