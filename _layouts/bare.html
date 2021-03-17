@@ -5,7 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <base target="_blank" />
+    {% if page._permalink %}
+        <base target="{{ page._permalink }}">
+    {% else %}
+        <base target="_blank" />
+    {% endif %}
     
     {% if jekyll.environment == "production" %}
     <!-- Fathom - beautiful, simple website analytics -->

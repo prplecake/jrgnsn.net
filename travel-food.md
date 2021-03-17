@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /travel/food/
+_permalink: _self
 ---
 
 Since I've started doing more traveling, I thought having a nice central
