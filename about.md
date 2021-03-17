@@ -29,7 +29,7 @@ very young age. I began playing around with HTML/CSS and eventually PHP
 wrote was for forums. I didn't start programming for real until about
 age 14. That's when I started getting into PHP a little more until I
 found Python. My skill set has greatly grown since then. I'm currently
-employed as a "Web Developer/Systems Engineer" for a medical softwasre
+employed as a "Web Developer/Systems Engineer" for a medical software
 company near Minneapolis, MN. 
 
 ## About This Site
