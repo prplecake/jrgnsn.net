@@ -31,6 +31,14 @@ enableMenu: false
 [github]:https://github.com/prplecake
 [sourcehut]:https://sr.ht/~mjorgensen
 
+## Mapping
+
+* [Gaia GPS][gaia-gps]
+* [OpenStreetMaps][osm]
+
+[gaia-gps]:https://www.gaiagps.com/profile/920114/prplecake/
+[osm]:https://www.openstreetmap.org/user/prplecake
+
 ## Books
 
 * [inventaire][inventaire]
