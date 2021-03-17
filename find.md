@@ -7,7 +7,7 @@ enableMenu: false
 
 ## Social Media
 
-* [@matthew@jrgnsn.social][pleroma] (Fediverse)
+* **[@matthew@jrgnsn.social][pleroma]** (Fediverse)
 * [@AstroBadger@toomanycooks.social][tmcs] (Fediverse, but for cooking)
 * [PeerTube][peertube]
 * [Instagram][instagram]
@@ -26,7 +26,7 @@ enableMenu: false
 ## Source Code
 
 * [GitHub][github]
-* [Sourcehut][sourcehut]
+* **[Sourcehut][sourcehut]**
 
 [github]:https://github.com/prplecake
 [sourcehut]:https://sr.ht/~mjorgensen
