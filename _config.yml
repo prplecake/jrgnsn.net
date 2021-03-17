@@ -1,27 +1,26 @@
+---
 title: Matthew's Blog
-description: >- # this means to ignore newlines until "baseurl:"
-  Thoughts, stories, hacks, and ideas.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# permalink: /:year/:month/:day/:title:output_ext
+description: Thoughts, stories, hacks, and ideas.
+baseurl: ''
+url: ''
 markdown: kramdown
 highlighter: rouge
-# theme: minima
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - nokogiri
+- jekyll-paginate
+- jekyll-seo-tag
+- nokogiri
 paginate: 10
-paginate_path: /page/:num
+paginate_path: "/page/:num"
 sass:
   style: compressed
 collections:
   projects:
     output: true
-    permalink: /projects/:name:output_ext
+    permalink: "/projects/:name:output_ext"
   travel:
     output: true
-    permalink: /travel/:name:output_ext
+    permalink: "/travel/:name:output_ext"
   recipes:
     output: true
-    permalink: /recipe/:name:output_ext
+    permalink: "/recipe/:name:output_ext"
+git_hash: 23d5a5a
