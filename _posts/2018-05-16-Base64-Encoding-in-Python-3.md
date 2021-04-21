@@ -65,5 +65,6 @@ Here's [another Stackoverflow thread][2] explaining why.
 [1]: https://stackoverflow.com/questions/40454177/how-to-encode-a-string-with-base64-in-python-3-and-remove-the-new-lines
 [2]: https://stackoverflow.com/questions/8908287/why-do-i-need-b-to-encode-a-python-string-with-base64
 
-[^1]:The [original link](https://www.pronoy.in/2016/10/20/python-3-5-x-base64-encoding-3/)
-is dead. So here's a web archive URL.
+[^1]:The [original link][id0] is dead. So here's a web archive URL.
+
+[id0]:https://www.pronoy.in/2016/10/20/python-3-5-x-base64-encoding-3/
