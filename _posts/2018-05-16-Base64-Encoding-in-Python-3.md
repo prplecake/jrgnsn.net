@@ -21,7 +21,7 @@ stopped ripping my hair out.
 
 Let's get into the code. According to Backblaze's API docs, they require
 the Account ID and Key to be base64 encoded in the following format: 
-`'accoundId:accountKey'`. Seems easy enough.
+`'accountId:accountKey'`. Seems easy enough.
 
 Try this in a Python 2 shell:
 
