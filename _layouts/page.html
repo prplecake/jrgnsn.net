@@ -20,11 +20,6 @@ layout: base
       {% if page.tags.size >= 1 %}
         Tags:
         {{ page.tags | join: ", "}}
-        <!--{% for tag in page.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
-          {{ tag_name }}
-        {% endfor %}-->
       {% endif %}
     </div>
   </div>
