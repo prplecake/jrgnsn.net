@@ -21,7 +21,7 @@ enableMenu: false
 
 ## IRC
 
-* mjorgensen on freenode
+* prplecake on Libera.Chat
 
 ## Source Code
 
