@@ -25,8 +25,8 @@ enableMenu: false
 
 ## Source Code
 
-* [GitHub][github]
-* **[Sourcehut][sourcehut]**
+* **[GitHub][github]**
+* [Sourcehut][sourcehut]
 
 [github]:https://github.com/prplecake
 [sourcehut]:https://sr.ht/~mjorgensen
