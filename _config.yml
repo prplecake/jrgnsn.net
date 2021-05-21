@@ -9,7 +9,7 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - nokogiri
-paginate: 10
+paginate: 5
 paginate_path: "/page/:num"
 sass:
   style: compressed
