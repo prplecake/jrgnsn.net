@@ -6,12 +6,9 @@ module ModificationDate
 			site.pages.each do |page|
 
 				# get current page last modified time
-				# unless it's 'feed.xml'...
-				unless ['feed.xml'].include? page.path
-					# ...or starts with 'page'
-					unless page.path.start_with? 'page'
-						modification_time = File.mtime( page.path )
-					end
+				# unless it's 'feed.xml'...# ...or starts with 'page'
+				unless ['feed.xml'].include? page.path or page.path.start_with? 'page'
+					modification_time = File.mtime( page.path )
 				end
 
 				# inject modification time in page data

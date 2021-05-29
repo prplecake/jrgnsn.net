@@ -8,14 +8,12 @@ enableMenu: false
 ## Social Media and Other Networks
 
 * **[@matthew@jrgnsn.social][pleroma]** (Fediverse)
-* [@AstroBadger@toomanycooks.social][tmcs] (Fediverse, but for cooking)
 * [PeerTube][peertube]
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
 
 [pleroma]:https://jrgnsn.social/matthew
-[tmcs]:https://toomanycooks.social/@AstroBadger
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
 [peertube]:https://jrgnsn.video/accounts/matthew
@@ -23,12 +21,12 @@ enableMenu: false
 
 ## IRC
 
-* mjorgensen on freenode
+* prplecake on Libera.Chat
 
 ## Source Code
 
-* [GitHub][github]
-* **[Sourcehut][sourcehut]**
+* **[GitHub][github]**
+* [Sourcehut][sourcehut]
 
 [github]:https://github.com/prplecake
 [sourcehut]:https://sr.ht/~mjorgensen
