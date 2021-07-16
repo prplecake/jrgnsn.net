@@ -23,4 +23,4 @@ collections:
   recipes:
     output: true
     permalink: "/recipe/:name:output_ext"
-git_hash: 122f142
+git_hash: 05c2496
