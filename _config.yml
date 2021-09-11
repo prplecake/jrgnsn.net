@@ -8,6 +8,7 @@ highlighter: rouge
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-target-blank
 - nokogiri
 paginate: 5
 paginate_path: "/page/:num"
