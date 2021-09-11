@@ -7,14 +7,12 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* **[@prplecake@mk.jrgnsn.social][misskey]**
-* [@matthew@jrgnsn.social][pleroma]
+* **[@matthew@jrgnsn.social][pleroma]** (Fediverse)
 * [PeerTube][peertube]
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
 
-[misskey]:https://mk.jrgnsn.social/@prplecake
 [pleroma]:https://jrgnsn.social/matthew
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
