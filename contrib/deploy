@@ -7,6 +7,7 @@ echo "Working dir: $PWD"
 
 echo
 echo "### Updating git hash"
+echo "$git_hash"
 echo "$git_hash" > "$PWD/_includes/version"
 echo
 
