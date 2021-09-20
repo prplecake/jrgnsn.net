@@ -15,6 +15,7 @@ Presented in no particular order.
 * *Alice in Wonderland* by Lewis Carroll
 * *Artemis* by Andy Weir
 * *Black Skin, White Masks* by Frantz Fanon
+* *Humble Pi* by Matt Parker
 * *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 * *Lost at Sea* by Bryan Lee O'Malley
@@ -40,7 +41,7 @@ Racism* by Robin DiAngelo
 
 ## Electronics [Kits]
 I haven't found anything specific, but anything you think I might enjoy
-is welcome! Keep an eye on this space. 
+is welcome!
 
 ## Gaming Stuff
 * Pair of Joycons
