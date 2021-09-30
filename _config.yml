@@ -14,6 +14,8 @@ paginate: 5
 paginate_path: "/page/:num"
 sass:
   style: compressed
+target-blank:
+  noreferrer: false
 collections:
   projects:
     output: true
