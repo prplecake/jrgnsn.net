@@ -17,7 +17,7 @@ enableMenu: false
 
 ## IRC
 
-* prplecake on Libera.Chat
+* mjorgensen on Libera.Chat
 
 ## Source Code
 
