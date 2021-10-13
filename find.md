@@ -7,10 +7,12 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
+* [Fediverse][m.t] (Mastodon)
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
 
+[m.t]:https://mastodon.technology/@mjorgensen
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
 [strava]:https://www.strava.com/athletes/705724
