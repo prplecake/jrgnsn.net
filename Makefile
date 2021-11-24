@@ -24,8 +24,11 @@ build: install
 serve: install
 	JEKYLL_ENV=production $(JEKYLL) serve
 
+proofer_ignore_files := _site/ascii/cat.html
+proofer_opts := --check-html --file-ignore $(proofer_ignore_files)
+
 html-proof: install build
-	$(HTMLPROOFER) _site
+	$(HTMLPROOFER) $(proofer_opts) _site
 
 clean:
 	rm -r _site
