@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 BUNDLE := bundle
 JEKYLL := $(BUNDLE) exec jekyll
+HTMLPROOFER := $(BUNDLE) exec htmlproofer
 
 PROJECT_DEPS := Gemfile
 
@@ -22,6 +23,9 @@ build: install
 
 serve: install
 	JEKYLL_ENV=production $(JEKYLL) serve
+
+html-proof: install build
+	$(HTMLPROOFER) _site
 
 clean:
 	rm -r _site
