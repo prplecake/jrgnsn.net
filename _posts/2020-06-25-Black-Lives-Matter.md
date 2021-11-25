@@ -68,7 +68,7 @@ about anti-racism and organizes actions to support the fight for racial
 justice and undermine white supremacy.
 
 [3-0]:https://www.mpd150.com/
-[3-1]:https://www.showingupforracialjustice.org/donate-to-surj.html
+[3-1]:https://surj.org/donate-to-surj.html
 
 ## Support Rebuilding Efforts
 
