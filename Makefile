@@ -24,7 +24,9 @@ build: install
 serve: install
 	JEKYLL_ENV=production $(JEKYLL) serve
 
-proofer_ignore_files := _site/ascii/cat.html
+HASHMARK := \#
+grep_cmd := grep -v '^$(HASHMARK)' | sed '/^$$/d'
+proofer_ignore_files := `awk '{print}' .proofer_ignore_files | $(grep_cmd) | paste -s -d, -`
 proofer_opts := --check-html --file-ignore $(proofer_ignore_files)
 
 html-proof: install build
