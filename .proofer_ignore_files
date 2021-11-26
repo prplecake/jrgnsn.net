@@ -9,3 +9,7 @@ _site/ascii/cat.html
 
 # Old projects
 _site/projects/stocfs.html
+
+# List of posts with known broken links that have been accounted for in
+# the post in question
+_site/2018/05/16/Base64-Encoding-in-Python-3.html
