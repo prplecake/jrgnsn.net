@@ -5,7 +5,7 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
-Presented in no particular order.
+Presented in nearly alphabetical order.
 
 ## Board Games and Similar
 * [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
@@ -15,7 +15,8 @@ Presented in no particular order.
 * *Alice in Wonderland* by Lewis Carroll
 * *Artemis* by Andy Weir
 * *Black Skin, White Masks* by Frantz Fanon
-* *Humble Pi* by Matt Parker
+* ***Cuckoo's Egg* by Clifford Stoll**
+* ***Humble Pi* by Matt Parker**
 * *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 * *Lost at Sea* by Bryan Lee O'Malley
@@ -53,6 +54,11 @@ is welcome!
 * [LEGO Ideas Apollo Saturn V](https://www.amazon.com/dp/B071G3QMS2) (92176)
 * [LEGO Ideas International Space Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
+## Stuff for Home
+* **Air Fryer**
+* Bookshelf
+* **Microwave**
+
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
@@ -60,4 +66,4 @@ cards
 ## Tools
 
 ## Other Stuff
-* [Window Hammer](https://www.amazon.com/dp/B077GNHRZ8)
+* A gun
