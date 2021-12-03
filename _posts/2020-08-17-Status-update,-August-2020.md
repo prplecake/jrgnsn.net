@@ -23,7 +23,7 @@ something I've been meaning to write for a while now and Charles'
 solution was perfect for me. I've started making my way through the book
 [Mazes for Programmers][2], which introduces programmatically
 maze-making using Ruby. This happens to be my first real foray into the
-Ruby language. 
+Ruby language.
 
 [0]:https://git.sr.ht/~mjorgensen/dotfiles
 [1]:https://git.sr.ht/~crg/config
@@ -48,7 +48,7 @@ near* complete, I'm been thinking about future projects. It's been a few
 years since I've been wanting to create a recipe manager for myself.
 I've tried using [Paprika 3][4], [Cookbook for Nextcloud][5], among
 others and none of the options I've tried fit the particular use-case
-I've convinced myself I have. 
+I've convinced myself I have.
 
 [4]:https://www.paprikaapp.com/
 [5]:https://apps.nextcloud.com/apps/cookbook

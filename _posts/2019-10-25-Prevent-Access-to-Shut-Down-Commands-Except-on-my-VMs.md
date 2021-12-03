@@ -17,7 +17,7 @@ One slip of the wrist would cause you to "Shut down" a machine instead
 of "Sign out" of it. I'm not perfect, I've made that mistake before.
 
 Originally we created a Group Policy Object to control this behavior.
-It's pretty easy to set up. 
+It's pretty easy to set up.
 
 I created a GPO and named it **Disable Shut Down Option on Start Menu -
 Servers**, because I only want to control this behavior on servers. I

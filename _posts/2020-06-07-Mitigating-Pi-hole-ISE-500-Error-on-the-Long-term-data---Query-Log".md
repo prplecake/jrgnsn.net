@@ -17,7 +17,6 @@ And the relevant line in `/var/log/lighttpd/error.log`:
 > error:  Allowed memory size of 134217728 bytes exhausted (tried to
 > allocate 10489856 bytes) in /var/www/html/admin/api_db.php on line 422
 
-
 I'm running Pi-hole on an old desktop system with greater resources than
 the Raspberry Pis I own. That box has 4GB RAM.
 

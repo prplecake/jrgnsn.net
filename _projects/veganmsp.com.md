@@ -38,4 +38,4 @@ any other improvement you might suggest.
 <!-- TODO: Add contact methods -->
 
 [comet-cafe]: https://www.thecometcafe.com/
-[VeganMSP.com]: https://veganmsp.com
+[VeganMSP.com]: https://veganmsp.co

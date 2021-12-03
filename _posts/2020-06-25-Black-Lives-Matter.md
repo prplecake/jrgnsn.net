@@ -7,7 +7,7 @@ tags:
 ---
 
 <center><strong>Black Lives Matter. Say their names.<br /><br />All
-	lives
+  lives
 don't matter until black lives do.</strong>
 </center>
 
@@ -33,7 +33,6 @@ don't matter until black lives do.</strong>
 
 [1-0]:https://unicornriot.ninja/donate/
 
-
 ## Donate to Support Protests
 
 * [The Black Trans Protestors Emergency Fund][2-0] raises money for
@@ -50,7 +49,7 @@ queer-led social justice organization and legal fund that provides
 education and training in black and brown communities.
 * [The Know Your Rights Camp][2-4], an organization founded by Colin
 Kaepernick that provides education and training in black and brown
-communities has set up a legal fund for Minneapolis. 
+communities has set up a legal fund for Minneapolis.
 
 [2-0]:https://www.instagram.com/p/CA8GE-HDbxa/
 [2-1]:https://www.naacpldf.org/about-us/

@@ -25,7 +25,7 @@ course placing it in `_drafts/` with no date.
 
 I've written another script to assist with publishing drafts. I'm rather
 proud of this script since it shows me a list of each draft,  and
-adding "today's" date to the title, then moving it to `_posts/`. 
+adding "today's" date to the title, then moving it to `_posts/`.
 
 Today's improvements to this script include adding the ability to
 automatically create a commit with the new post. If I pass `-D`, this

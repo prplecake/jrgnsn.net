@@ -22,7 +22,7 @@ notes in case they could be useful to anyone else.
 I downloaded the latest version of admin-fe[^2] and unarchived the
 tarball.
 
-```
+```text
 curl -O https://git.pleroma.social/pleroma/admin-fe/-/archive/1.2.0/admin-fe-1.2.0.tar.gz
 tar xzvf admin-fe-1.2.0.tar.gz
 ```
@@ -30,7 +30,7 @@ tar xzvf admin-fe-1.2.0.tar.gz
 Entered the directory and attempted to run `yarn build:prod` per the
 README:
 
-```
+```text
 cd admin-fe-1.2.0
 yarn build:prod
 ```
@@ -45,7 +45,7 @@ considering Pleroma's fairly new on the block.
 
 After installing Node.js, `yarn build:prod` still wasn't successful:
 
-```
+```text
 $ yarn build:prod
 yarn run v1.17.3
 $ cross-env NODE_ENV=production env_config=prod node build/build.js
@@ -56,22 +56,22 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 
 I solved this by simply running `yarn` with no arguments. Finally,
 `yarn build:prod` was successful and I had a built distribution of
-admin-fe. 
+admin-fe.
 
 Serving admin-fe was a bit of a hassle, mostly due to my limited
 knowledge of nginx configuration. At first, my config looked like this:
 
-```
+```nginx
 location /_admin-fe/ {
-	root /var/www/pleroma/admin-fe;
-	index index.html
+    root /var/www/pleroma/admin-fe;
+    index index.html
 }
 ```
 
 Which was failing with an HTTP 404, requests to example.com/_afe were
 trying to be served from `/var/www/pleroma/admin-fe/_afe/`. I needed to
 switch the `root` directive for the `alias` directive, add a trailing
-slash, and I was in business. 
+slash, and I was in business.
 
 **Note:** I tried to pick a URL that *probably* wouldn't become a
 username. There was no hint towards what to call it in the limited
@@ -79,10 +79,10 @@ documentation--not that it really matters on an instance for 1 anyway.
 
 The ending result is my `location` block ended up reading this:
 
-```
+```nginx
 location /_admin-fe/ {
-	alias /var/www/pleroma/admin-fe/;
-	index index.html;
+    alias /var/www/pleroma/admin-fe/;
+    index index.html;
 }
 ```
 
@@ -97,21 +97,20 @@ Thus, my adventures setting up admin-fe have come to an end.
 
 After reaching out on #pleroma on freenode, it's a big possibility that
 admin-fe doesn't work for me because the necessary pieces aren't
-implemented on the backend. 
+implemented on the backend.
 
 If you think you can help, please don't hesitate to find me on the
 fediverse or write to my [public-inbox][lists].
-
 
 [admin-fe]: https://git.pleroma.social/pleroma/admin-fe
 [lists]: https://lists.sr.ht/~mjorgensen/public-inbox
 
 [^1]: Mastodon 3.0 came out today, some of their new features include:
-	moving accounts, audio in toots, and hashtag auto-suggestions.
+    moving accounts, audio in toots, and hashtag auto-suggestions.
 
 [^2]: 1.2.0 at the time of writing
 
 [^3]: At first I thought about hosting admin-fe at something like
-	`admin.example.com`, but that didn't work because now admin-fe would
-	try to load the Pleroma API at `admin.example.com/api/...` instead
-	of `example.com/api/...`.
+    `admin.example.com`, but that didn't work because now admin-fe would
+    try to load the Pleroma API at `admin.example.com/api/...` instead
+    of `example.com/api/...`.

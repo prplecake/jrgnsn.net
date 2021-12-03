@@ -52,7 +52,8 @@ is welcome!
 * [LEGO Architecture Seattle Space Needle](https://www.amazon.com/dp/B0025W1PMS) (21003)
 * [LEGO Creator Space Shuttle Explorer](https://www.amazon.com/dp/B0711MPYJN) (31066)
 * [LEGO Ideas Apollo Saturn V](https://www.amazon.com/dp/B071G3QMS2) (92176)
-* [LEGO Ideas International Space Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
+* [LEGO Ideas International Space
+  Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
 ## Stuff for Home
 * **Air Fryer**

@@ -33,7 +33,7 @@ You can create a custom filter in uBlock Origin that blocks the
 following domain:
 
     ||flask.nextdoor.com/events/*$xmlhttprequest,first-party
-    
+
 Add the above to the end of your filters on "My filters" in uBlock
 settings.
 
