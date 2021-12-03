@@ -19,7 +19,7 @@ update: $(PROJECT_DEPS)
 	$(BUNDLE) update
 
 build: install
-	$(JEKYLL) build
+	JEKYLL_ENV=production $(JEKYLL) build
 
 serve: install
 	JEKYLL_ENV=production $(JEKYLL) serve
