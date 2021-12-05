@@ -19,6 +19,7 @@ update: $(PROJECT_DEPS)
 	$(BUNDLE) update
 
 build: install
+	echo -n $(git_hash) > $(PWD)/_includes/version
 	JEKYLL_ENV=production $(JEKYLL) build
 
 serve: install
@@ -36,7 +37,6 @@ git_hash=`git rev-parse --short HEAD`
 sshopts := -o StrictHostKeyChecking=no -i ~/.ssh/mario_rsa
 
 deploy: build
-	echo -n $(git_hash) > $(PWD)/_includes/version
 	rsync --rsh="ssh $(sshopts)" -rP _site/ deploy@jrgnsn.net:/var/www/jrgnsn.net --delete
 
 clean:
