@@ -55,6 +55,11 @@ is welcome!
 * [LEGO Ideas International Space
   Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
+## Pet Stuff
+* Cat tree
+* Larger scratching post (I have one that's about 18" tall and Flipper
+  throws it all over the place)
+
 ## Stuff for Home
 * **Air Fryer**
 * Bookshelf
