@@ -44,6 +44,12 @@ Racism* by Robin DiAngelo
 I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
+## Kitchen
+* **Air Fryer**
+* A pitcher
+* Microwave
+* Small kitchen table
+
 ## Gaming Stuff
 * Pair of Joycons
 
@@ -61,9 +67,8 @@ is welcome!
   throws it all over the place)
 
 ## Stuff for Home
-* **Air Fryer**
 * Bookshelf
-* **Microwave**
+* **Endtables**
 
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
