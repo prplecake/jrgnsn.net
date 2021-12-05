@@ -64,6 +64,7 @@ is welcome!
 
 ## Pet Stuff
 * Cat tree
+* Heating pad
 * Larger scratching post (I have one that's about 18" tall and Flipper
   throws it all over the place)
 
