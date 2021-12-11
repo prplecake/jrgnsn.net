@@ -5,6 +5,12 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
+## Top of the List
+* Bookshelf
+* Endtables
+* Heating pad for Flipper
+* Short (10-15') air hose
+
 Presented in nearly alphabetical order.
 
 ## Board Games and Similar
@@ -47,7 +53,6 @@ is welcome!
 ## Kitchen
 * **Air Fryer**
 * A pitcher
-* Microwave
 * Small kitchen table
 
 ## Gaming Stuff
@@ -64,20 +69,16 @@ is welcome!
 
 ## Pet Stuff
 * Cat tree
-* Heating pad
 * Larger scratching post (I have one that's about 18" tall and Flipper
   throws it all over the place)
 
 ## Stuff for Home
-* Bookshelf
-* **Endtables**
 
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
 
 ## Tools
-* **Short (10-15') air hose**
 
 ## Other Stuff
 * A gun
