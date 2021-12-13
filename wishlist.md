@@ -73,6 +73,11 @@ is welcome!
   throws it all over the place)
 
 ## Stuff for Home
+* Beard trimmer/grooming kit[^1]
+
+[^1]: It doesn't appear replacement parts for my current kit are
+    available anymore, but if you can think you can find some, my
+    trimmer is a Philips Norelco QC3330.
 
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
