@@ -52,7 +52,6 @@ is welcome!
 
 ## Kitchen
 * **Air Fryer**
-* Mop / something to clean the linoleum floor
 * A pitcher
 * Small kitchen table
 
