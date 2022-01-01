@@ -75,6 +75,3 @@ cards
 
 ## Tools
 * Short (10-15') air hose
-
-## Other Stuff
-* A gun
