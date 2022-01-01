@@ -8,7 +8,6 @@ enableMenu: false
 ## Top of the List
 * Bookshelf
 * Endtables
-* Heating pad for Flipper
 * Short (10-15') air hose
 
 Presented in nearly alphabetical order.
@@ -51,9 +50,7 @@ I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
 ## Kitchen
-* **Air Fryer**
 * A pitcher
-* Small kitchen table
 
 ## Gaming Stuff
 * Pair of Joycons
@@ -73,11 +70,6 @@ is welcome!
   throws it all over the place)
 
 ## Stuff for Home
-* Beard trimmer/grooming kit[^1]
-
-[^1]: It doesn't appear replacement parts for my current kit are
-    available anymore, but if you can think you can find some, my
-    trimmer is a Philips Norelco QC3330.
 
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
