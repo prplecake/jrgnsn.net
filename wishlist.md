@@ -8,7 +8,6 @@ enableMenu: false
 ## Top of the List
 * Bookshelf
 * Endtables
-* Short (10-15') air hose
 
 Presented in nearly alphabetical order.
 
@@ -75,6 +74,7 @@ is welcome!
 cards
 
 ## Tools
+* Short (10-15') air hose
 
 ## Other Stuff
 * A gun
