@@ -50,7 +50,6 @@ I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
 ## Kitchen
-* A pitcher
 
 ## Gaming Stuff
 * Pair of Joycons
