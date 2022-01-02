@@ -74,4 +74,5 @@ is welcome!
 cards
 
 ## Tools
+* Jump-starting battery pack
 * Short (10-15') air hose
