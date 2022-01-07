@@ -49,11 +49,11 @@ There's probably some massive improvements that could be made since, if
 I run all three scripts, that's at least two new commits for each
 deployment. However, I think I'll be okay with this process since it
 doesn't make sense to add the commit hash to the site footer and have it
-go to the ["updating hash" commit](https://git.sr.ht/~mjorgensen/jrgnsn.net/commit/ddad15559f5336068111ba932a626d9bf4418634).
+go to the ["updating hash" commit](https://github.com/prplecake/jrgnsn.net/commit/ddad15559f5336068111ba932a626d9bf4418634).
 
 ---
 
-You can find these scripts in the [jrgnsn.net][git.sr.ht] repo incase
+You can find these scripts in the [jrgnsn.net][repo] repo incase
 you're bored and want to read some bad code.
 
-[git.sr.ht]:https://git.sr.ht/~mjorgensen/jrgnsn.net/tree/master/item/contrib
+[repo]:https://github.com/prplecake/jrgnsn.net/tree/master/contrib

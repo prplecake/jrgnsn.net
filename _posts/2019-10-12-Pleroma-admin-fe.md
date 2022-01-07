@@ -100,10 +100,9 @@ admin-fe doesn't work for me because the necessary pieces aren't
 implemented on the backend.
 
 If you think you can help, please don't hesitate to find me on the
-fediverse or write to my [public-inbox][lists].
+fediverse ~~or write to my public-inbox.~~
 
 [admin-fe]: https://git.pleroma.social/pleroma/admin-fe
-[lists]: https://lists.sr.ht/~mjorgensen/public-inbox
 
 [^1]: Mastodon 3.0 came out today, some of their new features include:
     moving accounts, audio in toots, and hashtag auto-suggestions.

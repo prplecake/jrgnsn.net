@@ -9,5 +9,3 @@
 [jekyll-config-options]:https://jekyllrb.com/docs/configuration/options/
 
 [liquid-docs]:https://shopify.github.io/liquid/
-
-[Tracker](https://todo.sr.ht/~mjorgensen/jrgnsn.net)

@@ -25,7 +25,7 @@ solution was perfect for me. I've started making my way through the book
 maze-making using Ruby. This happens to be my first real foray into the
 Ruby language.
 
-[0]:https://git.sr.ht/~mjorgensen/dotfiles
+[0]:https://github.com/prplecake/dotfiles
 [1]:https://git.sr.ht/~crg/config
 [2]:http://www.mazesforprogrammers.com/
 
