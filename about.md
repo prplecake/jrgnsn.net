@@ -42,7 +42,6 @@ terms of the [MIT license] [mit]. The articles themselves are
 [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
 
 [jekyll]: https://jekyllrb.com/
-[builds]: https://builds.sr.ht
 [deploy-post]:/2021/03/17/Nerdy-Site-Improvements.html#deployment
 [deploy-src]:https://git.sr.ht/~mjorgensen/jrgnsn.net/tree/master/item/contrib/deploy
 [linode-ref]: https://www.linode.com/?r=6bc69166de6a9b923e4e42b4259c0ed8e1769d8c
