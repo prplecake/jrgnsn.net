@@ -7,12 +7,12 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* [Fediverse][j.s]
+* [Fediverse][f.z] (@matthew@freeradical.zone)
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
 
-[j.s]:https://jrgnsn.social/matthew
+[f.z]:https://freeradical.zone/@prplecake
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
 [strava]:https://www.strava.com/athletes/705724
