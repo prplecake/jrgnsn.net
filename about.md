@@ -55,4 +55,4 @@ terms of the [MIT license] [mit]. The articles themselves are
 If you're at all interested in supporting my work, you can find me on
 [Liberapay][liberapay].
 
-[liberapay]: https://liberapay.com/mjorgensen/
+[liberapay]: https://liberapay.com/prplecake/
