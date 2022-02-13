@@ -91,13 +91,13 @@ enableMenu: false
 	</div> 
 
 	<script>
-		const choosenDate = new Date(2022, 0, 28, 17).getTime();
+		const chosenDate = new Date(2022, 0, 28, 17).getTime();
 
 		let countup = setInterval(function() {
 
 			const today = new Date().getTime();
 
-			const diff = today - choosenDate;
+			const diff = today - chosenDate;
 
 			let days = Math.ceil(diff / (1000 * 60 * 60 * 24));
 			let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));

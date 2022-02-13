@@ -42,7 +42,7 @@ updated `site.git_hash`.
 ## `update_version.rb`
 
 This script was written because it seems easiest to work with YAML files
-using a scripting langauge that isn't bash, and since Jekyll is written
+using a scripting language that isn't bash, and since Jekyll is written
 in ruby I just decided to use it.
 
 There's probably some massive improvements that could be made since, if

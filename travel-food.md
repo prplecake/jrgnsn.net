@@ -55,7 +55,7 @@ Goal: Cross a border and make this "Favorite Places to Eat in the World."
 
 * [Burrito Union](http://burritounion.com/)
 
-### Eden Prarie
+### Eden Prairie
 
 * [Pizza Karma](https://pizzakarma.com/)
 

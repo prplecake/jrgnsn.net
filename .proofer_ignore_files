@@ -1,7 +1,7 @@
 # Note: This file is read by the Makefile to build the list of files to
 # ignore for html-proofer.
 # ALL lines that start with `#` are ignored.
-# Spaces in paths should *probably* be escapded or quoted. I haven't run
+# Spaces in paths should *probably* be escaped or quoted. I haven't run
 # into that edge case yet.
 
 # ascii stuff

@@ -7,7 +7,7 @@ enableMenu: false
 
 ## Top of the List
 * Bookshelf
-* Endtables
+* End tables
 
 Presented in nearly alphabetical order.
 
