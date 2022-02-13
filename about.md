@@ -36,19 +36,17 @@ company near Minneapolis, MN.
 
 This website is a [jekyll][jekyll] blog. The server is hosted by
 [prgmr.com][prgmr]. I use [Namecheap][namecheap] to register my
-domains. [deploy script][deploy-post] [[source][deploy-src]] builds the
-site and deploys it to my web server. The code is licensed under the
-terms of the [MIT license] [mit]. The articles themselves are
-[CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
+domains. A [Makefile][makefile-src] builds the site and deploys it to my
+web server. The [code][source] is licensed under the terms of the [MIT license]
+[mit]. The articles themselves are [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
 
 [jekyll]: https://jekyllrb.com/
-[deploy-post]:/2021/03/17/Nerdy-Site-Improvements.html#deployment
-[deploy-src]:https://git.sr.ht/~mjorgensen/jrgnsn.net/tree/master/item/contrib/deploy
+[makefile-src]:https://github.com/prplecake/jrgnsn.net/blob/master/Makefile
 [linode-ref]: https://www.linode.com/?r=6bc69166de6a9b923e4e42b4259c0ed8e1769d8c
 [prgmr]:https://prgmr.com
 [namecheap]:https://www.namecheap.com
 [linode]:https://www.linode.com/?r=6bc69166de6a9b923e4e42b4259c0ed8e1769d8c
-[source]: https://git.sr.ht/~mjorgensen/jrgnsn.net
+[source]:https://github.com/prplecake/jrgnsn.net
 [mit]: https://opensource.org/licenses/MIT/
 [cc-by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
