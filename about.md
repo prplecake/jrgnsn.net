@@ -30,7 +30,7 @@ wrote was for forums. I didn't start programming for real until about
 age 14. That's when I started getting into PHP a little more until I
 found Python. My skill set has greatly grown since then. I'm currently
 employed as a "Web Developer/Systems Engineer" for a medical software
-company near Minneapolis, MN. 
+company near Minneapolis, MN.
 
 ## About This Site
 
@@ -38,7 +38,7 @@ This website is a [jekyll][jekyll] blog. The server is hosted by
 [prgmr.com][prgmr]. I use [Namecheap][namecheap] to register my
 domains. [deploy script][deploy-post] [[source][deploy-src]] builds the
 site and deploys it to my web server. The code is licensed under the
-terms of the [MIT license] [mit]. The articles themselves are 
+terms of the [MIT license] [mit]. The articles themselves are
 [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
 
 [jekyll]: https://jekyllrb.com/
