@@ -22,5 +22,4 @@ jobs:
         sudo gem install bundler github-pages -N
     - name: Build the site
       run: |
-        bundle install
-        bundle exec jekyll build
+        make build
