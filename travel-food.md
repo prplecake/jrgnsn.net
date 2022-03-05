@@ -19,7 +19,6 @@ Goal: Cross a border and make this "Favorite Places to Eat in the World."
 
 * [Ciccio Cali](http://www.cicciocali.com/)
 * [Farmacy Vegan Kitchen & Bakery](https://farmacyvegankitchen.com/)
-* [O.T.B. Delight Cafe](http://otbdelightcafe.com/)
 * [Tampa Pizza Company](https://tampapizzacompany.com/)
 
 ## Illinois

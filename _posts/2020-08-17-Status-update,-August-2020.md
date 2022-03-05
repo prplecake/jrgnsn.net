@@ -53,11 +53,9 @@ I've convinced myself I have.
 [4]:https://www.paprikaapp.com/
 [5]:https://apps.nextcloud.com/apps/cookbook
 
-My brother made a [weather dashboard][6] which has inspired me to create
+My brother made a weather dashboard which has inspired me to create
 a more personalized one. He includes a Minneapolis dashboard, but
 there's a real possibility I'd create a dashboard to run on my local
 network that could show my Pi-hole metrics among other things.
-
-[6]:https://dash.p2j.co
 
 That's it for this month. Enjoy the rest of the summer!
