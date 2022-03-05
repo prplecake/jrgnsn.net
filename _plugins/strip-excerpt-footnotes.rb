@@ -8,7 +8,7 @@ module Jekyll
 
       for block in ['div', 'sup', 'a'] do
         doc.css(block).each do |ele|
-          ele.remove if (ele['class'] == 'footnotes' or ele['class'] == 'footnote')
+          ele.remove if (ele['class'] == 'footnotes' or ele['class'] == 'footnote' or ele['role'] == 'doc-noteref')
         end
       end
 
