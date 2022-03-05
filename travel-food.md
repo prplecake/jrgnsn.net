@@ -17,10 +17,11 @@ Goal: Cross a border and make this "Favorite Places to Eat in the World."
 
 ### Tampa
 
-* [Ciccio Cali](http://www.cicciocali.com/)
+* [Cali](https://www.eatatcali.com/)[^1]
 * [Farmacy Vegan Kitchen & Bakery](https://farmacyvegankitchen.com/)
 * [Tampa Pizza Company](https://tampapizzacompany.com/)
 
+[^1]: *previously Ciccio Cali*
 ## Illinois
 
 ### Chicago
@@ -71,7 +72,7 @@ Goal: Cross a border and make this "Favorite Places to Eat in the World."
 * Hard Times Cafe
 * [Pizza Luce](https://pizzaluce.com/)
 * [Pizza Nea](http://www.pizzanea.com/)
-* [Trio Plant-Based](https://www.trioplantbased.com/)
+* [Trio Plant-Based](https://www.trioplant-based.com/)
 
 ### St. Louis Park
 
