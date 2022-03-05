@@ -1,0 +1,7 @@
+{
+    "first-line-h1": false,
+    "blanks-around-headers": false,
+    "blanks-around-lists": false,
+    "no-inline-html": false,
+    "no-emphasis-as-heading": false
+}

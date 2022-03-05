@@ -2,7 +2,7 @@
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782564092-642ea692e6a3402c76f3a827.svg)
 
 * [Jekyll docs][jekyll-docs]
-    * [Configuration options][jekyll-config-options]
+  * [Configuration options][jekyll-config-options]
 * [Liquid docs][liquid-docs]
 
 [jekyll-docs]:https://jekyllrb.com/docs/

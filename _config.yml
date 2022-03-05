@@ -5,14 +5,18 @@ baseurl: ''
 url: ''
 markdown: kramdown
 highlighter: rouge
+lang: en
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
+- jekyll-target-blank
 - nokogiri
 paginate: 5
 paginate_path: "/page/:num"
 sass:
   style: compressed
+target-blank:
+  noreferrer: false
 collections:
   projects:
     output: true
@@ -23,4 +27,3 @@ collections:
   recipes:
     output: true
     permalink: "/recipe/:name:output_ext"
-git_hash: 122f142

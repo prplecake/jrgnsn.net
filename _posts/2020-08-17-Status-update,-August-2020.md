@@ -23,9 +23,9 @@ something I've been meaning to write for a while now and Charles'
 solution was perfect for me. I've started making my way through the book
 [Mazes for Programmers][2], which introduces programmatically
 maze-making using Ruby. This happens to be my first real foray into the
-Ruby language. 
+Ruby language.
 
-[0]:https://git.sr.ht/~mjorgensen/dotfiles
+[0]:https://github.com/prplecake/dotfiles
 [1]:https://git.sr.ht/~crg/config
 [2]:http://www.mazesforprogrammers.com/
 
@@ -48,16 +48,14 @@ near* complete, I'm been thinking about future projects. It's been a few
 years since I've been wanting to create a recipe manager for myself.
 I've tried using [Paprika 3][4], [Cookbook for Nextcloud][5], among
 others and none of the options I've tried fit the particular use-case
-I've convinced myself I have. 
+I've convinced myself I have.
 
 [4]:https://www.paprikaapp.com/
 [5]:https://apps.nextcloud.com/apps/cookbook
 
-My brother made a [weather dashboard][6] which has inspired me to create
+My brother made a weather dashboard which has inspired me to create
 a more personalized one. He includes a Minneapolis dashboard, but
 there's a real possibility I'd create a dashboard to run on my local
 network that could show my Pi-hole metrics among other things.
-
-[6]:https://dash.p2j.co
 
 That's it for this month. Enjoy the rest of the summer!

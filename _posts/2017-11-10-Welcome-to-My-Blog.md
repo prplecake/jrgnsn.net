@@ -9,5 +9,5 @@ for this site/domain are as follows:
 - A web page (Done!)
 - A blog (Done!)
 - A portfolio
-    - For projects
-    - For photography
+  - For projects
+  - For photography

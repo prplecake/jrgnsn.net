@@ -25,7 +25,7 @@ course placing it in `_drafts/` with no date.
 
 I've written another script to assist with publishing drafts. I'm rather
 proud of this script since it shows me a list of each draft,  and
-adding "today's" date to the title, then moving it to `_posts/`. 
+adding "today's" date to the title, then moving it to `_posts/`.
 
 Today's improvements to this script include adding the ability to
 automatically create a commit with the new post. If I pass `-D`, this
@@ -42,18 +42,18 @@ updated `site.git_hash`.
 ## `update_version.rb`
 
 This script was written because it seems easiest to work with YAML files
-using a scripting langauge that isn't bash, and since Jekyll is written
+using a scripting language that isn't bash, and since Jekyll is written
 in ruby I just decided to use it.
 
 There's probably some massive improvements that could be made since, if
 I run all three scripts, that's at least two new commits for each
 deployment. However, I think I'll be okay with this process since it
 doesn't make sense to add the commit hash to the site footer and have it
-go to the ["updating hash" commit](https://git.sr.ht/~mjorgensen/jrgnsn.net/commit/ddad15559f5336068111ba932a626d9bf4418634).
+go to the ["updating hash" commit](https://github.com/prplecake/jrgnsn.net/commit/ddad15559f5336068111ba932a626d9bf4418634).
 
 ---
 
-You can find these scripts in the [jrgnsn.net][git.sr.ht] repo incase
+You can find these scripts in the [jrgnsn.net][repo] repo incase
 you're bored and want to read some bad code.
 
-[git.sr.ht]:https://git.sr.ht/~mjorgensen/jrgnsn.net/tree/master/item/contrib
+[repo]:https://github.com/prplecake/jrgnsn.net/tree/master/contrib

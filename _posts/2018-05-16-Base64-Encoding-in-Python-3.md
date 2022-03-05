@@ -20,7 +20,7 @@ stopped ripping my hair out.
 [0]:https://web.archive.org/web/20181211020351/https://www.pronoy.in/2016/10/20/python-3-5-x-base64-encoding-3/
 
 Let's get into the code. According to Backblaze's API docs, they require
-the Account ID and Key to be base64 encoded in the following format: 
+the Account ID and Key to be base64 encoded in the following format:
 `'accountId:accountKey'`. Seems easy enough.
 
 Try this in a Python 2 shell:
@@ -28,21 +28,23 @@ Try this in a Python 2 shell:
 ```python
 base64.b64encode('A string')
 ```
-    
+
 You get an output like:
 
-```
+```text
 'QSBzdHJpbmc='
 ```
-    
+
 Try running the same thing in a Python 3 shell and you see something
 closer to this:
 
-      File "<stdin>", line 1, in <module>
-      File "/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/ Versions/3.6/lib/python3.6/base64.py", line 58, in b64encode 
+```text
+  File "<stdin>", line 1, in <module>
+  File "/usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/ Versions/3.6/lib/python3.6/base64.py", line 58, in b64encode 
         encoded = binascii.b2a_base64(s, newline=False)
-    TypeError: a bytes-like object is required, not 'str'
-    
+TypeError: a bytes-like object is required, not 'str'
+```
+
 The solution? There's a few. Pronoy's works: which is to encode the
 string in `UTF-8`. Then, once it's base64 encoded, you decode that as
 `ASCII`.

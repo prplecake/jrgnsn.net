@@ -25,7 +25,6 @@ enableMenu: false
 			position: relative;
 			margin: auto;
 			overflow: hidden;
-			width: 850px;
 		}
 
 		h1 {
@@ -51,11 +50,25 @@ enableMenu: false
 			letter-spacing: 5px;
 		}
 
+		.months, .weeks,
+		.days, .hours, .minutes, .seconds, .left {
+			padding: 20px;
+			border-radius: 10px;
+			margin: 1em auto;
+		}
+
 		.days, .hours, .minutes, .seconds, .left {
 			display: inline-block;
-			padding: 20px;
 			width: 120px;
-			border-radius: 10px;
+			margin-top: 0;
+		}
+
+		.months {
+			background: #00e947;
+		}
+
+		.weeks {
+			background: #00b1ac;
 		}
 
 		.days {
@@ -83,6 +96,7 @@ enableMenu: false
 			font-size: 5em;
 		}
 	</style>
+	<script src="https://adorable-typed.jrgnsn.net/script.js" data-site="CDJBDMGZ" defer></script>
 </head>
 <body>
 	<div class="main">
@@ -90,21 +104,27 @@ enableMenu: false
 	</div> 
 
 	<script>
-		const choosenDate = new Date(2021, 2, 18).getTime();
+		const chosenDate = new Date(2022, 0, 28, 17).getTime();
 
 		let countup = setInterval(function() {
 
 			const today = new Date().getTime();
 
-			const diff = today - choosenDate;
+			const diff = today - chosenDate;
 
-			let days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+			let months = Math.floor(diff / (1000 * 60 * 60 * 24 * 7 * 4));
+			let weeks = Math.floor((diff % (1000 * 60 * 60 * 24  * 7 * 4)) / (1000 * 60 * 60 * 24 * 7));
+			let days = Math.floor((diff % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
 			let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 			let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
 			let seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
 			document.getElementById("countup").innerHTML =
-			"<div class=\"days\"> \
+			"<div class=\"months\"> \
+			<div class=\"c-number\">" + months + "</div>months</div> \
+			<div class=\"weeks\"> \
+			<div class=\"c-number\">" + weeks + "</div>weeks</div> \
+			<div class=\"days\"> \
 			<div class=\"c-number\">" + days + "</div>days</div> \
 			<div class=\"hours\"> \
 			<div class=\"c-number\">" + hours + "</div>hours</div> \

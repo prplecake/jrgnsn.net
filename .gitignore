@@ -1,5 +1,17 @@
+# Ignore site build
 _site
+
+# Ignore caches
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+
+# macOS...
 .DS_Store
+
+# Ignore version file
+_includes/version
+
+# Ignore environment normalization destinations
+.bundle/config
+vendor/bundle

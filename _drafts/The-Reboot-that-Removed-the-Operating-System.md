@@ -54,4 +54,4 @@ Recovery trying to reconfigure the Master Boot Record.
 
 The root issue was that, since VMware didn't recognize the partitions
 anymore, it was assigning drive letters to it as it pleased, somehow
-never managing to give the actual C: disk the letter C. 
+never managing to give the actual C: disk the letter C.

@@ -109,12 +109,12 @@ this:
 > Amazon Employee: If you're looking for a lightning cable, the 6'
 lightning cabled charges the iPhone faster than any other cable I've
 seen.
-> 
+>
 > Me: ...*oh really,* tell me more!
-> 
+>
 > AE (already visibly under pressure): It's MFi certified, so it charged
 better than non-certified cables.
-> 
+>
 > Me (points to 3' MFi certified cable): This cable says it's also
 certified.
 
@@ -126,7 +126,7 @@ kick out of those conversations though!
 
 After the mall, I was hungry again and ate at a vegan short-order
 restaurant called *Kal'ish.* I got what I presume was a black-bean
-burger, and fries. I would go back. 
+burger, and fries. I would go back.
 
 ![IMG_6956](/content/trip-to-chicago/IMG_6956.JPG)
 
@@ -187,7 +187,7 @@ in the wheel well and literally shredded apart. At 80MPH on the
 interstate, that's a terrifying experience. I managed to quickly pull
 off onto the side of the road, unfortunately there was a barrier on the
 right side of the shoulder, so I was only two feet away from the traffic
-lane - and not everyone moves over. 
+lane - and not everyone moves over.
 
 I called Roadside Assistance and was able to get a tow to a shop that
 could help me out. The first shop we went to was booked for almost a

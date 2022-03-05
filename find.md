@@ -7,29 +7,25 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* **[@matthew@jrgnsn.social][pleroma]** (Fediverse)
-* [PeerTube][peertube]
+* [Fediverse][f.z] (@matthew@freeradical.zone)
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
 
-[pleroma]:https://jrgnsn.social/matthew
+[f.z]:https://freeradical.zone/@prplecake
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
-[peertube]:https://jrgnsn.video/accounts/matthew
 [strava]:https://www.strava.com/athletes/705724
 
 ## IRC
 
-* prplecake on Libera.Chat
+* mjorgensen on Libera.Chat
 
 ## Source Code
 
 * **[GitHub][github]**
-* [Sourcehut][sourcehut]
 
 [github]:https://github.com/prplecake
-[sourcehut]:https://sr.ht/~mjorgensen
 
 ## Mapping
 

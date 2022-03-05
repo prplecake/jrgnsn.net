@@ -17,7 +17,7 @@ filters.
 
 ### 2019-05-12
 
-This project is what will eventually replace WordPress for 
+This project is what will eventually replace WordPress for
 [VeganMSP.com]. I've been meaning to get my ideas onto paper, so I don't
 lose them, but I'm still trying to figure out the requirements and the
 best implementations of them. If you browse to the repository today,

@@ -8,7 +8,7 @@ tags:
 
 Request Tracker is an insanely powerful ticketing system. I started
 using RT about 6 months ago, and I've been absolutely enjoying every
-hour of it. About 2 months ago, I used a guide on the RT Wiki titled 
+hour of it. About 2 months ago, I used a guide on the RT Wiki titled
 [AutoSetOwner](https://rt-wiki.bestpractical.com/wiki/AutoSetOwner) to
 automatically set *every new ticket's* owner to myself, on my personal
 hosted instance of RT. It works great!
@@ -52,7 +52,8 @@ $NewOwner->Load('mjorgensen');
 # if actor is RT_SystemUser then get out of here
 return 1 if $Actor == $RT::SystemUser->id;
 
-# prevents a ticket being assigned to an unprivileged user, comment out if you want this
+# prevents a ticket being assigned to an unprivileged user,
+# comment out if you want this
 return 1 unless $self->TransactionObj->CreatorObj->Privileged;
 
 # get out unless ticket owner is nobody

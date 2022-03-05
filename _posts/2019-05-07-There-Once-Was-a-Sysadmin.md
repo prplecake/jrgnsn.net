@@ -15,7 +15,7 @@ This is one of those times.
 
 I recently decided to switch my domains' name servers from CloudFlare to
 [FastMail][fastmail-ref]. There were a few reasons for this, all of
-which turned out to be the wrong answers to the original questions. 
+which turned out to be the wrong answers to the original questions.
 
 It all started when I had `mail.jrgnsn.net` set to redirect to
 `fastmail.com`. I kept getting *Invalid Certificate* errors since the
