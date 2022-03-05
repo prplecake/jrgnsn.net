@@ -37,8 +37,8 @@ Goal: Cross a border and make this "Favorite Places to Eat in the World."
 
 * [Morel's Cafe](https://www.morelscafe.com/) \- "Vegan food that doesn't suck"
 * [V-Grits & False Idol](https://www.vgrits.com/) \- "Our passions -
-  _food, craft beer, overall health and wellness, animal welfare,
-  sustainability_ \- make V-Grits and False Idol a **mission-driven**
+  *food, craft beer, overall health and wellness, animal welfare,
+  sustainability* \- make V-Grits and False Idol a **mission-driven**
   partnership."
 
 ## Minnesota
