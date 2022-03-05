@@ -7,10 +7,12 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* [Fediverse][f.z] (@matthew@freeradical.zone)
+* [Fediverse][f.z][^1] (@matthew@freeradical.zone)
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
+
+[^1]: [Mastodon](https://joinmastodon.org/)
 
 [f.z]:https://freeradical.zone/@prplecake
 [instagram]:https://www.instagram.com/matthewjorgensen/
