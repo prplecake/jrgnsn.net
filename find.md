@@ -7,7 +7,7 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* [Fediverse][f.z][^1] (@matthew@freeradical.zone)
+* [Fediverse][f.z][^1] (@prplecake@freeradical.zone)
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
