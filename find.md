@@ -21,7 +21,8 @@ enableMenu: false
 
 ## IRC
 
-* mjorgensen on Libera.Chat
+Usually `prplecake` on Libera.Chat, and many other IRC networks.
+Potentially found at `mjorgensen`.
 
 ## Source Code
 
