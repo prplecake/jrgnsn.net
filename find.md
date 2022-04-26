@@ -7,14 +7,14 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* [Fediverse][f.z][^1] (@prplecake@freeradical.zone)
+* [Fediverse][f.z][^1] (@prplecake@compostintraining.club)
 * [Instagram][instagram]
 * [Strava][strava]
 * [Twitter][twitter]
 
 [^1]: [Mastodon](https://joinmastodon.org/)
 
-[f.z]:https://freeradical.zone/@prplecake
+[f.z]:https://compostintraining.club/@prplecake
 [instagram]:https://www.instagram.com/matthewjorgensen/
 [twitter]:https://twitter.com/prplecake
 [strava]:https://www.strava.com/athletes/705724
