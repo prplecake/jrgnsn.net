@@ -5,10 +5,6 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
-## Top of the List
-* Bookshelf
-* End tables
-
 Presented in nearly alphabetical order.
 
 ## Board Games and Similar
@@ -72,7 +68,3 @@ is welcome!
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
-
-## Tools
-* Jump-starting battery pack
-* Short (10-15') air hose
