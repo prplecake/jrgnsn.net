@@ -42,7 +42,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
       - name: Get version
-        run: echo -n $(git rev-parse HEAD) > _includes/version
+        run: echo -n $(git rev-parse --short HEAD) > _includes/version
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
