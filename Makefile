@@ -30,7 +30,7 @@ serve: install
 HASHMARK := \#
 grep_cmd := grep -v '^$(HASHMARK)' | sed '/^$$/d'
 proofer_ignore_files := `awk '{print}' .proofer_ignore_files | $(grep_cmd) | paste -s -d, -`
-proofer_opts := --check-html --file-ignore $(proofer_ignore_files)
+proofer_opts := --ignore-files $(proofer_ignore_files)
 
 html-proof: install build
 	$(HTMLPROOFER) $(proofer_opts) _site
