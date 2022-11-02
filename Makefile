@@ -18,6 +18,8 @@ install: $(PROJECT_DEPS)
 update: $(PROJECT_DEPS)
 	$(BUNDLE) update
 
+git_hash=`git rev-parse --short HEAD`
+
 build: install
 	echo -n $(git_hash) > $(PWD)/_includes/version
 	JEKYLL_ENV=production $(JEKYLL) build
@@ -32,8 +34,6 @@ proofer_opts := --check-html --file-ignore $(proofer_ignore_files)
 
 html-proof: install build
 	$(HTMLPROOFER) $(proofer_opts) _site
-
-git_hash=`git rev-parse --short HEAD`
 
 clean:
 	rm -r _site
