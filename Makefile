@@ -34,10 +34,6 @@ html-proof: install build
 	$(HTMLPROOFER) $(proofer_opts) _site
 
 git_hash=`git rev-parse --short HEAD`
-sshopts := -o StrictHostKeyChecking=no -i ~/.ssh/mario_rsa
-
-deploy: update build
-	rsync --rsh="ssh $(sshopts)" -rP _site/ deploy@jrgnsn.net:/var/www/jrgnsn.net --delete
 
 clean:
 	rm -r _site
