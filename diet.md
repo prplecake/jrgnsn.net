@@ -21,8 +21,9 @@ With that said:
   derivatives of such;
 * I do not consume eggs.
 
-Most everything else is generally fine. I fully understand this can
-potentially make finding a location challenging.
+Most everything else is generally fine. If you are unsure, please ask.
+Make no assumptions. I am fully aware this can make finding a location
+challenging. [VeganMSP.com](https://veganmsp.com) might be some help.
 
 ---
 
