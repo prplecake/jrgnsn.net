@@ -45,6 +45,8 @@ I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
 ## Kitchen
+* Bread machine
+* Waffle iron
 
 ## Gaming Stuff
 * Pair of Joycons
