@@ -65,5 +65,6 @@ is welcome!
 ## Stuff for Home
 
 ## Tech Stuff
+* Arduino Uno Rev3
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
