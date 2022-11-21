@@ -45,6 +45,8 @@ I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
 ## Kitchen
+* Bread machine
+* Waffle iron
 
 ## Gaming Stuff
 * Pair of Joycons
@@ -59,12 +61,10 @@ is welcome!
   Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
 ## Pet Stuff
-* Cat tree
-* Larger scratching post (I have one that's about 18" tall and Flipper
-  throws it all over the place)
 
 ## Stuff for Home
 
 ## Tech Stuff
+* Arduino Uno Rev3
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
