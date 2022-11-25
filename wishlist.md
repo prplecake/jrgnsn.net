@@ -49,6 +49,7 @@ is welcome!
 * Waffle iron
 
 ## Gaming Stuff
+* Maybe something from my [Wishlist on Steam](https://store.steampowered.com/wishlist/id/prplecake)
 * Pair of Joycons
 
 ## Lego Sets
