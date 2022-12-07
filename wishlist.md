@@ -64,6 +64,9 @@ is welcome!
 * [LEGO Ideas International Space
   Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
+## Puzzles
+* [Critical Role: The Mighty Vibe Series](https://shop.critrole.com/products/critical-role-the-mighty-vibe-series-caduceus1000-piece-jigsaw-puzzle)
+
 ## Tech Stuff
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
