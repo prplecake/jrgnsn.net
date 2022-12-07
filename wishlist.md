@@ -38,9 +38,12 @@ by Laura Jane Grace
 * *White Fragility: Why It's So Hard For White People to Talk About
 Racism* by Robin DiAngelo
 
-## Camera Accessories
+## Electronics
+* Arduino Uno Rev3
+* DC Power Supply
+* Oscilloscope
 
-## Electronics [Kits]
+### [Kits]
 I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
@@ -61,11 +64,6 @@ is welcome!
 * [LEGO Ideas International Space
   Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
-## Pet Stuff
-
-## Stuff for Home
-
 ## Tech Stuff
-* Arduino Uno Rev3
 * A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
 cards
