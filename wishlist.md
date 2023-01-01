@@ -7,16 +7,10 @@ enableMenu: false
 
 Presented in nearly alphabetical order.
 
-## Board Games and Similar
-* [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
-
 ## Books
 * *A Piece of Cake: A Memoir* by Cupcake Brown
-* *Alice in Wonderland* by Lewis Carroll
-* *Artemis* by Andy Weir
 * *Black Skin, White Masks* by Frantz Fanon
 * ***Cuckoo's Egg* by Clifford Stoll**
-* ***Humble Pi* by Matt Parker**
 * *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 * *Lost at Sea* by Bryan Lee O'Malley
@@ -31,7 +25,6 @@ Williams
 Man-Made World* by Mark Miodownik
 * *The Dispossessed* by Ursula K. Le Guin
 * *The Field Guide to Understanding 'Human Error'* by Sidney Dekker
-* *The Martian* by Andy Weir
 * *The Three Body Problem* by Cixin Liu
 * *Tranny: Confessions of Punk Rock's Most Infamous Anarchist Sellout*
 by Laura Jane Grace
@@ -39,8 +32,6 @@ by Laura Jane Grace
 Racism* by Robin DiAngelo
 
 ## Electronics
-* Arduino Uno Rev3
-* DC Power Supply
 * Oscilloscope
 
 ### [Kits]
@@ -48,7 +39,6 @@ I haven't found anything specific, but anything you think I might enjoy
 is welcome!
 
 ## Kitchen
-* Bread machine
 * Waffle iron
 
 ## Gaming Stuff
