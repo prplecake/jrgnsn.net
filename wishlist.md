@@ -16,14 +16,11 @@ Presented in nearly alphabetical order.
 * *Lost at Sea* by Bryan Lee O'Malley
 * *Neil Patrick Harris: Choose Your Own Autobiography* by Neil Patrick
 Harris
-* *Our Enemies in Blue: Police and Power in America* by Kristian
-Williams
 * *Rolling Away: My Agony with Ecstasy* by Lynn Marie Smith
 * *Smashed: Story of a Drunken Girlhood* by Koren Zailckas
 * *Snow Crash* by Neal Stephenson
 * *Stuff Matters: Exploring the Marvelous Materials That Shape Our
 Man-Made World* by Mark Miodownik
-* *The Dispossessed* by Ursula K. Le Guin
 * *The Field Guide to Understanding 'Human Error'* by Sidney Dekker
 * *The Three Body Problem* by Cixin Liu
 * *Tranny: Confessions of Punk Rock's Most Infamous Anarchist Sellout*
@@ -33,10 +30,6 @@ Racism* by Robin DiAngelo
 
 ## Electronics
 * Oscilloscope
-
-### [Kits]
-I haven't found anything specific, but anything you think I might enjoy
-is welcome!
 
 ## Kitchen
 * Waffle iron
@@ -60,3 +53,6 @@ is welcome!
 ## Tech Stuff
 * A Thunderbolt 4 eGPU Enclosure capable of supporting Nvidia graphics
 cards
+* [Logitech
+  G915](https://www.logitechg.com/en-us/products/gaming-keyboards/g915-low-profile-wireless-mechanical-gaming-keyboard.html)
+  \- full layout, clicky switches
