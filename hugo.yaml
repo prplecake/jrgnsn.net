@@ -2,3 +2,6 @@ baseURL: ""
 disablePathToLower: true
 languageCode: en-us
 title: Matthew's Blog
+params:
+  author: Matthew Jorgensen
+enableGitInfo: true
