@@ -4,6 +4,12 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "update dependencies",
+      "type": "shell",
+      "command": "make update",
+      "problemMatcher": []
+    },
+    {
       "label": "make serve",
       "type": "shell",
       "command": "make serve",
