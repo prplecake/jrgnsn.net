@@ -1,5 +1,5 @@
 ---
-layout: post
+date: "2017-11-10T00:00:00Z"
 title: Welcome to My Blog!
 ---
 

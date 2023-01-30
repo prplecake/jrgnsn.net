@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Block Sponsored Posts on Nextdoor with Pi-hole
+date: "2018-05-12T00:00:00Z"
 tags:
-  - Pi-hole
-  - Nextdoor
+- Pi-hole
+- Nextdoor
+title: Block Sponsored Posts on Nextdoor with Pi-hole
 ---
 
 I occasionally use Nextdoor to list items for sale, or to see what's

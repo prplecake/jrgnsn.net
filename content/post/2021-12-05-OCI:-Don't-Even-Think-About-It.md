@@ -1,6 +1,6 @@
 ---
-title: "OCI: Don't Even Think About It"
-layout: post
+date: "2021-12-05T00:00:00Z"
+title: 'OCI: Don''t Even Think About It'
 ---
 
 Back when Oracle announced their cloud offering, Oracle Cloud

@@ -1,6 +1,6 @@
 ---
+date: "2021-12-09T00:00:00Z"
 title: ScanSnap Manager Evernote Edition
-layout: post
 ---
 
 Some unknown[^1] amount of time ago, Fujitsu stopped supporting the

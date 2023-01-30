@@ -1,8 +1,8 @@
 ---
-layout: post
-title: There Once Was a Sysadmin...
+date: "2019-05-07T00:00:00Z"
 tags:
-  - Stories
+- Stories
+title: There Once Was a Sysadmin...
 ---
 
 That sysadmin really enjoyed working on silly programs in his free time,

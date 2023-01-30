@@ -1,8 +1,8 @@
 ---
-title: Mitigating Pi-hole ISE 500 Error on the "Long term data - Query Log"
-layout: post
+date: "2020-06-07T00:00:00Z"
 tags:
-  - Pi-hole
+- Pi-hole
+title: Mitigating Pi-hole ISE 500 Error on the "Long term data - Query Log"
 ---
 
 When selecting a large date range on the long term data Query Log, say

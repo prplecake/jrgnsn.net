@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Blog Updates"
+date: "2019-08-03T00:00:00Z"
+title: Blog Updates
 ---
 
 The blog got some visual updates! Most of the content is now a single

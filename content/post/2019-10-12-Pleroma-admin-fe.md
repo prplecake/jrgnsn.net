@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Pleroma: admin-fe"
+date: "2019-10-12T00:00:00Z"
 tags:
-  - Pleroma
+- Pleroma
+title: 'Pleroma: admin-fe'
 ---
 
 I recently switched from Mastodon to Pleroma, for no real reason in

@@ -1,9 +1,8 @@
 ---
-layout: post
-title: "Request Tracker: Automatically Set Ticket Owner to Specific
-User"
+date: "2019-10-28T00:00:00Z"
 tags:
-  - Request Tracker
+- Request Tracker
+title: 'Request Tracker: Automatically Set Ticket Owner to Specific User'
 ---
 
 Request Tracker is an insanely powerful ticketing system. I started

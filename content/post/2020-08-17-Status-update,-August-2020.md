@@ -1,6 +1,6 @@
 ---
+date: "2020-08-17T00:00:00Z"
 title: Status update, August 2020
-layout: post
 ---
 
 August has been a month of revival. Six months of staying at home during

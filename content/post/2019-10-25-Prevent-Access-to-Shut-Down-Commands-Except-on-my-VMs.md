@@ -1,10 +1,9 @@
 ---
-layout: post
-title: "Remove and Prevent Access to Shut Down Commands Except on my
-VMs"
+date: "2019-10-25T00:00:00Z"
 tags:
-  - Windows Group Policy
-  - WMI Queries
+- Windows Group Policy
+- WMI Queries
+title: Remove and Prevent Access to Shut Down Commands Except on my VMs
 ---
 
 I would do anything in my power to prevent the accidental shutdown of a

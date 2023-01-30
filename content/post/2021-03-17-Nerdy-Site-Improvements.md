@@ -1,6 +1,6 @@
 ---
+date: "2021-03-17T00:00:00Z"
 title: Nerdy Site Improvements
-layout: post
 ---
 
 Let's skip right over how long it's been since I've written a blog post

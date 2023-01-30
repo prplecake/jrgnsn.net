@@ -1,9 +1,9 @@
 ---
-title: Black Lives Matter.
-layout: post
+date: "2020-06-25T00:00:00Z"
 tags:
-  - Black Lives Matter
-  - protests
+- Black Lives Matter
+- protests
+title: Black Lives Matter.
 ---
 
 <center><strong>Black Lives Matter. Say their names.<br /><br />All

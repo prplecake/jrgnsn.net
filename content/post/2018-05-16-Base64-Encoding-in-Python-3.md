@@ -1,9 +1,9 @@
 ---
-layout: post
+date: "2018-05-16T00:00:00Z"
+tags:
+- Python 3
+- Base64
 title: Base64 Encoding in Python 3
-tags: 
-  - Python 3
-  - Base64
 ---
 
 Recently I've been working on a backup script to back up a folder to a

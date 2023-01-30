@@ -1,11 +1,10 @@
 ---
-layout: post
-title: >-
-  Security Self-Defense, presented by the Electronic Frontier Foundation
+date: "2018-09-17T00:00:00Z"
 tags:
-  - Electronic Frontier Foundation
-  - Privacy
-  - Security
+- Electronic Frontier Foundation
+- Privacy
+- Security
+title: Security Self-Defense, presented by the Electronic Frontier Foundation
 ---
 
 For a while now, I've been aware of the [Electronic Frontier Foundation][eff]
