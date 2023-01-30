@@ -53,6 +53,3 @@ Racism* by Robin DiAngelo
 ## Tech Stuff
 * A Thunderbolt 4 eGPU Enclosure capable of supporting Nvidia graphics
 cards
-* [Logitech
-  G915](https://www.logitechg.com/en-us/products/gaming-keyboards/g915-low-profile-wireless-mechanical-gaming-keyboard.html)
-  \- full layout, clicky switches
