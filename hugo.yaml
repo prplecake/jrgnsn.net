@@ -4,4 +4,7 @@ languageCode: en-us
 title: Matthew's Blog
 params:
   author: Matthew Jorgensen
+  author_bio: |
+    I'm a systems administrator & engineer, front-end and back-end
+    developer, and an IT guru in St. Paul, MN. It’s nice to meet you.
 enableGitInfo: true

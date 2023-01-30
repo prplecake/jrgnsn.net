@@ -1,9 +1,10 @@
-
-    <p class="author-avatar"><img src="/avatar.png"
-    alt="{{ .Site.Params.author }} - author avatar" class="avatar" /></p>
-    <p class="author-greeting">
-      Hi there!
-    </p>
-    <p class="author-bio">
-      {%- include author_bio.md -%}
-    </p>
+<p class="author-avatar">
+    <img alt="{{ .Site.Params.author }} - author avatar"
+         class="avatar" src="/avatar.png"/>
+</p>
+<p class="author-greeting">
+    Hi there!
+</p>
+<p class="author-bio">
+    {{ .Site.Params.author_bio }}
+</p>
