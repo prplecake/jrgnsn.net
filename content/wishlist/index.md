@@ -1,7 +1,6 @@
 ---
-layout: bare_page
+type: "wishlist"
 title: Wishlist
-permalink: /wishlist/
 enableMenu: false
 ---
 
