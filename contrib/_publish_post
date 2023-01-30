@@ -23,9 +23,8 @@ done
 printf "Select a draft from the above list: "
 read -r opt
 
-if [[ "$opt" =~ ^[0-9]+$ ]] && (( (opt >= 0) && (opt < "${#drafts[@]}") ))
-then
-	continue
+if [[ "$opt" =~ ^[0-9]+$ ]] && (( (opt >= 0) && (opt < "${#drafts[@]}") )); then
+	true
 else
 	exit
 fi

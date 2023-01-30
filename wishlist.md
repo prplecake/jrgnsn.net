@@ -5,52 +5,37 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
-## Top of the List
-* Bookshelf
-* End tables
-
 Presented in nearly alphabetical order.
-
-## Board Games and Similar
-* [Tokaido](https://www.amazon.com/dp/B0757QD8FY)
 
 ## Books
 * *A Piece of Cake: A Memoir* by Cupcake Brown
-* *Alice in Wonderland* by Lewis Carroll
-* *Artemis* by Andy Weir
 * *Black Skin, White Masks* by Frantz Fanon
 * ***Cuckoo's Egg* by Clifford Stoll**
-* ***Humble Pi* by Matt Parker**
 * *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 * *Lost at Sea* by Bryan Lee O'Malley
 * *Neil Patrick Harris: Choose Your Own Autobiography* by Neil Patrick
 Harris
-* *Our Enemies in Blue: Police and Power in America* by Kristian
-Williams
 * *Rolling Away: My Agony with Ecstasy* by Lynn Marie Smith
 * *Smashed: Story of a Drunken Girlhood* by Koren Zailckas
 * *Snow Crash* by Neal Stephenson
 * *Stuff Matters: Exploring the Marvelous Materials That Shape Our
 Man-Made World* by Mark Miodownik
-* *The Dispossessed* by Ursula K. Le Guin
 * *The Field Guide to Understanding 'Human Error'* by Sidney Dekker
-* *The Martian* by Andy Weir
 * *The Three Body Problem* by Cixin Liu
 * *Tranny: Confessions of Punk Rock's Most Infamous Anarchist Sellout*
 by Laura Jane Grace
 * *White Fragility: Why It's So Hard For White People to Talk About
 Racism* by Robin DiAngelo
 
-## Camera Accessories
-
-## Electronics [Kits]
-I haven't found anything specific, but anything you think I might enjoy
-is welcome!
+## Electronics
+* Oscilloscope
 
 ## Kitchen
+* Waffle iron
 
 ## Gaming Stuff
+* Maybe something from my [Wishlist on Steam](https://store.steampowered.com/wishlist/id/prplecake)
 * Pair of Joycons
 
 ## Lego Sets
@@ -62,17 +47,9 @@ is welcome!
 * [LEGO Ideas International Space
   Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
 
-## Pet Stuff
-* Cat tree
-* Larger scratching post (I have one that's about 18" tall and Flipper
-  throws it all over the place)
-
-## Stuff for Home
+## Puzzles
+* [Critical Role: The Mighty Vibe Series](https://shop.critrole.com/products/critical-role-the-mighty-vibe-series-caduceus1000-piece-jigsaw-puzzle)
 
 ## Tech Stuff
-* A ThunderBolt 3 eGPU Enclosure capable of supporting Nvidia graphics
+* A Thunderbolt 4 eGPU Enclosure capable of supporting Nvidia graphics
 cards
-
-## Tools
-* Jump-starting battery pack
-* Short (10-15') air hose

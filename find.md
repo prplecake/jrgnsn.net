@@ -5,22 +5,6 @@ permalink: /find/
 enableMenu: false
 ---
 
-## Social Media and Other Networks
-
-* [Fediverse][f.z] (@matthew@freeradical.zone)
-* [Instagram][instagram]
-* [Strava][strava]
-* [Twitter][twitter]
-
-[f.z]:https://freeradical.zone/@prplecake
-[instagram]:https://www.instagram.com/matthewjorgensen/
-[twitter]:https://twitter.com/prplecake
-[strava]:https://www.strava.com/athletes/705724
-
-## IRC
-
-* mjorgensen on Libera.Chat
-
 ## Source Code
 
 * **[GitHub][github]**

@@ -17,9 +17,9 @@ do
 	esac
 done
 
-echo $(pwd)
+pwd
 echo $DATE
-read -p 'Enter a title: ' title
+read -r -p 'Enter a title: ' title
 titleSlug=${title// /-}
 if [ "$IS_DRAFT" == "1" ]
 then
