@@ -1,17 +1,16 @@
-# Ignore site build
-_site
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# Ignore caches
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# macOS...
-.DS_Store
+# Temporary lock file while building
+/.hugo_build.lock
 
-# Ignore version file
-_includes/version
-
-# Ignore environment normalization destinations
-.bundle/config
-vendor/bundle
+# Temporarily ignore vendor/
+vendor/
