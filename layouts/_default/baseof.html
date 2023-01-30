@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document Settings -->
+    <meta charset="utf-8" content="text/html" http-equiv="Content-Type"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+    <!-- Page Meta -->
+    <title>
+        {{ if .Title }}
+        {{ .Title }} - Matthew's Blog
+        {{ else }}
+        {{ .Site.Title }}
+        {{ end }}
+    </title>
+    <meta content="True" name="description="/>
+    <link href="/avatar.png" rel="icon" type="image/png"/>
+    <script data-site="CDJBDMGZ" defer src="https://adorable-typed.jrgnsn.net/script.js"></script>
+
+
+    <!-- Stylesheets -->
+    {{ $style := resources.Get "scss/style.scss" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+</head>
+
+<body>
+<div class="container">
+
+    {{ partial "page-header.html" . }}
+
+    {{ block "main" . }}
+    <ul>
+        {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+{{ block "footer" . }}
+    {{ partial "page-footer.html" . }}
+{{ end }}
+</div>
+</body>
+</html>
