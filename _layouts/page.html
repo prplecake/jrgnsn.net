@@ -19,11 +19,9 @@ layout: base
     <div class="page-tags hidden-xs">
       {% if page.tags.size >= 1 %}
         Tags:
-        {{ page.tags | join: ", "}}
         {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
-          {{ tag_name }}
+          <a href="/tags/{{ tag_name }}">{{ tag_name }}</a>
         {% endfor %}
       {% endif %}
     </div>

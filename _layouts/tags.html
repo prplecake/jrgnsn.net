@@ -1,0 +1,14 @@
+---
+layout: page
+title: Tags
+---
+
+<div class="media">
+	Articles tagged with {{page.tag-name}}
+
+	{% for post in site.posts %}
+	{% if post.tags contains page.tag-name %}
+	{% include post-stub.html post=post no_excerpt=true %}
+	{% endif %}
+	{% endfor %}
+</div>
