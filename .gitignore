@@ -13,5 +13,4 @@ _site
 _includes/version
 
 # Ignore environment normalization destinations
-.bundle/config
 vendor/bundle
