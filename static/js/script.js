@@ -11,6 +11,10 @@ window.addEventListener('load', () => {
       event: 'G529FERJ'
     },
     {
+      link: 'ext-link-mastodon',
+      event: 'KRQIBSVT'
+    },
+    {
       link: 'ext-link-email',
       event: 'UTDYEHZA'
     },
