@@ -5,6 +5,20 @@ permalink: /find/
 enableMenu: false
 ---
 
+## Social Media and Other Networks
+
+* [Fediverse][f.z][^1] (@prplecake@compostintraining.club)
+* [Strava][strava]
+
+[^1]: [Mastodon](https://joinmastodon.org/)
+
+[f.z]:https://compostintraining.club/@prplecake
+[strava]:https://www.strava.com/athletes/705724
+
+## IRC
+
+Usually `prplecake` on Libera.Chat, and many other IRC networks.
+
 ## Source Code
 
 * **[GitHub][github]**
