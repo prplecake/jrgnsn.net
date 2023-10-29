@@ -1,30 +1,24 @@
 /*jshint multistr: true */
 setInterval(function () {
 
-  const today = new Date().getTime();
+  const start = luxon.DateTime.fromMillis(chosenDate);
+  const end = luxon.DateTime.now();
 
-  const diff = today - chosenDate;
-
-  let months = Math.floor(diff / (1000 * 60 * 60 * 24 * 7 * 4));
-  let weeks = Math.floor((diff % (1000 * 60 * 60 * 24 * 7 * 4)) / (1000 * 60 * 60 * 24 * 7));
-  let days = Math.floor((diff % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  const diff = end.diff(start, ["months", "weeks", "days", "hours", "minutes", "seconds"]).toObject();
 
   document.getElementById("countup").innerHTML =
     "<div class=\"months\"> \
-			<div class=\"c-number\">" + months + "</div>months</div> \
+			<div class=\"c-number\">" + diff.months + "</div>months</div> \
 			<div class=\"weeks\"> \
-			<div class=\"c-number\">" + weeks + "</div>weeks</div> \
+			<div class=\"c-number\">" + diff.weeks + "</div>weeks</div> \
 			<div class=\"days\"> \
-			<div class=\"c-number\">" + days + "</div>days</div> \
+			<div class=\"c-number\">" + diff.days + "</div>days</div> \
 			<div class=\"hours\"> \
-			<div class=\"c-number\">" + hours + "</div>hours</div> \
+			<div class=\"c-number\">" + diff.hours + "</div>hours</div> \
 			<div class=\"minutes\"> \
-			<div class=\"c-number\">" + minutes + "</div>minutes</div> \
+			<div class=\"c-number\">" + diff.minutes + "</div>minutes</div> \
 			<div class=\"seconds\"> \
-			<div class=\"c-number\">" + seconds + "</div>seconds</div> \
+			<div class=\"c-number\">" + Math.floor(diff.seconds) + "</div>seconds</div> \
 			</div>";
 
 }, 1000);
