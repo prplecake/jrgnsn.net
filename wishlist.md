@@ -18,7 +18,6 @@ Presented in nearly alphabetical order.
 Harris
 * *Rolling Away: My Agony with Ecstasy* by Lynn Marie Smith
 * *Smashed: Story of a Drunken Girlhood* by Koren Zailckas
-* *Snow Crash* by Neal Stephenson
 * *Stuff Matters: Exploring the Marvelous Materials That Shape Our
 Man-Made World* by Mark Miodownik
 * *The Field Guide to Understanding 'Human Error'* by Sidney Dekker
@@ -30,13 +29,14 @@ Racism* by Robin DiAngelo
 
 ## Electronics
 * Oscilloscope
+* DC Bench Power Supply
+
+## Home Stuff
+* Bookends for bookshelves
 
 ## Kitchen
-* Waffle iron
-
-## Gaming Stuff
-* Maybe something from my [Wishlist on Steam](https://store.steampowered.com/wishlist/id/prplecake)
-* Pair of Joycons
+* Crock pot
+* Rice cooker
 
 ## Lego Sets
 *Model numbers in parenthesis*
@@ -49,7 +49,3 @@ Racism* by Robin DiAngelo
 
 ## Puzzles
 * [Critical Role: The Mighty Vibe Series](https://shop.critrole.com/products/critical-role-the-mighty-vibe-series-caduceus1000-piece-jigsaw-puzzle)
-
-## Tech Stuff
-* A Thunderbolt 4 eGPU Enclosure capable of supporting Nvidia graphics
-cards
