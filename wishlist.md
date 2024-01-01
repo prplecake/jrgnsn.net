@@ -9,7 +9,6 @@ Presented in nearly alphabetical order.
 
 ## Books
 * *A Piece of Cake: A Memoir* by Cupcake Brown
-* *Black Skin, White Masks* by Frantz Fanon
 * ***Cuckoo's Egg* by Clifford Stoll**
 * *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
@@ -18,10 +17,7 @@ Presented in nearly alphabetical order.
 Harris
 * *Rolling Away: My Agony with Ecstasy* by Lynn Marie Smith
 * *Smashed: Story of a Drunken Girlhood* by Koren Zailckas
-* *Stuff Matters: Exploring the Marvelous Materials That Shape Our
-Man-Made World* by Mark Miodownik
 * *The Field Guide to Understanding 'Human Error'* by Sidney Dekker
-* *The Three Body Problem* by Cixin Liu
 * *Tranny: Confessions of Punk Rock's Most Infamous Anarchist Sellout*
 by Laura Jane Grace
 * *White Fragility: Why It's So Hard For White People to Talk About
