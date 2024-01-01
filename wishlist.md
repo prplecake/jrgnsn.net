@@ -8,8 +8,6 @@ enableMenu: false
 Presented in nearly alphabetical order.
 
 ## Books
-* *A Piece of Cake: A Memoir* by Cupcake Brown
-* ***Cuckoo's Egg* by Clifford Stoll**
 * *Izzy Tristan* by Shannon Dunlap
 * [*Living with Complexity* by Donald Norman](https://mitpress.mit.edu/books/living-complexity)
 * *Lost at Sea* by Bryan Lee O'Malley
