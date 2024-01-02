@@ -22,21 +22,16 @@ by Laura Jane Grace
 Racism* by Robin DiAngelo
 
 ## Electronics
-* Oscilloscope
-* DC Bench Power Supply
 
 ## Home Stuff
-* Bookends for bookshelves
 
 ## Kitchen
 * Crock pot
-* Rice cooker
 
 ## Lego Sets
 *Model numbers in parenthesis*
 * [LEGO Architecture Seattle Space
   Needle](https://www.amazon.com/dp/B0025W1PMS) (21003)
-* [LEGO Creator Space Shuttle Explorer](https://www.amazon.com/dp/B0711MPYJN) (31066)
 * [LEGO Ideas Apollo Saturn V](https://www.amazon.com/dp/B071G3QMS2) (92176)
 * [LEGO Ideas International Space
   Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
