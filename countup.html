@@ -15,12 +15,13 @@ sitemap: false
 		defer></script>
 </head>
 <body>
-	<div class="main">
-		<div id="countup"></div>
-	</div> 
+	<div class="main"></div>
 
 	<script>
-		const chosenDate = new Date("2023-05-16").getTime();
+		const counters = [
+				new Date("2023-05-16").getTime(),
+				new Date("2024-01-24").getTime(),
+		];
 	</script>
 	<script src="/static/lib/js/luxon.min.js"></script>
 	<script src="/static/js/countup.js"></script>
