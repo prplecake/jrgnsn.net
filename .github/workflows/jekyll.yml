@@ -29,7 +29,7 @@ jobs:
           cache-version: 1 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Get version
         run: echo -n $(git rev-parse --short HEAD) > _includes/version
       - name: Build with Jekyll
