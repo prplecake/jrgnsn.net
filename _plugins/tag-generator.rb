@@ -11,12 +11,16 @@ def generate_tags_files(tags)
   tags.each do |tag|
     slug = tag.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
     # generate tag file
-    File.open("_tags/#{slug}.md", "wb") do |file|
-      file << "---\nlayout: tags\ntag-name: #{slug}\n---\n"
+    if !File.exist?("_tags/#{slug}.md")
+      File.open("_tags/#{slug}.md", "wb") do |file|
+        file << "---\nlayout: tags\ntag-name: #{slug}\n---\n"
+      end
     end
     # generate feed file
-    File.open("_feeds/#{slug}.xml", "wb") do |file|
-      file << "---\nlayout: feed\ntag-name: #{slug}\n---\n"
+    if !File.exist?("_feeds/#{slug}.xml")
+      File.open("_feeds/#{slug}.xml", "wb") do |file|
+        file << "---\nlayout: feed\ntag-name: #{slug}\n---\n"
+      end
     end
   end
 end
