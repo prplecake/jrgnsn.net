@@ -29,7 +29,7 @@ h1 sup {
     color: #FF3E41;
 }
 
-#countup {
+.counter {
     color: #F6F4F3;
     text-align: center;
     text-transform: uppercase;

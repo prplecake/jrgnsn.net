@@ -5,23 +5,25 @@ enableMenu: false
 sitemap: false
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<title>Countup</title>
 	<link rel="stylesheet" href="/static/css/countup.css" />
-	<script src="https://adorable-typed.jrgnsn.net/script.js" data-site="CDJBDMGZ" defer></script>
+	<script src="https://cdn.usefathom.com/script.js" data-site="JGSRHLLS" data-excluded-domains="localhost"
+		defer></script>
 </head>
 <body>
-	<div class="main">
-		<div id="countup"></div>
-	</div> 
+	<div class="main"></div>
 
 	<script>
-		const chosenDate = new Date("2023-01-30").getTime();
+		const counters = [
+				new Date("2023-05-16").getTime(),
+				new Date("2024-01-24").getTime(),
+		];
 	</script>
+	<script src="/static/lib/js/luxon.min.js"></script>
 	<script src="/static/js/countup.js"></script>
 
 </body>

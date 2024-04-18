@@ -13,18 +13,21 @@ check:
 	$(JEKYLL) doctor
 
 install: $(PROJECT_DEPS)
-	$(BUNDLE) install --path vendor/bundle
+	$(BUNDLE) config set --local path 'vendor/bundle'
+	$(BUNDLE) install
 
 update: $(PROJECT_DEPS)
 	$(BUNDLE) update
 
 git_hash=`git rev-parse --short HEAD`
 
-build: install
+update-version:
 	echo -n $(git_hash) > $(PWD)/_includes/version
+
+build: update-version install
 	JEKYLL_ENV=production $(JEKYLL) build
 
-serve: install
+serve: update-version install
 	JEKYLL_ENV=production $(JEKYLL) serve
 
 HASHMARK := \#

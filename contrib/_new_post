@@ -41,7 +41,10 @@ EOF
 
 if [ "$OPEN_EDITOR" == "1" ]
 then
-	echo "Would open editor"
-	exit
-	$EDITOR $p
+	if [ "$TERM_PROGRAM" == "vscode" ]
+	then
+		code $p
+	else
+		$EDITOR $p
+	fi
 fi
