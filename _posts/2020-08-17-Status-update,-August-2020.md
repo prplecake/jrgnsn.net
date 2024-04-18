@@ -1,8 +1,6 @@
 ---
 title: Status update, August 2020
 layout: post
-tags:
-  - status update
 ---
 
 August has been a month of revival. Six months of staying at home during

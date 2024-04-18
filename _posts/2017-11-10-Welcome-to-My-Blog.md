@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Welcome to My Blog!
-tags:
-  - meta
 ---
 
 I'm finally getting around to officiating my online presence. My plans

@@ -4,7 +4,6 @@ title: "Request Tracker: Automatically Set Ticket Owner to Specific
 User"
 tags:
   - Request Tracker
-  - perl
 ---
 
 Request Tracker is an insanely powerful ticketing system. I started

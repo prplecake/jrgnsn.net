@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Blog Updates"
-tags:
-  - meta
 ---
 
 The blog got some visual updates! Most of the content is now a single

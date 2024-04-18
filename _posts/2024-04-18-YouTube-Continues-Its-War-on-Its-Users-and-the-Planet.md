@@ -1,9 +1,6 @@
 ---
 title: YouTube Continues Its War on Its Users and the Planet
 layout: post
-tags:
-  - youtube
-  - apple tv
 ---
 
 Even though the YouTube app on my Apple TV hasn't been updated since December 7,

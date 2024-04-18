@@ -1,9 +1,6 @@
 ---
 title: Regetwitter Fail
 layout: post
-tags:
-  - twitter
-  - regex
 ---
 
 The website formerly known as Twitter recently made some changes in the way they

@@ -19,9 +19,7 @@ layout: base
     <div class="page-tags hidden-xs">
       {% if page.tags.size >= 1 %}
         Tags:
-        {% for tag in page.tags %}
-          <a href="/tags/{{ tag | slugify }}">{{ tag | slugify }}</a>
-        {% endfor %}
+        {{ page.tags | join: ", "}}
       {% endif %}
     </div>
   </div>

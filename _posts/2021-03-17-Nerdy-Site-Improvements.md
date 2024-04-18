@@ -1,8 +1,6 @@
 ---
 title: Nerdy Site Improvements
 layout: post
-tags:
-  - meta
 ---
 
 Let's skip right over how long it's been since I've written a blog post
