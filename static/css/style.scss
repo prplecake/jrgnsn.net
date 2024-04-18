@@ -354,6 +354,12 @@ h1 {
 	-moz-columns: 2;
 }
 
+.col-3 {
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+}
+
 dl > dt {
 	margin: 1em 0;
 }

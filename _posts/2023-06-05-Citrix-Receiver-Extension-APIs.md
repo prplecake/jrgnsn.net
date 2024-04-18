@@ -1,6 +1,8 @@
 ---
 title: Citrix Receiver Extension APIs
 layout: post
+tags:
+  - citrix
 ---
 
 This document lists CSS and Javascript extension points for Citrix Receiver.
