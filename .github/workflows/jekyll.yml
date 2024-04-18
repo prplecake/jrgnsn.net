@@ -30,6 +30,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - run: tree -I "vendor/"
       - name: Get version
         run: echo -n $(git rev-parse --short HEAD) > _includes/version
       - name: Build with Jekyll
