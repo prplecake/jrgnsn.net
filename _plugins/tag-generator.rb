@@ -4,18 +4,19 @@ Jekyll::Hooks.register :posts, :post_write do |post|
                          .compact.map { |m| m[1] }
 
   tags = post['tags'].reject { |t| t.empty? }
-  tags.each do |tag|
-    generate_tag_file(tag) if !all_existing_tags.include?(tag)
-  end
+  generate_tags_files(tags)
 end
 
-def generate_tag_file(tag)
-  # generate tag file
-  File.open("_tags/#{tag}.md", "wb") do |file|
-    file << "---\nlayout: tags\ntag-name: #{tag}\n---\n"
-  end
-  # generate feed file
-  File.open("_feeds/#{tag}.xml", "wb") do |file|
-    file << "---\nlayout: feed\ntag-name: #{tag}\n---\n"
+def generate_tags_files(tags)
+  tags.each do |tag|
+    slug = tag.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+    # generate tag file
+    File.open("_tags/#{slug}.md", "wb") do |file|
+      file << "---\nlayout: tags\ntag-name: #{slug}\n---\n"
+    end
+    # generate feed file
+    File.open("_feeds/#{slug}.xml", "wb") do |file|
+      file << "---\nlayout: feed\ntag-name: #{slug}\n---\n"
+    end
   end
 end
