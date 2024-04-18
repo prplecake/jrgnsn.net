@@ -42,6 +42,7 @@ jobs:
       - run: |
           cd _tags
           find . -type f -exec cat {} \;
+      - run: cat _config.yml
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
