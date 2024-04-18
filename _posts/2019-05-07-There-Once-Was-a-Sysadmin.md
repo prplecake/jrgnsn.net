@@ -3,6 +3,7 @@ layout: post
 title: There Once Was a Sysadmin...
 tags:
   - Stories
+  - Sysadmin
 ---
 
 That sysadmin really enjoyed working on silly programs in his free time,
