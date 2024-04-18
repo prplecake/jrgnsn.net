@@ -39,9 +39,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - run: tree -I "vendor/"
-      - run: |
-          cd _tags
-          find . -type f -exec cat {} \;
+      - run: gem query
       - run: cat _config.yml
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
