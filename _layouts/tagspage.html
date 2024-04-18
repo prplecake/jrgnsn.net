@@ -12,6 +12,6 @@ title: All Tags
 	{% endfor %}
 	{% assign tags_array = posttags | uniq | sort_natural %}
 	{% for tag in tags_array %}
-	<a href="{{tag | slugify}}">{{tag}}</a><br/>
+	<a href="{{tag | slugify}}">{{tag | downcase }}</a><br/>
 	{% endfor %}
 </div>
