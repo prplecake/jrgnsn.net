@@ -26,18 +26,17 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 1 # Increment this number if you need to re-download cached gems
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+          cache-version: 2 # Increment this number if you need to re-download cached gems
+      # - name: Setup Pages
+      #   id: pages
+      #   uses: actions/configure-pages@v5
       - run: tree -I "vendor/"
       - name: Get version
         run: echo -n $(git rev-parse --short HEAD) > _includes/version
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build -V --trace --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
       - run: tree -I "vendor/"
       - run: gem query
       - run: cat _config.yml
