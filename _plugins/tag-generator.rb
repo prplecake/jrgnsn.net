@@ -10,6 +10,7 @@ end
 
 def generate_tags_files(tags)
   tags.each do |tag|
+    puts "Generating tags for #{tag}"
     slug = tag.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
     # generate tag file
     File.open("_tags/#{slug}.md", "wb") do |file|
