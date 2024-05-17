@@ -27,6 +27,9 @@ update-version:
 build: update-version install
 	JEKYLL_ENV=production $(JEKYLL) build
 
+debug-build: update-version install
+	JEKYLL_ENV=production $(JEKYLL) build -V
+
 serve: update-version install
 	JEKYLL_ENV=production $(JEKYLL) serve
 
