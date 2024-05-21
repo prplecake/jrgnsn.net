@@ -1,3 +1,9 @@
+# Ignore to-be-generated tags and tag feeds
+/_tags
+/_feeds
+!/_tags/.keep
+!/_feeds/.keep
+
 # Ignore site build
 _site
 
