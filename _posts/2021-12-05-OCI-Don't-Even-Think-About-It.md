@@ -1,6 +1,10 @@
 ---
 title: "OCI: Don't Even Think About It"
 layout: post
+tags:
+  - oci
+  - oracle cloud infrastructure
+  - oracle
 ---
 
 Back when Oracle announced their cloud offering, Oracle Cloud
