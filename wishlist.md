@@ -26,7 +26,7 @@ Racism* by Robin DiAngelo
 ## Home Stuff
 
 ## Kitchen
-* Crock pot
+* Chest freezer
 
 ## Lego Sets
 *Model numbers in parenthesis*
