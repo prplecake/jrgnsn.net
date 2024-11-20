@@ -28,3 +28,9 @@ collections:
   recipes:
     output: true
     permalink: "/recipe/:name:output_ext"
+  tags:
+    output: true
+    permalink: "/tags/:name:output_ext"
+  feeds:
+    output: true
+    permalink: "/feeds/:name:output_ext"

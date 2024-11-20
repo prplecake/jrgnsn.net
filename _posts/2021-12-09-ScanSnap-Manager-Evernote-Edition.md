@@ -1,6 +1,9 @@
 ---
 title: ScanSnap Manager Evernote Edition
 layout: post
+tags:
+  - scansnap
+  - evernote
 ---
 
 Some unknown[^1] amount of time ago, Fujitsu stopped supporting the
