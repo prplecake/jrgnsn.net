@@ -23,6 +23,9 @@ Racism* by Robin DiAngelo
 
 ## Electronics
 
+## Flipper
+* $1,500 for dental work
+
 ## Home Stuff
 
 ## Kitchen
