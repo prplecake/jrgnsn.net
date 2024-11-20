@@ -5,7 +5,7 @@ permalink: /wishlist/
 enableMenu: false
 ---
 
-Presented in nearly alphabetical order.
+Presented in nearly alphabetical order. Order does not indicate preference. 
 
 ## Books
 * *Izzy Tristan* by Shannon Dunlap
