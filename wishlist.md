@@ -21,6 +21,9 @@ by Laura Jane Grace
 * *White Fragility: Why It's So Hard For White People to Talk About
 Racism* by Robin DiAngelo
 
+## Car Stuff
+* BlueDriver Pro OBD2 Bluetooth Car Diagnostic Scan Tool and Code Reader
+
 ## Electronics
 
 ## Home Stuff
