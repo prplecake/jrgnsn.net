@@ -41,14 +41,22 @@ the socket gets closed.
 
 [According to the WebKit JS
 docs](https://developer.apple.com/documentation/webkitjs/websocket/1632860-close),
-the `code` and `reason` are optional. However, if you omit them, the socket's
-`onerror` event will always fire. You'd also see an error in the console:
-"WebSocket connection to 'wss://example.com' failed: The network connection was
-lost.
+the `code` and `reason` are optional.
+
+```c++
+void close(
+    optional unsigned short code, 
+    optional DOMString reason
+);
+```
+
+However, if you omit them, the socket's `onerror` event will always fire. You'd
+also see an error in the console: "WebSocket connection to 'wss://example.com'
+failed: The network connection was lost.
 
 ![Safari WebSocket Error](/content/2024-12-16/safari_websocket_error.jpeg)
 
 Updating the `_ws.close();` lines to `_ws.close(1000, "test successful");` would
-resolve the issue.
+resolve the issue. Note the `reason` parameter is actually optional.
 
 ![Safari WebSocket Success](/content/2024-12-16/safari_websocket_success.jpeg)
