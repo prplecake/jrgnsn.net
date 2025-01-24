@@ -25,7 +25,7 @@ public class SeedData
         Tag testTag2 = new() { Name = "Test Tag 2", Slug = "test-tag-2" };
         Tag testTag3 = new() { Name = "Test Tag 3", Slug = "test-tag-3" };
         context.Posts.AddRange(
-            new()
+            new Post
             {
                 Id = 1,
                 Title = "First Post",
@@ -34,7 +34,7 @@ public class SeedData
                 Content = "This is the first post on the blog. It's a test post to see how things work.",
                 Tags = [testTag1, testTag2]
             },
-            new()
+            new Post
             {
                 Id = 2,
                 Title = "Second Post",

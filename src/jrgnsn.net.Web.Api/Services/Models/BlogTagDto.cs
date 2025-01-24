@@ -6,8 +6,7 @@ public class BlogTagDto
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    public string Slug { get; set; }
-    [JsonIgnore]
-    public ICollection<PostDto>? Posts { get; set; }
     public int PostCount => Posts?.Count ?? 0;
+    [JsonIgnore] public ICollection<PostDto>? Posts { get; set; }
+    public string Slug { get; set; }
 }

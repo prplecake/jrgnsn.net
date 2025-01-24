@@ -1,5 +1,6 @@
 using jrgnsn.net.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
+
 namespace jrgnsn.net.Web.Api.Extensions;
 
 public static class ServiceCollectionExtensions

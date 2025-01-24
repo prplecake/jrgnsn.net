@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
-using ILogger = Serilog.ILogger;
 
 namespace jrgnsn.net.Web.Api;
 
@@ -70,7 +69,7 @@ public class Program
             logConfig.MinimumLevel.Verbose();
         Log.Logger = logConfig.CreateLogger();
 
-        ILogger? logger = Log.ForContext<Program>();
+        var logger = Log.ForContext<Program>();
         try
         {
             using var scope = app.Services.CreateScope();

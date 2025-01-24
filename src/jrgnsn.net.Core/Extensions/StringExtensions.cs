@@ -8,7 +8,7 @@ public static class StringExtensions
     public static string ToUrlSlug(this string input)
     {
         Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-        var value = input.ToLowerInvariant().Trim();
+        string value = input.ToLowerInvariant().Trim();
 
         // Remove accents
         byte[] bytes = Encoding.GetEncoding("ISO-8859-8").GetBytes(value);
