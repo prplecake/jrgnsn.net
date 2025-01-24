@@ -1,0 +1,20 @@
+﻿@page "/"
+@using jrgnsn.net.Web.Client.Components.Features
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      @foreach (var post in Posts)
+      {
+        <BlogPostPreview Post=@post/>
+        <hr/>
+      }
+    </div>
+  </div>
+</div>

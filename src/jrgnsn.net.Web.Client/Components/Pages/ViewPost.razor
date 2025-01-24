@@ -1,0 +1,43 @@
+@page "/{year}/{month}/{day}/{slug}"
+@using jrgnsn.net.Core.Entities
+<h3>ViewPost</h3>
+
+@code {
+  [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
+  [Parameter] public string year { get; set; }
+  [Parameter] public string month { get; set; }
+  [Parameter] public string day { get; set; }
+  [Parameter] public string slug { get; set; }
+  private BlogPost Post { get; set; } = new();
+  protected override async Task OnInitializedAsync()
+  {
+    await LoadBlogPost();
+  }
+  private async Task LoadBlogPost()
+  {
+    var httpClient = _httpClientFactory.CreateClient("ApiClient");
+    Post = await httpClient.GetFromJsonAsync<BlogPost>($"api/v1/blog/posts/{year}/{month}/{day}/{slug}");
+    StateHasChanged();
+  }
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-heading">
+        <h1>@Post.Title</h1>
+        <span class="meta">Posted on @Post.PublishDate.ToShortDateString()</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>@Post.Content</p>
+      </div>
+    </div>
+  </div>
+</article>

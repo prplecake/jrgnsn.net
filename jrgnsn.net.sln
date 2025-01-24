@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCB2F217-A1A6-45A6-8916-327F45A0E384}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODEOWNERS = .github\CODEOWNERS
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\FUNDING.yml = .github\FUNDING.yml
+		LICENSE = LICENSE
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jrgnsn.net.Web.Client", "src\jrgnsn.net.Web.Client\jrgnsn.net.Web.Client.csproj", "{2A0769D0-4B75-44D4-AA62-6450B8639C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jrgnsn.net.Core", "src\jrgnsn.net.Core\jrgnsn.net.Core.csproj", "{1ED0EA5B-DFCD-45D8-968D-61353179A473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jrgnsn.net.Web.Api", "src\jrgnsn.net.Web.Api\jrgnsn.net.Web.Api.csproj", "{741DC0E6-FFF9-47A1-82D3-D18EFDD5882E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jrgnsn.net.Infrastructure", "src\jrgnsn.net.Infrastructure\jrgnsn.net.Infrastructure.csproj", "{EF2EADFF-672C-4739-8B56-EEDE267250B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58276872-76A7-41A6-B867-36AFE0C90F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A0769D0-4B75-44D4-AA62-6450B8639C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0769D0-4B75-44D4-AA62-6450B8639C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0769D0-4B75-44D4-AA62-6450B8639C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0769D0-4B75-44D4-AA62-6450B8639C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED0EA5B-DFCD-45D8-968D-61353179A473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED0EA5B-DFCD-45D8-968D-61353179A473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED0EA5B-DFCD-45D8-968D-61353179A473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED0EA5B-DFCD-45D8-968D-61353179A473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741DC0E6-FFF9-47A1-82D3-D18EFDD5882E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741DC0E6-FFF9-47A1-82D3-D18EFDD5882E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741DC0E6-FFF9-47A1-82D3-D18EFDD5882E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741DC0E6-FFF9-47A1-82D3-D18EFDD5882E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2EADFF-672C-4739-8B56-EEDE267250B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2EADFF-672C-4739-8B56-EEDE267250B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2EADFF-672C-4739-8B56-EEDE267250B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2EADFF-672C-4739-8B56-EEDE267250B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1ED0EA5B-DFCD-45D8-968D-61353179A473} = {58276872-76A7-41A6-B867-36AFE0C90F01}
+		{EF2EADFF-672C-4739-8B56-EEDE267250B9} = {58276872-76A7-41A6-B867-36AFE0C90F01}
+		{741DC0E6-FFF9-47A1-82D3-D18EFDD5882E} = {58276872-76A7-41A6-B867-36AFE0C90F01}
+		{2A0769D0-4B75-44D4-AA62-6450B8639C83} = {58276872-76A7-41A6-B867-36AFE0C90F01}
+	EndGlobalSection
+EndGlobal

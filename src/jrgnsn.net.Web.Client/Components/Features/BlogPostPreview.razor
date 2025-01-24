@@ -1,0 +1,19 @@
+@using jrgnsn.net.Core.Entities
+
+@code {
+  [Parameter] public required BlogPost Post { get; set; }
+}
+
+<div class="post-preview">
+  <NavLink href="@(Post.GetPermalink())">
+  <h2 class="post-title">
+    @Post.Title
+  </h2>
+  <h3 class="post-subtite">
+    @Post.Summary
+  </h3>
+  </NavLink>
+  <p class="post-meta">
+    Posted on @Post.PublishDate
+  </p>
+</div>
