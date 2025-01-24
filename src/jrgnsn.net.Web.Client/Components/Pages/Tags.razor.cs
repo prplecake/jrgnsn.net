@@ -3,17 +3,17 @@ using Microsoft.AspNetCore.Components;
 
 namespace jrgnsn.net.Web.Client.Components.Pages;
 
-public partial class Home
+public partial class Tags
 {
-    private readonly string blogPostsUrl = "api/v1/blog/posts";
+    private readonly string blogTagsUrl = "api/v1/blog/tags";
     [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
-    protected List<Post>? Posts { get; set; } = new();
+    protected List<Tag>? TagList { get; set; }
     protected override async Task OnInitializedAsync()
     {
         try
         {
             Loading = true;
-            await LoadBlogPosts();
+            await LoadBlogTags();
         }
         finally
         {
@@ -21,10 +21,10 @@ public partial class Home
         }
     }
     public bool Loading { get; set; }
-    private async Task LoadBlogPosts()
+    private async Task LoadBlogTags()
     {
         var httpClient = _httpClientFactory.CreateClient("ApiClient");
-        var response = await httpClient.GetFromJsonAsync<List<Post>>(blogPostsUrl);
-        Posts = response?.OrderByDescending(p => p.PublishDate).ToList();
+        var response = await httpClient.GetFromJsonAsync<List<Tag>>(blogTagsUrl);
+        TagList = response.ToList();
     }
 }

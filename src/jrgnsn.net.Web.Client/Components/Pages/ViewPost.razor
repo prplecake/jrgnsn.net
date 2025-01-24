@@ -1,5 +1,5 @@
 @page "/{year}/{month}/{day}/{slug}"
-@using jrgnsn.net.Core.Entities
+@using jrgnsn.net.Web.Client.Models
 <h3>ViewPost</h3>
 
 @code {
@@ -8,7 +8,7 @@
   [Parameter] public string month { get; set; }
   [Parameter] public string day { get; set; }
   [Parameter] public string slug { get; set; }
-  private Post Post { get; set; } = new();
+  private Post? Post { get; set; }
   protected override async Task OnInitializedAsync()
   {
     await LoadBlogPost();
@@ -25,8 +25,22 @@
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
       <div class="post-heading">
-        <h1>@Post.Title</h1>
-        <span class="meta">Posted on @Post.PublishDate.ToShortDateString()</span>
+        <h1>@Post?.Title</h1>
+        <span class="meta">
+          Posted on @Post?.PublishDate.ToShortDateString().
+          @if (Post?.Tags != null && Post.Tags.Any())
+          {
+            <span>Tags: </span>
+            @foreach (var tag in Post.Tags)
+            {
+              <a href="/tags/@tag.Slug">@tag.Name</a>
+              @if (tag != Post.Tags.Last())
+              {
+                <span>, </span>
+              }
+            }
+          }
+        </span>
       </div>
     </div>
   </div>
@@ -36,7 +50,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>@Post.Content</p>
+        <p>@Post?.Content</p>
       </div>
     </div>
   </div>

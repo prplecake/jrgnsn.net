@@ -1,19 +1,31 @@
-@using jrgnsn.net.Core.Entities
-
+@using jrgnsn.net.Web.Client.Models
+@using jrgnsn.net.Web.Client.Utils
 @code {
   [Parameter] public required Post Post { get; set; }
 }
 
 <div class="post-preview">
-  <NavLink href="@(Post.GetPermalink())">
-  <h2 class="post-title">
-    @Post.Title
-  </h2>
-  <h3 class="post-subtite">
-    @Post.Summary
-  </h3>
+  <NavLink href="@(UrlUtils.GetPermalink(Post))">
+    <h2 class="post-title">
+      @Post.Title
+    </h2>
   </NavLink>
+  <p class="post-excerpt">
+    @Post.Summary
+  </p>
   <p class="post-meta">
-    Posted on @Post.PublishDate
+    Posted on @Post.PublishDate.
+    @if (Post.Tags != null && Post.Tags.Any())
+    {
+      <span>Tags: </span>
+      @foreach (var tag in Post.Tags)
+      {
+        <a href="/tags/@tag.Slug">@tag.Name</a>
+        @if (tag != Post.Tags.Last())
+        {
+          <span>, </span>
+        }
+      }
+    }
   </p>
 </div>

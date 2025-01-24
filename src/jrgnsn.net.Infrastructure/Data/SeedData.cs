@@ -1,3 +1,5 @@
+using jrgnsn.net.Core.Entities;
+using jrgnsn.net.Core.Extensions;
 using jrgnsn.net.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -19,22 +21,27 @@ public class SeedData
         if (context.Posts.Any())
             return; // Data already seeded
         Logger.Information("Seeding data");
+        Tag testTag1 = new() { Name = "Test Tag 1", Slug = "test-tag-1" };
+        Tag testTag2 = new() { Name = "Test Tag 2", Slug = "test-tag-2" };
+        Tag testTag3 = new() { Name = "Test Tag 3", Slug = "test-tag-3" };
         context.Posts.AddRange(
             new()
             {
                 Id = 1,
                 Title = "First Post",
-                Author = "John Doe",
+                Slug = "First Post".ToUrlSlug(),
                 PublishDate = DateTime.Parse("2021-01-01"),
-                Content = "This is the first post on the blog. It's a test post to see how things work."
+                Content = "This is the first post on the blog. It's a test post to see how things work.",
+                Tags = [testTag1, testTag2]
             },
             new()
             {
                 Id = 2,
                 Title = "Second Post",
-                Author = "Jane Doe",
+                Slug = "Second Post".ToUrlSlug(),
                 PublishDate = DateTime.Parse("2021-02-01"),
-                Content = "This is the second post on the blog. It's a test post to see how things work."
+                Content = "This is the second post on the blog. It's a test post to see how things work.",
+                Tags = [testTag2, testTag3]
             }
         );
         context.SaveChanges();

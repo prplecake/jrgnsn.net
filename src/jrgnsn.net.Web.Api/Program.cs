@@ -1,6 +1,9 @@
 using jrgnsn.net.Infrastructure.Context;
 using jrgnsn.net.Infrastructure.Data;
 using jrgnsn.net.Web.Api.Extensions;
+using jrgnsn.net.Web.Api.Mapper;
+using jrgnsn.net.Web.Api.Services;
+using jrgnsn.net.Web.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +21,10 @@ public class Program
         // Add services to the container.
 
         builder.Services.ConfigureDatabase(builder.Configuration);
+
+        builder.Services.AddAutoMapper(typeof(SiteProfile));
+        builder.Services.AddScoped<IPostService, PostService>();
+        builder.Services.AddScoped<IBlogTagService, BlogTagService>();
 
         builder.Services.AddControllers();
         builder.Services.AddApiVersioning(opt =>
