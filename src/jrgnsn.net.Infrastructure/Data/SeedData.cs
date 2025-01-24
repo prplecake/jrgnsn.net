@@ -14,12 +14,12 @@ public class SeedData
         using var context = new BlogDbContext(
             serviceProvider.GetRequiredService<DbContextOptions<BlogDbContext>>(), configuration);
 
-        if (context is null || context.BlogPosts is null)
+        if (context is null || context.Posts is null)
             throw new NullReferenceException("BlogDbContext or BlogPosts DbSet is null");
-        if (context.BlogPosts.Any())
+        if (context.Posts.Any())
             return; // Data already seeded
         Logger.Information("Seeding data");
-        context.BlogPosts.AddRange(
+        context.Posts.AddRange(
             new()
             {
                 Id = 1,

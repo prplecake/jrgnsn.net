@@ -18,7 +18,7 @@ public class BlogController : Controller
     [HttpGet("Posts")]
     public async Task<IActionResult> GetPosts()
     {
-        var posts = await _context.BlogPosts.ToListAsync();
+        var posts = await _context.Posts.ToListAsync();
         return Ok(posts);
     }
     [HttpGet("Posts/{year:int}/{month:int}/{day:int}/{slug}")]
@@ -29,7 +29,7 @@ public class BlogController : Controller
         if (slug.EndsWith(".html"))
             slug = slug.Substring(0, slug.Length - 5);
 
-        var post = _context.BlogPosts.FirstOrDefault(p =>
+        var post = _context.Posts.FirstOrDefault(p =>
             p.PublishDate.Year == year
             && p.PublishDate.Month == month
             && p.PublishDate.Day == day);

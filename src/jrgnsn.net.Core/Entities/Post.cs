@@ -1,6 +1,6 @@
 namespace jrgnsn.net.Core.Entities;
 
-public class BlogPost
+public class Post
 {
     public int Id { get; set; }
     public string Title { get; set; }

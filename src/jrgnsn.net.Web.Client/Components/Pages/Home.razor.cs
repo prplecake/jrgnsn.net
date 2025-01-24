@@ -7,7 +7,7 @@ public partial class Home
 {
     private readonly string blogPostsUrl = "api/v1/blog/posts";
     [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
-    protected List<BlogPost> Posts { get; set; } = new();
+    protected List<Post> Posts { get; set; } = new();
     protected override async Task OnInitializedAsync()
     {
         await LoadBlogPosts();
@@ -15,7 +15,7 @@ public partial class Home
     private async Task LoadBlogPosts()
     {
         var httpClient = _httpClientFactory.CreateClient("ApiClient");
-        var response = await httpClient.GetFromJsonAsync<List<BlogPost>>(blogPostsUrl);
+        var response = await httpClient.GetFromJsonAsync<List<Post>>(blogPostsUrl);
         Posts = response.OrderByDescending(p => p.PublishDate).ToList();
     }
 }

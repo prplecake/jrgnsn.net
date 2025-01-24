@@ -8,7 +8,7 @@
   [Parameter] public string month { get; set; }
   [Parameter] public string day { get; set; }
   [Parameter] public string slug { get; set; }
-  private BlogPost Post { get; set; } = new();
+  private Post Post { get; set; } = new();
   protected override async Task OnInitializedAsync()
   {
     await LoadBlogPost();
@@ -16,7 +16,7 @@
   private async Task LoadBlogPost()
   {
     var httpClient = _httpClientFactory.CreateClient("ApiClient");
-    Post = await httpClient.GetFromJsonAsync<BlogPost>($"api/v1/blog/posts/{year}/{month}/{day}/{slug}");
+    Post = await httpClient.GetFromJsonAsync<Post>($"api/v1/blog/posts/{year}/{month}/{day}/{slug}");
     StateHasChanged();
   }
 }
