@@ -1,8 +1,3 @@
-using jrgnsn.net.Core.Entities;
-using jrgnsn.net.Core.Extensions;
-using jrgnsn.net.Infrastructure.Context;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 

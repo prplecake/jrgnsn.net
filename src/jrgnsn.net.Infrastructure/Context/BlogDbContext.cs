@@ -1,7 +1,3 @@
-using jrgnsn.net.Core.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-
 namespace jrgnsn.net.Infrastructure.Context;
 
 public class BlogDbContext : DbContext

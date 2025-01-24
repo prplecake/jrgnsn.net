@@ -1,12 +1,8 @@
-using jrgnsn.net.Infrastructure.Context;
 using jrgnsn.net.Infrastructure.Data;
 using jrgnsn.net.Web.Api.Extensions;
 using jrgnsn.net.Web.Api.Mapper;
 using jrgnsn.net.Web.Api.Services;
-using jrgnsn.net.Web.Api.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
-using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 namespace jrgnsn.net.Web.Api;

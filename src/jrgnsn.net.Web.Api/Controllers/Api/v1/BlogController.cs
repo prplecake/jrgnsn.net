@@ -1,6 +1,3 @@
-using jrgnsn.net.Web.Api.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-
 namespace jrgnsn.net.Web.Api.Controllers.Api.v1;
 
 [ApiController]
