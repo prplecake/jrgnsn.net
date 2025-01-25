@@ -2,6 +2,7 @@
 @using jrgnsn.net.Web.Client.Utils
 @code {
   [Parameter] public required Post Post { get; set; }
+  [Inject] MarkdownParser _markdownParser { get; set; }
 }
 
 <div class="post-preview">
@@ -11,7 +12,7 @@
     </h2>
   </NavLink>
   <p class="post-excerpt">
-    @Post.Summary
+    @_markdownParser.ToHtml(Post.Summary)
   </p>
   <p class="post-meta">
     Posted on @Post.PublishDate.

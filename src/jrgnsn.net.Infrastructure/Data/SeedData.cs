@@ -26,7 +26,7 @@ public class SeedData
                 Title = "First Post",
                 Slug = "First Post".ToUrlSlug(),
                 PublishDate = DateTime.Parse("2021-01-01"),
-                Content = "This is the first post on the blog. It's a test post to see how things work.",
+                Content = "This is the first post on **the blog.** It's a *test post* to see how things work.",
                 Tags = [testTag1, testTag2]
             },
             new Post

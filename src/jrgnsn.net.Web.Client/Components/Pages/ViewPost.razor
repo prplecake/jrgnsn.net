@@ -4,6 +4,7 @@
 
 @code {
   [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
+  [Inject] private MarkdownParser _markdownParser { get; set; }
   [Parameter] public string year { get; set; }
   [Parameter] public string month { get; set; }
   [Parameter] public string day { get; set; }
@@ -50,7 +51,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>@Post?.Content</p>
+        <p>@_markdownParser.ToHtml(Post?.Content)</p>
       </div>
     </div>
   </div>

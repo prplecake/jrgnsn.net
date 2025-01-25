@@ -1,3 +1,4 @@
+using jrgnsn.net.Web.Client;
 using jrgnsn.net.Web.Client.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddHttpClient("ApiClient", client => { client.BaseAddress = new Uri("http://localhost:5080/"); });
+builder.Services.AddSingleton<MarkdownParser>();
 
 var app = builder.Build();
 
