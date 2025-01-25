@@ -1,0 +1,22 @@
+﻿@page "/travel"
+@using jrgnsn.net.Web.Client.Components.Features
+
+<PageTitle>Trip Log</PageTitle>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      @if (Loading)
+      {
+        <p>Loading...</p>
+      }
+      else
+      {
+        foreach (var trip in Trips)
+        {
+          <TripPreview Trip=@trip/>
+        }
+      }
+    </div>
+  </div>
+</div>

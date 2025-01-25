@@ -1,0 +1,24 @@
+@using jrgnsn.net.Core.Entities
+@using jrgnsn.net.Web.Client.Utils
+
+@code {
+  [Parameter] public TravelLog? Trip { get; set; }
+}
+
+<div class="trip-title">
+  <h2>
+    <span class="date hidden-xs">
+      @Trip?.StartDate.ToDateString()
+    </span>
+    <span class="title">
+      @if (string.IsNullOrEmpty(Trip?.Content))
+      {
+        @Trip?.Destination
+      }
+      else
+      {
+        <a href="@(UrlUtils.GetPermalink(Trip))">@Trip?.Destination</a>
+      }
+    </span>
+  </h2>
+</div>

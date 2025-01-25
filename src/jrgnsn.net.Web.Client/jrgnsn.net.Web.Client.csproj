@@ -10,4 +10,8 @@
     <PackageReference Include="Markdig" Version="0.40.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\jrgnsn.net.Core\jrgnsn.net.Core.csproj" />
+  </ItemGroup>
+
 </Project>

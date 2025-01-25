@@ -1,0 +1,49 @@
+@page "/travel/{*pageRoute}"
+@using System.Text.RegularExpressions
+@using jrgnsn.net.Core.Entities
+<h3>View Trip</h3>
+
+@code {
+  [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
+  [Inject] private MarkdownParser _markdownParser { get; set; }
+  [Parameter] public string pageRoute { get; set; }
+  private TravelLog? Trip { get; set; }
+  protected override async Task OnInitializedAsync()
+  {
+    await LoadTrip();
+  }
+  private async Task LoadTrip()
+  {
+    var match = Regex.Match(pageRoute, @"(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<slug>.+)");
+    var year = match.Groups["year"].Value;
+    var month = match.Groups["month"].Value;
+    var day = match.Groups["day"].Value;
+    var slug = match.Groups["slug"].Value;
+    var httpClient = _httpClientFactory.CreateClient("ApiClient");
+    Trip = await httpClient.GetFromJsonAsync<TravelLog>($"api/v1/travellog/trips/{year}/{month}/{day}/{slug}");
+    StateHasChanged();
+  }
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-heading">
+        <h1>@Trip?.Destination</h1>
+        <span class="meta">
+          From @Trip?.StartDate.ToShortDateString() to @Trip?.EndDate.ToShortDateString().
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>@_markdownParser.ToHtml(Trip?.Content)</p>
+      </div>
+    </div>
+  </div>
+</article>
