@@ -9,7 +9,7 @@ public class PostService : IPostService
         _context = context;
         _mapper = mapper;
     }
-    public async Task<PostDto?> GetPostByDateAndSlug(int year, int month, int day, string slug)
+    public async Task<PostWithTagsDto?> GetPostByDateAndSlug(int year, int month, int day, string slug)
     {
         if (slug.EndsWith(".html"))
             slug = slug.Substring(0, slug.Length - 5);
@@ -24,13 +24,13 @@ public class PostService : IPostService
             return null;
         if (post.Slug != slug)
             return null;
-        return _mapper.Map<PostDto>(post);
+        return _mapper.Map<PostWithTagsDto>(post);
     }
-    public async Task<ICollection<PostDto>> GetPosts()
+    public async Task<ICollection<PostWithTagsDto>> GetPosts()
     {
         var posts = await _context.Posts
             .Include(p => p.Tags)
             .ToListAsync();
-        return _mapper.Map<List<PostDto>>(posts);
+        return _mapper.Map<List<PostWithTagsDto>>(posts);
     }
 }

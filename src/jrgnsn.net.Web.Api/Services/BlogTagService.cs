@@ -9,12 +9,12 @@ public class BlogTagService : IBlogTagService
         _context = context;
         _mapper = mapper;
     }
-    public async Task<BlogTagDto?> GetTagBySlug(string slug)
+    public async Task<BlogTagWithPostsDto?> GetTagBySlug(string slug)
     {
         var tag = await _context.Tags
             .Include(t => t.Posts)
             .FirstOrDefaultAsync(t => t.Slug == slug);
-        return tag is null ? null : _mapper.Map<BlogTagDto>(tag);
+        return tag is null ? null : _mapper.Map<BlogTagWithPostsDto>(tag);
     }
     public async Task<ICollection<BlogTagDto>?> GetTags()
     {

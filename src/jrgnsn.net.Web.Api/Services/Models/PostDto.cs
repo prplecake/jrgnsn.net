@@ -18,7 +18,6 @@ public class PostDto
             return Content;
         }
     }
-    public List<TagDto>? Tags { get; set; }
     public string Title { get; set; }
     public string GetPermalink()
     {
@@ -27,6 +26,11 @@ public class PostDto
         string day = PublishDate.Day.ToString().PadLeft(2, '0');
         return $"/{year}/{month}/{day}/{Slug}";
     }
+}
+
+public class PostWithTagsDto : PostDto
+{
+    public List<TagDto>? Tags { get; set; }
     public class TagDto
     {
         public string Name { get; set; }
