@@ -1,5 +1,6 @@
 @page "/{year}/{month}/{day}/{slug}"
 @using jrgnsn.net.Web.Client.Models
+@using jrgnsn.net.Web.Client.Utils
 <h3>ViewPost</h3>
 
 @code {
@@ -28,7 +29,7 @@
       <div class="post-heading">
         <h1>@Post?.Title</h1>
         <span class="meta">
-          Posted on @Post?.PublishDate.ToShortDateString().
+          Posted on @Post?.PublishDate.ToDateString().
           @if (Post?.Tags != null && Post.Tags.Any())
           {
             <span>Tags: </span>

@@ -15,7 +15,7 @@
     @_markdownParser.ToHtml(Post.Summary)
   </p>
   <p class="post-meta">
-    Posted on @Post.PublishDate.
+    Posted on @Post.PublishDate.ToDateString().
     @if (Post.Tags != null && Post.Tags.Any())
     {
       <span>Tags: </span>
