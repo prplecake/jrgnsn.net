@@ -2,7 +2,7 @@ using jrgnsn.net.Web.Client.Models;
 
 namespace jrgnsn.net.Web.Client.Tests.Data;
 
-public static partial class TestData
+public static class TestData
 {
     public static Post TestPost = new()
     {

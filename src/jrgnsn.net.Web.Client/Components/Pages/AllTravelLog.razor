@@ -10,6 +10,10 @@
       {
         <p>Loading...</p>
       }
+      else if (Trips is null)
+      {
+        <p>Failed to load trips.</p>
+      }
       else
       {
         foreach (var trip in Trips)

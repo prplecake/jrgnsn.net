@@ -26,7 +26,7 @@ public class PostService : IPostService
             return null;
         return _mapper.Map<PostWithTagsDto>(post);
     }
-    public async Task<ICollection<PostWithTagsDto>> GetPosts()
+    public async Task<ICollection<PostWithTagsDto>?> GetPosts()
     {
         var posts = await _context.Posts
             .Include(p => p.Tags)

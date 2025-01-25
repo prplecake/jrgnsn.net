@@ -14,6 +14,10 @@ Welcome to your new app.
       {
         <p>Loading...</p>
       }
+      else if (Posts is null)
+      {
+        <p>Failed to load posts.</p>
+      }
       else
       {
         foreach (var post in Posts)

@@ -1,5 +1,3 @@
-using System.Text.Json.Serialization;
-
 namespace jrgnsn.net.Web.Api.Services.Models;
 
 public class BlogTagWithPostsDto : BlogTagDto

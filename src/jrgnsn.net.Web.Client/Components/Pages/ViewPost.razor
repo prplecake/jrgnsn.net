@@ -4,12 +4,12 @@
 <h3>ViewPost</h3>
 
 @code {
-  [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
-  [Inject] private MarkdownParser _markdownParser { get; set; }
-  [Parameter] public string year { get; set; }
-  [Parameter] public string month { get; set; }
-  [Parameter] public string day { get; set; }
-  [Parameter] public string slug { get; set; }
+  [Inject] private IHttpClientFactory? HttpClientFactory { get; set; }
+  [Inject] private MarkdownParser? MarkdownParser { get; set; }
+  [Parameter] public required string Year { get; set; }
+  [Parameter] public required string Month { get; set; }
+  [Parameter] public required string Day { get; set; }
+  [Parameter] public required string Slug { get; set; }
   private Post? Post { get; set; }
   protected override async Task OnInitializedAsync()
   {
@@ -17,8 +17,8 @@
   }
   private async Task LoadBlogPost()
   {
-    var httpClient = _httpClientFactory.CreateClient("ApiClient");
-    Post = await httpClient.GetFromJsonAsync<Post>($"api/v1/blog/posts/{year}/{month}/{day}/{slug}");
+    var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new InvalidOperationException("Missing HTTP client factory.");
+    Post = await httpClient.GetFromJsonAsync<Post>($"api/v1/blog/posts/{Year}/{Month}/{Day}/{Slug}");
     StateHasChanged();
   }
 }
@@ -52,7 +52,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>@_markdownParser.ToHtml(Post?.Content)</p>
+        <p>@MarkdownParser?.ToHtml(Post?.Content)</p>
       </div>
     </div>
   </div>

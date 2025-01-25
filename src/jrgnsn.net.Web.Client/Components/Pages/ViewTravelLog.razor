@@ -4,9 +4,9 @@
 <h3>View Trip</h3>
 
 @code {
-  [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
-  [Inject] private MarkdownParser _markdownParser { get; set; }
-  [Parameter] public string pageRoute { get; set; }
+  [Inject] private IHttpClientFactory? HttpClientFactory { get; set; }
+  [Inject] private MarkdownParser? MarkdownParser { get; set; }
+  [Parameter] public required string PageRoute { get; set; }
   private TravelLog? Trip { get; set; }
   protected override async Task OnInitializedAsync()
   {
@@ -14,12 +14,12 @@
   }
   private async Task LoadTrip()
   {
-    var match = Regex.Match(pageRoute, @"(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<slug>.+)");
+    var match = Regex.Match(PageRoute, @"(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<slug>.+)");
     var year = match.Groups["year"].Value;
     var month = match.Groups["month"].Value;
     var day = match.Groups["day"].Value;
     var slug = match.Groups["slug"].Value;
-    var httpClient = _httpClientFactory.CreateClient("ApiClient");
+    var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new InvalidOperationException("Missing HTTP client factory.");
     Trip = await httpClient.GetFromJsonAsync<TravelLog>($"api/v1/travellog/trips/{year}/{month}/{day}/{slug}");
     StateHasChanged();
   }
@@ -42,7 +42,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>@_markdownParser.ToHtml(Trip?.Content)</p>
+        <p>@MarkdownParser?.ToHtml(Trip?.Content)</p>
       </div>
     </div>
   </div>

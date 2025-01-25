@@ -4,9 +4,8 @@
 <h3>ViewTag</h3>
 
 @code {
-  [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
-  [Inject] private MarkdownParser _markdownParser { get; set; }
-  [Parameter] public string slug { get; set; }
+  [Inject] private IHttpClientFactory? HttpClientFactory { get; set; }
+  [Parameter] public required string Slug { get; set; }
   private TagWithPosts? Tag { get; set; }
   protected override async Task OnInitializedAsync()
   {
@@ -14,8 +13,8 @@
   }
   private async Task LoadBlogPost()
   {
-    var httpClient = _httpClientFactory.CreateClient("ApiClient");
-    Tag = await httpClient.GetFromJsonAsync<TagWithPosts>($"api/v1/blog/tags/{slug}");
+    var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new InvalidOperationException("Missing HTTP client factory.");
+    Tag = await httpClient.GetFromJsonAsync<TagWithPosts>($"api/v1/blog/tags/{Slug}");
     StateHasChanged();
   }
 }

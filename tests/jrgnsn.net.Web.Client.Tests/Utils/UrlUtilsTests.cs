@@ -29,6 +29,6 @@ public class UrlUtilsTests
     public void GetPermalink_Throws_NotImplementedException()
     {
         // Act
-        var result = UrlUtils.GetPermalink(new object());
+        UrlUtils.GetPermalink(new object());
     }
 }

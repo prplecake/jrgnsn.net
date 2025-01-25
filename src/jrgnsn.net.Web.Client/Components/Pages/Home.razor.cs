@@ -6,12 +6,12 @@ namespace jrgnsn.net.Web.Client.Components.Pages;
 public partial class Home
 {
     private readonly string blogPostsUrl = "api/v1/blog/posts";
-    [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
+    [Inject] private IHttpClientFactory? HttpClientFactory { get; set; }
     public bool Loading { get; set; }
     protected List<Post>? Posts { get; set; } = new();
     private async Task LoadBlogPosts()
     {
-        var httpClient = _httpClientFactory.CreateClient("ApiClient");
+        var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new Exception("Could not create HttpClient");
         var response = await httpClient.GetFromJsonAsync<List<Post>>(blogPostsUrl);
         Posts = response?.OrderByDescending(p => p.PublishDate).ToList();
     }

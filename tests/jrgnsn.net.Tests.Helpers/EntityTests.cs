@@ -29,16 +29,17 @@ public static class EntityTests
     }
     public static T SetProperties<T>(T domainObject, bool recursive = false)
     {
-        var props = domainObject.GetType().GetProperties();
+        var props = domainObject?.GetType().GetProperties()
+            ?? throw new ArgumentNullException(nameof(domainObject));
 
         foreach (var prop in props)
         {
             var propType = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
             try
             {
-                object propObj = null;
+                object? propObj = null;
 
-                object data;
+                object? data;
                 switch (propType.Name.ToLower())
                 {
                     case "string":
@@ -68,7 +69,8 @@ public static class EntityTests
                         }
                         else if (propType.IsArray)
                         {
-                            var elementType = propType.GetElementType();
+                            var elementType = propType.GetElementType()
+                                ?? throw new InvalidOperationException("Array type must have an element type.");
                             propObj = Array.CreateInstance(elementType, 1);
                         }
                         else
