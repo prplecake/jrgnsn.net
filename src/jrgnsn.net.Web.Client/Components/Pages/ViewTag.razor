@@ -1,0 +1,51 @@
+@page "/tags/{slug}"
+@using jrgnsn.net.Web.Client.Models
+@using jrgnsn.net.Web.Client.Utils
+<h3>ViewTag</h3>
+
+@code {
+  [Inject] private IHttpClientFactory _httpClientFactory { get; set; }
+  [Inject] private MarkdownParser _markdownParser { get; set; }
+  [Parameter] public string slug { get; set; }
+  private TagWithPosts? Tag { get; set; }
+  protected override async Task OnInitializedAsync()
+  {
+    await LoadBlogPost();
+  }
+  private async Task LoadBlogPost()
+  {
+    var httpClient = _httpClientFactory.CreateClient("ApiClient");
+    Tag = await httpClient.GetFromJsonAsync<TagWithPosts>($"api/v1/blog/tags/{slug}");
+    StateHasChanged();
+  }
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-heading">
+        <h1>@Tag?.Name</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+          @if (Tag?.Posts is not null && Tag.Posts.Any())
+          {
+            <ul>
+              @foreach (var post in Tag.Posts)
+              {
+                <li>
+                  <span>@post.PublishDate</span> - <a href="@UrlUtils.GetPermalink(post)">@post.Title</a>
+                </li>
+              }
+            </ul>
+          }
+      </div>
+    </div>
+  </div>
+</article>
