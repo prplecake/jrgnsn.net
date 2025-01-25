@@ -10,8 +10,8 @@ public class TravelLogController : Controller
     {
         _travelLogService = travelLogService;
     }
-    [HttpGet("TravelLogs/{year:int}/{month:int}/{day:int}/{slug}")]
-    public async Task<IActionResult> GetPostByDateAndSlug(int year, int month, int day, string slug)
+    [HttpGet("Trips/{year:int}/{month:int}/{day:int}/{slug}")]
+    public async Task<IActionResult> GetTripByDateAndSlug(int year, int month, int day, string slug)
     {
         Console.WriteLine($"GetPostByDateAndSlug: {year}/{month}/{day}/{slug}");
 
@@ -23,8 +23,8 @@ public class TravelLogController : Controller
             return NotFound();
         return Ok(post);
     }
-    [HttpGet("TravelLogs")]
-    public async Task<IActionResult> GetPosts()
+    [HttpGet("Trips")]
+    public async Task<IActionResult> GetTrips()
     {
         var posts = await _travelLogService.GetTravelLogs();
         return Ok(posts);
