@@ -40,5 +40,27 @@ public class SeedData
             }
         );
         context.SaveChanges();
+        Logger.Information("Seeding Travel Log...");
+        context.TravelLogs.AddRange(
+            new TravelLog
+            {
+                Id = 1,
+                Destination = "Denver, CO",
+                Slug = "denver-co",
+                StartDate = DateOnly.Parse("2021-01-01"),
+                EndDate = DateOnly.Parse("2021-01-03"),
+                Content = "This is the first travel log on the blog. It's a test post to see how things work."
+            },
+            new TravelLog
+            {
+                Id = 2,
+                Destination = "Tampa, FL",
+                Slug = "tampa-fl",
+                StartDate = DateOnly.Parse("2021-02-01"),
+                EndDate = DateOnly.Parse("2021-02-03"),
+                Content = "This is the second travel log on the blog. It's a test post to see how things work."
+            }
+        );
+        context.SaveChanges();
     }
 }

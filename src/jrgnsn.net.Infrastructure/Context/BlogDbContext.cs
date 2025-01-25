@@ -9,6 +9,7 @@ public class BlogDbContext : DbContext
     }
     public DbSet<Post> Posts { get; set; }
     public DbSet<Tag> Tags { get; set; }
+    public DbSet<TravelLog> TravelLogs { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // using SQLite

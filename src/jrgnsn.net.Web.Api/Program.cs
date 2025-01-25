@@ -20,6 +20,7 @@ public class Program
         builder.Services.AddAutoMapper(typeof(SiteProfile));
         builder.Services.AddScoped<IPostService, PostService>();
         builder.Services.AddScoped<IBlogTagService, BlogTagService>();
+        builder.Services.AddScoped<ITravelLogService, TravelLogService>();
 
         builder.Services.AddControllers();
         builder.Services.AddApiVersioning(opt =>
