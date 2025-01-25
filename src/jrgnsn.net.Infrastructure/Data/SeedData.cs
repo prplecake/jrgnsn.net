@@ -3,14 +3,19 @@ using Serilog;
 
 namespace jrgnsn.net.Infrastructure.Data;
 
-public class SeedData
+public static class SeedData
 {
-    private static readonly ILogger Logger = Log.ForContext<SeedData>();
+    private static readonly ILogger Logger = Log.ForContext(typeof(SeedData));
     public static void Initialize(IServiceProvider serviceProvider, IConfiguration configuration)
     {
         using var context = new BlogDbContext(
             serviceProvider.GetRequiredService<DbContextOptions<BlogDbContext>>(), configuration);
 
+        context.SeedPosts();
+        context.SeedTravelLog();
+    }
+    private static void SeedPosts(this BlogDbContext context)
+    {
         if (context is null || context.Posts is null)
             throw new NullReferenceException("BlogDbContext or BlogPosts DbSet is null");
         if (context.Posts.Any())
@@ -40,6 +45,13 @@ public class SeedData
             }
         );
         context.SaveChanges();
+    }
+    private static void SeedTravelLog(this BlogDbContext context)
+    {
+        if (context is null || context.TravelLogs is null)
+            throw new NullReferenceException("BlogDbContext or TravelLogs DbSet is null");
+        if (context.TravelLogs.Any())
+            return; // Data already seeded
         Logger.Information("Seeding Travel Log...");
         context.TravelLogs.AddRange(
             new TravelLog
