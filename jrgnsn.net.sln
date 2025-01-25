@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCB2F217-A1A6-45A6-8916-327F45A0E384}"
 	ProjectSection(SolutionItems) = preProject
 		.github\CODEOWNERS = .github\CODEOWNERS
-		.github\dependabot.yml = .github\dependabot.yml
-		.github\FUNDING.yml = .github\FUNDING.yml
 		LICENSE = LICENSE
 		.gitignore = .gitignore
 	EndProjectSection
@@ -26,6 +24,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jrgnsn.net.Tests.Helpers", "tests\jrgnsn.net.Tests.Helpers\jrgnsn.net.Tests.Helpers.csproj", "{6BCAA5EC-B5C5-4E00-8621-277CF39525B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jrgnsn.net.Web.Client.Tests", "tests\jrgnsn.net.Web.Client.Tests\jrgnsn.net.Web.Client.Tests.csproj", "{CA7F7EBE-245C-46B6-A882-F961403F7031}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI Workflows", "CI Workflows", "{062433DF-418F-4326-96B4-799C472E42FF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\FUNDING.yml = .github\FUNDING.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,5 +74,6 @@ Global
 		{01A0C4AC-76AA-4D9A-A6C0-CDA6D8559493} = {B433F00A-ED2B-41B0-87EC-4AF7ADE21C45}
 		{6BCAA5EC-B5C5-4E00-8621-277CF39525B0} = {B433F00A-ED2B-41B0-87EC-4AF7ADE21C45}
 		{CA7F7EBE-245C-46B6-A882-F961403F7031} = {B433F00A-ED2B-41B0-87EC-4AF7ADE21C45}
+		{062433DF-418F-4326-96B4-799C472E42FF} = {FCB2F217-A1A6-45A6-8916-327F45A0E384}
 	EndGlobalSection
 EndGlobal
