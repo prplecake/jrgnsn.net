@@ -1,0 +1,59 @@
+@page "/{year}/{month}/{day}/{slug}"
+@using jrgnsn.net.Web.Client.Models
+@using jrgnsn.net.Web.Client.Utils
+<h3>ViewPost</h3>
+
+@code {
+  [Inject] private IHttpClientFactory? HttpClientFactory { get; set; }
+  [Inject] private MarkdownParser? MarkdownParser { get; set; }
+  [Parameter] public required string Year { get; set; }
+  [Parameter] public required string Month { get; set; }
+  [Parameter] public required string Day { get; set; }
+  [Parameter] public required string Slug { get; set; }
+  private Post? Post { get; set; }
+  protected override async Task OnInitializedAsync()
+  {
+    await LoadBlogPost();
+  }
+  private async Task LoadBlogPost()
+  {
+    var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new InvalidOperationException("Missing HTTP client factory.");
+    Post = await httpClient.GetFromJsonAsync<Post>($"api/v1/blog/posts/{Year}/{Month}/{Day}/{Slug}");
+    StateHasChanged();
+  }
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-heading">
+        <h1>@Post?.Title</h1>
+        <span class="meta">
+          Posted on @Post?.PublishDate.ToDateString().
+          @if (Post?.Tags != null && Post.Tags.Any())
+          {
+            <span>Tags: </span>
+            @foreach (var tag in Post.Tags)
+            {
+              <a href="/tags/@tag.Slug">@tag.Name</a>
+              @if (tag != Post.Tags.Last())
+              {
+                <span>, </span>
+              }
+            }
+          }
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>@MarkdownParser?.ToHtml(Post?.Content)</p>
+      </div>
+    </div>
+  </div>
+</article>

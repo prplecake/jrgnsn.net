@@ -1,0 +1,32 @@
+@using jrgnsn.net.Web.Client.Models
+@using jrgnsn.net.Web.Client.Utils
+@code {
+  [Parameter] public required Post Post { get; set; }
+  [Inject] MarkdownParser? MarkdownParser { get; set; }
+}
+
+<div class="post-preview">
+  <NavLink href="@(UrlUtils.GetPermalink(Post))">
+    <h2 class="post-title">
+      @Post.Title
+    </h2>
+  </NavLink>
+  <p class="post-excerpt">
+    @MarkdownParser?.ToHtml(Post.Summary)
+  </p>
+  <p class="post-meta">
+    Posted on @Post.PublishDate.ToDateString().
+    @if (Post.Tags != null && Post.Tags.Any())
+    {
+      <span>Tags: </span>
+      @foreach (var tag in Post.Tags)
+      {
+        <a href="/tags/@tag.Slug">@tag.Name</a>
+        @if (tag != Post.Tags.Last())
+        {
+          <span>, </span>
+        }
+      }
+    }
+  </p>
+</div>
