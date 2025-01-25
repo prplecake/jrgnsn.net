@@ -17,7 +17,7 @@ public class MarkdownParserTests
     public void ToHtml_Simple(string input, string expected)
     {
         // Act
-        var htmlString = _parser.ToHtml(input)?.Value.Trim();
+        string? htmlString = _parser.ToHtml(input)?.Value.Trim();
 
         // Assert
         Assert.AreEqual(expected, htmlString);

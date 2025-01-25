@@ -33,17 +33,17 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-          @if (Tag?.Posts is not null && Tag.Posts.Any())
-          {
-            <ul>
-              @foreach (var post in Tag.Posts)
-              {
-                <li>
-                  <span>@post.PublishDate</span> - <a href="@UrlUtils.GetPermalink(post)">@post.Title</a>
-                </li>
-              }
-            </ul>
-          }
+        @if (Tag?.Posts is not null && Tag.Posts.Any())
+        {
+          <ul>
+            @foreach (var post in Tag.Posts)
+            {
+              <li>
+                <span>@post.PublishDate</span> - <a href="@UrlUtils.GetPermalink(post)">@post.Title</a>
+              </li>
+            }
+          </ul>
+        }
       </div>
     </div>
   </div>

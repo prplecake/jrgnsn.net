@@ -26,7 +26,6 @@ public class PostDto
         return $"/{year}/{month}/{day}/{Slug}";
     }
 }
-
 public class PostWithTagsDto : PostDto
 {
     public List<TagDto>? Tags { get; set; }

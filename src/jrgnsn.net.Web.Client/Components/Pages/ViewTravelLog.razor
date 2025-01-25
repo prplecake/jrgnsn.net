@@ -15,10 +15,10 @@
   private async Task LoadTrip()
   {
     var match = Regex.Match(PageRoute, @"(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<slug>.+)");
-    var year = match.Groups["year"].Value;
-    var month = match.Groups["month"].Value;
-    var day = match.Groups["day"].Value;
-    var slug = match.Groups["slug"].Value;
+    string year = match.Groups["year"].Value;
+    string month = match.Groups["month"].Value;
+    string day = match.Groups["day"].Value;
+    string slug = match.Groups["slug"].Value;
     var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new InvalidOperationException("Missing HTTP client factory.");
     Trip = await httpClient.GetFromJsonAsync<TravelLog>($"api/v1/travellog/trips/{year}/{month}/{day}/{slug}");
     StateHasChanged();

@@ -30,7 +30,7 @@ public static class EntityTests
     public static T SetProperties<T>(T domainObject, bool recursive = false)
     {
         var props = domainObject?.GetType().GetProperties()
-            ?? throw new ArgumentNullException(nameof(domainObject));
+                    ?? throw new ArgumentNullException(nameof(domainObject));
 
         foreach (var prop in props)
         {
@@ -70,7 +70,7 @@ public static class EntityTests
                         else if (propType.IsArray)
                         {
                             var elementType = propType.GetElementType()
-                                ?? throw new InvalidOperationException("Array type must have an element type.");
+                                              ?? throw new InvalidOperationException("Array type must have an element type.");
                             propObj = Array.CreateInstance(elementType, 1);
                         }
                         else
@@ -98,7 +98,7 @@ public static class EntityTests
             }
             catch (Exception ex)
             {
-                var msg = string.Format(
+                string msg = string.Format(
                     "Error creating instance of {0} because: {1}",
                     propType.Name, ex.Message);
                 Assert.IsNotNull(prop.GetValue(domainObject), msg);

@@ -12,7 +12,7 @@ public class DateUtilsTests
         var date = DateOnly.FromDateTime(DateTime.Now);
 
         // Act
-        var dateString = date.ToDateString();
+        string dateString = date.ToDateString();
 
         // Assert
         Assert.AreEqual(DateTime.Now.ToString("yyyy-MM-dd"), dateString);
@@ -24,7 +24,7 @@ public class DateUtilsTests
         var date = DateTime.Now;
 
         // Act
-        var dateString = date.ToDateString();
+        string dateString = date.ToDateString();
 
         // Assert
         Assert.AreEqual(DateTime.Now.ToString("yyyy-MM-dd"), dateString);

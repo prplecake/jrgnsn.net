@@ -2,7 +2,7 @@ namespace jrgnsn.net.Core.Tests.Data;
 
 partial class TestData
 {
-    public static readonly Post TestPost = new Post()
+    public static readonly Post TestPost = new()
     {
         Content = "Test Content",
         Id = 1,

@@ -7,10 +7,17 @@ namespace jrgnsn.net.Web.Client.Tests.Utils;
 public class UrlUtilsTests
 {
     [TestMethod]
+    [ExpectedException(typeof(NotImplementedException))]
+    public void GetPermalink_Throws_NotImplementedException()
+    {
+        // Act
+        UrlUtils.GetPermalink(new object());
+    }
+    [TestMethod]
     public void Post_GetPermalink()
     {
         // Act
-        var result = UrlUtils.GetPermalink(TestData.TestPost);
+        string result = UrlUtils.GetPermalink(TestData.TestPost);
 
         // Assert
         Assert.AreEqual("/2021/01/01/test-post", result);
@@ -19,16 +26,9 @@ public class UrlUtilsTests
     public void TravelLog_GetPermalink()
     {
         // Act
-        var result = UrlUtils.GetPermalink(Core.Tests.Data.TestData.TestTravelLog);
+        string result = UrlUtils.GetPermalink(Core.Tests.Data.TestData.TestTravelLog);
 
         // Assert
         Assert.AreEqual("/travel/2017-11-01-chicago-il", result);
-    }
-    [TestMethod]
-    [ExpectedException(typeof(NotImplementedException))]
-    public void GetPermalink_Throws_NotImplementedException()
-    {
-        // Act
-        UrlUtils.GetPermalink(new object());
     }
 }
