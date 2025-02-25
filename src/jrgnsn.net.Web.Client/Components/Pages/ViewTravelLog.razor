@@ -1,0 +1,49 @@
+@page "/travel/{*pageRoute}"
+@using System.Text.RegularExpressions
+@using jrgnsn.net.Core.Entities
+<h3>View Trip</h3>
+
+@code {
+  [Inject] private IHttpClientFactory? HttpClientFactory { get; set; }
+  [Inject] private MarkdownParser? MarkdownParser { get; set; }
+  [Parameter] public required string PageRoute { get; set; }
+  private TravelLog? Trip { get; set; }
+  protected override async Task OnInitializedAsync()
+  {
+    await LoadTrip();
+  }
+  private async Task LoadTrip()
+  {
+    var match = Regex.Match(PageRoute, @"(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})-(?<slug>.+)");
+    string year = match.Groups["year"].Value;
+    string month = match.Groups["month"].Value;
+    string day = match.Groups["day"].Value;
+    string slug = match.Groups["slug"].Value;
+    var httpClient = HttpClientFactory?.CreateClient("ApiClient") ?? throw new InvalidOperationException("Missing HTTP client factory.");
+    Trip = await httpClient.GetFromJsonAsync<TravelLog>($"api/v1/travellog/trips/{year}/{month}/{day}/{slug}");
+    StateHasChanged();
+  }
+}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-heading">
+        <h1>@Trip?.Destination</h1>
+        <span class="meta">
+          From @Trip?.StartDate.ToShortDateString() to @Trip?.EndDate.ToShortDateString().
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>@MarkdownParser?.ToHtml(Trip?.Content)</p>
+      </div>
+    </div>
+  </div>
+</article>
