@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+  {{- $avatarImgSrc := .Site.Params.AvatarURL -}}
+  {{- if and (isset .Site.Params "avatarurl") (not (hasPrefix $avatarImgSrc "http")) -}}
+    {{- $avatarImgSrc = (urls.JoinPath $.Site.BaseURL ($.Site.Params.AvatarURL | default "")) -}}
+  {{- end -}}
+  {{- .Scratch.Set "avatarImgSrc" $avatarImgSrc -}}
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+<div class="container">
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ if not (or (eq .Type "bare_page") (eq .Path "/"))}}
+  {{ partial "recent-posts.html" }}
+  {{ end }}
+  {{ if not (eq .Type "bare_page") }}
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  {{ end }}
+</div>
+</body>
+</html>

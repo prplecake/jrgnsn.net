@@ -1,0 +1,13 @@
+<div class="author-bio">
+	<p class="author-avatar">
+		{{ $avatarAltText := default "author avatar" .Site.Params.AvatarAltText }}
+		<img src="{{ .Scratch.Get "avatarImgSrc" }}"
+		alt="{{ $avatarAltText }}" class="avatar" />
+	</p>
+	<p class="author-greeting">
+		Hi there!
+	</p>
+	<p>
+		{{ .Site.Params.AuthorBio }}
+	</p>
+</div>

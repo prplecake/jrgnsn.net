@@ -1,0 +1,59 @@
+{{- $msg1 := "When passing a map to the internal pagination template, one of the elements must be named 'page', and it must be set to the context of the current page." }}
+{{- $msg2 := "The 'format' specified in the map passed to the internal pagination template is invalid. Valid choices are: %s." }}
+
+{{- $page := . }}
+{{- $format := "default" }}
+
+{{- if reflect.IsMap . }}
+    {{- with .page }}
+        {{- $page = . }}
+    {{- else }}
+        {{- errorf $msg1 }}
+    {{- end }}
+    {{- with .format }}
+        {{- $format = lower . }}
+    {{- end }}
+{{- end }}
+
+
+    {{- if gt $page.Paginator.TotalPages 1 }}
+          {{- partial (printf "partials/inline/pagination/%s" $format) $page }}
+    {{- end }}
+
+{{- define "partials/inline/pagination/default" }}
+		<div class="pagination-container">
+    {{- with .Paginator }}
+        {{- $currentPageNumber := .PageNumber }}
+				{{- $totalPages := .TotalPages }}
+
+        {{- with .Prev }}
+					<div class="pull-left">
+						<a href="{{ .URL }}" aria-label="Previous" class="btn" role="button">
+							<span class="icon">
+       					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"/></svg>
+      				</span>
+							Page {{ .PageNumber }}
+						</a>
+					</div>
+        {{- end }}
+
+        {{- with .Next }}
+					<div class="pull-right">
+						<a href="{{ .URL }}" aria-label="Next" class="btn" role="button">
+							Page {{ .PageNumber }}
+							<span class="icon">
+       					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
+      				</span>
+						</a>
+					</div>
+        {{- end }}
+
+				<div class="pull-center">
+					<p>
+						Page {{ $currentPageNumber }} of {{ $totalPages }}
+					</p>
+				</div>
+
+    {{- end }}
+		</div>
+{{- end -}}

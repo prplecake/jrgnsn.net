@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{ .Content }}
+    {{ range (.Pages.ByParam "_date").Reverse }}
+        {{ if isset .Params "_date" }}
+						<div class="trip-title">
+							<h2>
+							<span class="date hidden-xs">
+								{{ .Params._date }}
+							</span>
+								<span class="title">
+            {{ if gt (.Content | len) 0}}
+							<a href="{{ .Permalink }}">
+									{{ .Params.dest }}
+								</a>
+            {{ else }}
+                {{ .Params.dest }}
+            {{ end }}
+							</span>
+							</h2>
+						</div>
+        {{ end }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,66 @@
+baseURL = "https://jrgnsn.net/"
+defaultContentLanguage = "en"
+# Automatically generate robots.txt
+enableRobotsTXT = true
+languageCode = "en-us"
+theme = ""
+title = "Matthew's Blog"
+enableGitInfo = true
+
+[permalinks]
+[permalinks.page]
+posts = "/:year/:month/:day/:slug"
+
+[uglyURLs]
+  posts = true
+
+[params]
+showPostsOnHomePage = "recent"
+numberPostsOnHomePage = 5
+dateFormat = "2006-01-02"
+avatarURL = "/images/avatar.png"
+avatarAltText = "Matthew Jorgensen's Avatar"
+avatarSize = "size-s"
+authorBio = "I'm a systems administrator & engineer, front-end and back-end developer, and an IT guru in St. Paul, MN. It’s nice to meet you."
+togglePreviousAndNextButtons = false
+displayReadingTime = true
+footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). The code for this site is [MIT](https://opensource.org/licenses/MIT/)."
+displayCommitHash = true
+repoURL = "https://github.com/prplecake/jrgnsn.net"
+socialIcons = [
+    {name="github", url = "https://github.com/prplecake"},
+    {name="mastodon", url = "https://compostintraining.club/@prplecake"},
+    {name="email", url="mailto:matthew@jrgnsn.net"}
+]
+externalLinks = [
+    {name = "github", displayText = "prplecake", url = "https://github.com/prplecake", id = "ext-link-gh" },
+    {name = "fediverse", displayText = "@prpleacke@compostintraining.club", url = "https://compostintraining.club/@prplecake", rel="me", id = "ext-link-mastodon"},
+    {name = "email", displayText = "matthew@jrgnsn.net", url = "mailto:matthew@jrgnsn.net", id = "ext-link-email"},
+    {name = "age", displayText = "age1dsjqf5lj4pq0luactsx...", url = "/age_publickey.txt", id = "link-age" },
+    {name = "pgp", displayText = "5C3C 6C19 379A 53AC", url = "/pgp_publickey.txt", id = "link-pgp" }
+]
+
+[menus]
+[[menus.main]]
+# Display name
+name = "Home"
+# Relative URL slug (appended to baseURL)
+pageRef = "/"
+# Lower weights are listed first in the menu (leftmost); higher weights
+# listed last in the menu (rightmost)
+weight = 1
+
+[[menus.main]]
+name = "About"
+pageRef = "/about"
+weight = 20
+
+[[menus.main]]
+name = "Travel"
+pageRef = "/travel"
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
