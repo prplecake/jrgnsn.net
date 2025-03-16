@@ -15,23 +15,15 @@ posts = "/:year/:month/:day/:slug"
   posts = true
 
 [params]
-showPostsOnHomePage = "recent"
 numberPostsOnHomePage = 5
 dateFormat = "2006-01-02"
-avatarURL = "/images/avatar.png"
 avatarAltText = "Matthew Jorgensen's Avatar"
-avatarSize = "size-s"
 authorBio = "I'm a systems administrator & engineer, front-end and back-end developer, and an IT guru in St. Paul, MN. It’s nice to meet you."
-togglePreviousAndNextButtons = false
 displayReadingTime = true
-footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). The code for this site is [MIT](https://opensource.org/licenses/MIT/)."
+footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). The <a href=\"https://github.com/prplecake/jrgnsn.net\" id=\"ext-link-repo\">code</a> for this site is [MIT](https://opensource.org/licenses/MIT/)."
 displayCommitHash = true
 repoURL = "https://github.com/prplecake/jrgnsn.net"
-socialIcons = [
-    {name="github", url = "https://github.com/prplecake"},
-    {name="mastodon", url = "https://compostintraining.club/@prplecake"},
-    {name="email", url="mailto:matthew@jrgnsn.net"}
-]
+fathomSiteKey = "JGSRHLLS"
 externalLinks = [
     {name = "github", displayText = "prplecake", url = "https://github.com/prplecake", id = "ext-link-gh" },
     {name = "fediverse", displayText = "@prpleacke@compostintraining.club", url = "https://compostintraining.club/@prplecake", rel="me", id = "ext-link-mastodon"},
@@ -60,7 +52,13 @@ name = "Travel"
 pageRef = "/travel"
 weight = 30
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+[security]
+enableInlineShortcodes = true

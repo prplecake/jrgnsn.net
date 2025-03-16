@@ -3,19 +3,19 @@ title: Countup
 permalink: /countup/
 enableMenu: false
 sitemap: false
-type: page
+type: blank_page
 ---
 
-	<title>Countup</title>
-	<link rel="stylesheet" href="/static/css/countup.css" />
+	{{< inlinestyle src="css/countup/countup.css" >}}
 
 	<div class="main"></div>
 
 	<script>
 		const counters = [
 				new Date("2024-12-23 12:00").getTime(),
-				new Date("2024-11-13").getTime(),
+				// new Date("2024-11-13").getTime(),
 		];
 	</script>
-	<script src="/static/lib/js/luxon.min.js"></script>
-	<script src="/static/js/countup.js"></script>
+	{{< inlinescript src="js/countup/luxon.min.js" >}}
+	{{< inlinescript src="js/countup/countup.js" >}}
+

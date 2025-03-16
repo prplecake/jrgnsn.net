@@ -1,8 +1,10 @@
 <div class="author-bio">
 	<p class="author-avatar">
-		{{ $avatarAltText := default "author avatar" .Site.Params.AvatarAltText }}
-		<img src="{{ .Scratch.Get "avatarImgSrc" }}"
+		{{ with resources.Get "images/avatar.png" }}
+		{{ $avatarAltText := default "author avatar" site.Params.AvatarAltText }}
+		<img src="{{ .RelPermalink }}"
 		alt="{{ $avatarAltText }}" class="avatar" />
+		{{ end }}
 	</p>
 	<p class="author-greeting">
 		Hi there!

@@ -1,0 +1,5 @@
+{{ $url := "https://cdn.usefathom.com/script.js" }}
+{{ if isset .Site.Params "fathomsitekey" }}
+{{ $siteKey := .Site.Params.fathomSiteKey }}
+<script src="{{ $url }}" data-site="{{ $siteKey }}" defer></script>
+{{ end }}

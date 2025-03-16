@@ -1,6 +1,10 @@
 {{ define "main" }}
 {{ $pages := where site.RegularPages "Type" "post" }}
-{{ $paginator := .Paginate $pages 5 }}
+{{ $postsPerPage := 10}}
+{{ if isset .Site.Params "numberpostsonhomepage"}}
+	{{ $postsPerPage = .Site.Params.numberPostsOnHomePage }}
+{{ end }}
+{{ $paginator := .Paginate $pages $postsPerPage }}
 
 {{ range $paginator.Pages }}
 	{{ partial "post-stub.html" . }}
