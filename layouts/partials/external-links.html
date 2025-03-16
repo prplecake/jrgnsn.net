@@ -1,10 +1,15 @@
 {{ if isset .Site.Params "externallinks" }}
 <div class="external-links">
 	{{ range .Site.Params.externalLinks }}
+		{{ $isExternal := false }}
+		{{ if not (strings.HasPrefix .url site.BaseURL) }}
+			{{ $isExternal = true }}
+		{{ end }}
 		<p>
 			<span class="context">{{ .name }}</span>
 			<a href="{{ .url }}" id="{{ .id }}"
 				 {{ if isset . "rel"  }}rel="{{ .rel }}"{{ end }}
+				 {{ if $isExternal }}target="_blank"{{ end }}
 			>{{ .displayText }}</a>
 		</p>
 	{{ end }}

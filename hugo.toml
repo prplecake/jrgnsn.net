@@ -20,7 +20,7 @@ dateFormat = "2006-01-02"
 avatarAltText = "Matthew Jorgensen's Avatar"
 authorBio = "I'm a systems administrator & engineer, front-end and back-end developer, and an IT guru in St. Paul, MN. It’s nice to meet you."
 displayReadingTime = true
-footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). The <a href=\"https://github.com/prplecake/jrgnsn.net\" id=\"ext-link-repo\">code</a> for this site is [MIT](https://opensource.org/licenses/MIT/)."
+footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). The <a href=\"https://github.com/prplecake/jrgnsn.net\" id=\"ext-link-repo\" target=\"_blank\">code</a> for this site is [MIT](https://opensource.org/licenses/MIT/)."
 displayCommitHash = true
 repoURL = "https://github.com/prplecake/jrgnsn.net"
 fathomSiteKey = "JGSRHLLS"
