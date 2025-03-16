@@ -40,17 +40,16 @@ following: Ruby, Java, and PHP.
 
 ## About This Site
 
-This website is a [jekyll][jekyll] blog. The server is hosted by
-[prgmr.com][prgmr]. I use [Namecheap][namecheap] to register my
-domains. A [Makefile][makefile-src] builds the site and deploys it to my
-web server. The [code][source] is licensed under the terms of the [MIT license]
-[mit]. The articles themselves are [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
+This website is a [hugo] blog. The site is hosted by GitHub Pages. I
+use [Gandi] to register my domains. The [code][source] is licensed under the
+terms of the [MIT license][mit]. The articles themselves
+are [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
 
-[jekyll]: https://jekyllrb.com/
+[hugo]: https://gohugo.io/
 [makefile-src]:https://github.com/prplecake/jrgnsn.net/blob/master/Makefile
 [linode-ref]: https://www.linode.com/?r=6bc69166de6a9b923e4e42b4259c0ed8e1769d8c
 [prgmr]:https://prgmr.com
-[namecheap]:https://www.namecheap.com
+[gandi]:https://www.gandi.net
 [linode]:https://www.linode.com/?r=6bc69166de6a9b923e4e42b4259c0ed8e1769d8c
 [source]:https://github.com/prplecake/jrgnsn.net
 [mit]: https://opensource.org/licenses/MIT/
