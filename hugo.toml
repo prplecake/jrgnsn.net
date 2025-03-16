@@ -6,6 +6,7 @@ languageCode = "en-us"
 theme = ""
 title = "Matthew's Blog"
 enableGitInfo = true
+disablePathToLower = true
 
 [permalinks]
 [permalinks.page]
