@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <div class="content">
+    <div class="meta date">
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format (or .Site.Params.dateFormat "January 2, 2006") }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+      {{ if (eq .Site.Params.DisplayReadingTime true) }}
+        | {{ .ReadingTime }} minute read
+      {{ end }}
+
+      {{ if lt .Date .Lastmod }}
+      {{ $updateDateMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $updateHuman := .Lastmod | time.Format (or .Site.Params.dateFormat "January 2, 2006") }}
+        | Updated <time datetime="{{ $updateDateMachine }}">{{ $updateHuman }}</time>
+      {{ end }}
+      <span class="hidden-xs">
+        | <a href="{{ .Permalink }}">Permalink</a>
+      </span>
+      <div class="page-tags hidden-xs">
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      </div>
+    </div>
+
+  {{ .Content }}
+  </div>
+{{ end }}

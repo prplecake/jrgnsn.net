@@ -1,0 +1,8 @@
+{{ if eq .Path "/" }}
+	<h1>{{ site.Title }}</h1>
+{{ else if eq .Type "tags" }}
+	<h1>Tag: {{ .Title }}</h1>
+{{ else }}
+	<h1>{{ .Title }}</h1>
+{{ end }}
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}

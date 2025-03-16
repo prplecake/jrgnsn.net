@@ -1,0 +1,4 @@
+{{ $path := (.Get "src")}}
+{{ with resources.Get $path }}
+<script src="{{ .RelPermalink }}"></script>
+{{ end }}

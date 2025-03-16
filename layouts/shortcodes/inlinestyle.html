@@ -1,0 +1,4 @@
+{{ $path := (.Get "src")}}
+{{ with resources.Get $path }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}

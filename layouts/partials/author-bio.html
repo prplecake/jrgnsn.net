@@ -1,0 +1,15 @@
+<div class="author-bio">
+	<p class="author-avatar">
+		{{ with resources.Get "images/avatar.png" }}
+		{{ $avatarAltText := default "author avatar" site.Params.AvatarAltText }}
+		<img src="{{ .RelPermalink }}"
+		alt="{{ $avatarAltText }}" class="avatar" />
+		{{ end }}
+	</p>
+	<p class="author-greeting">
+		Hi there!
+	</p>
+	<p>
+		{{ .Site.Params.AuthorBio }}
+	</p>
+</div>

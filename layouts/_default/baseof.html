@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+<div class="container">
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ if not (or (eq .Type "bare_page") (eq .Path "/"))}}
+  {{ partial "recent-posts.html" }}
+  {{ end }}
+  {{ if not (eq .Type "bare_page") }}
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  {{ end }}
+</div>
+</body>
+</html>

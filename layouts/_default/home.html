@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ $pages := where site.RegularPages "Type" "post" }}
+{{ $postsPerPage := 10}}
+{{ if isset .Site.Params "numberpostsonhomepage"}}
+	{{ $postsPerPage = .Site.Params.numberPostsOnHomePage }}
+{{ end }}
+{{ $paginator := .Paginate $pages $postsPerPage }}
+
+{{ range $paginator.Pages }}
+	{{ partial "post-stub.html" . }}
+{{ end }}
+{{ partial "pagination.html" . }}
+{{ end }}
