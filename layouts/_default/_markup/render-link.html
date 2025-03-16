@@ -21,6 +21,7 @@
             {{- $href = printf "%s#%s" $href . -}}
         {{- end -}}
     {{- end -}}
+    {{ $isExternal = false }}
 {{- end -}}
 <a href="{{ $href }}"
    {{- with .Title }} title="{{ . }}" {{- end }}
