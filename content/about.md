@@ -40,10 +40,10 @@ following: Ruby, Java, and PHP.
 
 ## About This Site
 
-This website is a [hugo] blog. The site is hosted by GitHub Pages. I
-use [Gandi] to register my domains. The [code][source] is licensed under the
-terms of the [MIT license][mit]. The articles themselves
-are [CC-BY-NC-SA 4.0][cc-by-nc-sa-4.0].
+This website is a [hugo] blog. The site is hosted by AWS Amplify. I use [Gandi]
+to register my domains. The [code][source] is licensed under the terms of the
+[MIT license][mit]. The articles themselves are [CC-BY-NC-SA
+4.0][cc-by-nc-sa-4.0].
 
 [hugo]: https://gohugo.io/
 [makefile-src]:https://github.com/prplecake/jrgnsn.net/blob/master/Makefile
