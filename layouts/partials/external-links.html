@@ -1,10 +1,14 @@
 {{ if isset .Site.Params "externallinks" }}
 <div class="external-links">
 	{{ range .Site.Params.externalLinks }}
-		{{ $isExternal := false }}
-		{{ if not (strings.HasPrefix .url site.BaseURL) }}
+		{{ $u := urls.Parse .url}}
+    {{ $isExternal := false }}
+		{{ if not (strings.HasPrefix $u.String site.BaseURL) }}
 			{{ $isExternal = true }}
 		{{ end }}
+    {{ if not $u.IsAbs }}
+      {{ $isExternal = false }}
+    {{ end }}
 		<p>
 			<span class="context">{{ .name }}</span>
 			<a href="{{ .url }}" id="{{ .id }}"
