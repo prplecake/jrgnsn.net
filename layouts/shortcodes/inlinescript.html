@@ -1,4 +1,19 @@
-{{ $path := (.Get "src")}}
+{{ $build := default true (.Get "build") }}
+{{ $minify := default false (.Get "minify") }}
+{{ $path := (.Get "src") }}
 {{ with resources.Get $path }}
-<script src="{{ .RelPermalink }}"></script>
+  {{ if $build }}
+  {{ if eq hugo.Environment "development" }}
+    {{ with . | js.Build }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{ end }}
+  {{ else }}
+    {{ $opts := dict "minify" $minify }}
+    {{ with . | js.Build $opts | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{ end }}
+  {{ end }}
+      {{ else }}
+      <script src="{{ .RelPermalink }}"></script>
+      {{ end }}
 {{ end }}
