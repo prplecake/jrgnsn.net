@@ -46,7 +46,16 @@ frontend:
         - git config --add core.quotepath false
     build:
       commands:
-        - hugo --gc --minify
+        - echo $AWS_APP_ID
+        - echo $AWS_BRANCH
+        - |
+          if [ "${AWS_BRANCH}" = "master" ]; then
+            DEPLOY_URL=https://jrgnsn.net/;
+          else
+            DEPLOY_URL="https://pr-${AWS_PULL_REQUEST_ID}.${AWS_APP_ID}.amplifyapp.com/";
+          fi;
+          echo $DEPLOY_URL
+        - hugo --gc --minify -b $DEPLOY_URL
   artifacts:
     baseDirectory: public
     files:
