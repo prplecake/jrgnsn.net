@@ -3,7 +3,7 @@
   {{ if eq .Path "/tags" }}
   <div class="tag-list">
       <section class="tag-cloud">
-        {{ range .Pages }}
+        {{ range .Pages.ByTitle }}
         {{ $weightedPages := site.Taxonomies.tags.Get .LinkTitle}}
         <span class="tag">
           <a href="{{ .RelPermalink }}"
