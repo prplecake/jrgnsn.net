@@ -2,16 +2,15 @@
   {{ .Content }}
   {{ if eq .Path "/tags" }}
   <div class="tag-list">
-    {{ with .Site.Taxonomies.tags }}
       <section class="tag-cloud">
-        {{ range $k, $v := . }}
+        {{ range .Pages }}
+        {{ $weightedPages := site.Taxonomies.tags.Get .LinkTitle}}
         <span class="tag">
-          <a href="/tags/{{ $k | urlize }}/"
-            class="font_size_{{ .Count }}">{{ $k }}</a>
+          <a href="{{ .RelPermalink }}"
+            class="font_size_{{ $weightedPages.Count }}">{{ .LinkTitle }}</a>
         </span>
         {{ end }}
       </section>
-      {{ end }}
     </div>
     <hr />
   {{ else }}
