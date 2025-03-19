@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $pages := where site.RegularPages "Type" "post" }}
+{{ $pages := where site.RegularPages "Section" "posts" }}
 {{ $postsPerPage := 10}}
 {{ if isset .Site.Params "numberpostsonhomepage"}}
 	{{ $postsPerPage = .Site.Params.numberPostsOnHomePage }}
