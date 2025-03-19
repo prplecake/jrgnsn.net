@@ -1,6 +1,6 @@
 {{ if eq .Path "/" }}
 	<h1>{{ site.Title }}</h1>
-{{ else if eq .Type "tags" }}
+{{ else if and (eq .Type "tags") (not (eq .Path "/tags") ) }}
 	<h1>Tag: {{ .Title }}</h1>
 {{ else }}
 	<h1>{{ .Title }}</h1>

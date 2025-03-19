@@ -1,4 +1,5 @@
-@import "syntax";
+@use "syntax";
+@use "tag-cloud";
 
 
 html, body {
@@ -179,6 +180,10 @@ li[role=menuitem] {
 
 .recent-post-link {
 
+}
+
+.post-list h2 {
+  font-size: unset;
 }
 
 img {

@@ -1,0 +1,30 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ if eq .Path "/tags" }}
+  <div class="tag-list">
+      <section class="tag-cloud">
+        {{ range .Pages.ByTitle }}
+        {{ $weightedPages := site.Taxonomies.tags.Get .LinkTitle}}
+        <span class="tag">
+          <a href="{{ .RelPermalink }}"
+            class="font_size_{{ $weightedPages.Count }}">{{ .LinkTitle }}</a>
+        </span>
+        {{ end }}
+      </section>
+    </div>
+    <hr />
+  {{ else }}
+  <div class="post-list">
+  {{ range .Pages }}
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format (or .Site.Params.dateFormat "January 2, 2006") }}
+    <h2>
+        <span class="date">
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        </span>
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ end }}
+  </div>
+  <hr />
+  {{ end }}
+{{ end }}

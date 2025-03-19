@@ -3,7 +3,7 @@
   {{ $opts := dict
     "enableSourceMap" (not hugo.IsProduction)
     "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
-    "transpiler" "libsass"
+    "transpiler" "dartsass"
   }}
   {{ if hugo.IsDevelopment }}
     {{ with . | toCSS $opts }}
