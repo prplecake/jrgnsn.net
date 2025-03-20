@@ -63,3 +63,10 @@ unsafe = true
 
 [security]
 enableInlineShortcodes = true
+
+[deployment]
+[[deployment.targets]]
+name = "s3"
+url = "s3://jrgnsn.net?region=us-east-1"
+cloudFrontDistributionID = "E1QB895SIIJQ03"
+stripIndexHTML = true
