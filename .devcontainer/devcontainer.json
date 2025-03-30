@@ -15,7 +15,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"adamvoss.vscode-languagetool"
+				"adamvoss.vscode-languagetool",
+				"stkb.rewrap"
 			]
 		}
 	},
