@@ -53,6 +53,12 @@ name = "Travel"
 pageRef = "/travel"
 weight = 30
 
+[markup]
+[markup.highlight]
+anchorLineNos = true
+lineNos = true
+style = "onedark"
+
 [markup.goldmark.renderer]
 unsafe = true
 
