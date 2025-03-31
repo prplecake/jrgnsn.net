@@ -1,6 +1,5 @@
 +++
 date = '2025-03-30T19:53:05Z'
-draft = true
 title = 'Windows Update Error 0x80070780'
 tags = [ "Microsoft Windows", "Windows Update", "sysjob1" ]
 +++
@@ -8,12 +7,12 @@ tags = [ "Microsoft Windows", "Windows Update", "sysjob1" ]
 These last two months a couple of the servers I maintain at work were failing to
 install the monthly update rollup. Usually when updates start failing, we tend
 to reach for a server rebuild instead of troubleshooting the black box that can
-be Windows Updates - after all the error messages and codes they display to end
+be Windows Updates -- after all the error messages and codes they display to end
 users aren't exactly... descriptive. This particular error code doesn't make
 [Microsoft's list of common errors and
 mitigation](https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors).
 
-Our first occurance of this error started with our February maintenance,
+Our first occurrence of this error started with our February maintenance,
 performed in early March. Time got away from me and I didn't find the time to
 troubleshoot or rebuild the affected servers in March... until March
 maintenance.
@@ -51,7 +50,32 @@ from Windows::Rtl::SystemImplementation::DirectFileSystemProvider::SysCreateFile
     },
     iosb = @0x75b79fbb80, as = (null), fa = 0, s[gle=0xd0000279]
 ```
+I'm not entirely sure what most of that means, but I am able to investigate
+permissions issues, so I'll start with that. I checked the permissions of
+`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative
+Tools\desktop.ini`[^2] and compared them to the same file from a working server.
+There were some discrepancies.
 
+Without going into too much detail here, on the working server the following
+users or groups had some sort of permissions on `desktop.ini`:
+
+* Everyone
+* ALL APPLICATION PACKAGES
+* ALL RESTRICTED APPLICATION PACKAGES
+* SYSTEM
+* Administrators
+* Users
+
+On the trouble servers, ALL APPLICATION PACKAGES and ALL RESTRICTED APPLICATION
+PACKAGES were missing. I tried to add them, but that didn't result in a
+successful update. My next trick was to rename `desktop.ini` to
+`desktop.ini.old` and retry the update. Success!
+
+I'll be curious to see if that resolves some of the issues I've been having with
+Citrix Profile Management.
 
 [^1]:`C:\Windows\Logs\CBS\CBS.log`, or one of the recent logs from a previous
     update run.
+[^2]: Possibly closer to `C:\ProgramData\Microsoft\Windows\Start
+    Menu\Programs\Windows Tools\` on Windows 11. I've also seen
+    `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Administrative Tools\`.
