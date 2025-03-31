@@ -3,6 +3,7 @@ date: "2019-10-25T00:00:00Z"
 tags:
 - Windows Group Policy
 - WMI Queries
+- sysjob1
 type: "post"
 title: Remove and Prevent Access to Shut Down Commands Except on my VMs
 ---

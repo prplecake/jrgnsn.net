@@ -1,7 +1,7 @@
 ---
 date: "2023-06-05T00:00:00Z"
 type: "post"
-tags: ["Citrix","Citrix StoreFront"]
+tags: ["Citrix","Citrix StoreFront","sysjob1"]
 title: Citrix Receiver Extension APIs
 ---
 

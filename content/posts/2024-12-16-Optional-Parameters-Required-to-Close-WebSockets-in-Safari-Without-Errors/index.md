@@ -1,7 +1,7 @@
 ---
 date: "2024-12-16T00:00:00Z"
 type: "post"
-tags: [WebSockets,Safari]
+tags: [WebSockets,Safari, sysjob1]
 title: Optional Parameters Required to Close WebSockets in Safari Without Errors
 ---
 
