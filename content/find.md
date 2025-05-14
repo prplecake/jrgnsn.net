@@ -7,7 +7,6 @@ enableMenu: false
 
 ## Social Media and Other Networks
 
-* [Fediverse][f.z][^1] (@prplecake@compostintraining.club)
 * [Strava][strava]
 
 [^1]: [Mastodon](https://joinmastodon.org/)
