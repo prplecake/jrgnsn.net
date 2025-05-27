@@ -27,7 +27,7 @@ repoURL = "https://github.com/prplecake/jrgnsn.net"
 fathomSiteKey = "JGSRHLLS"
 externalLinks = [
     {name = "github", displayText = "prplecake", url = "https://github.com/prplecake", id = "ext-link-gh" },
-    {name = "fediverse", displayText = "@prpleacke@prplecake.com", url = "https://gts.prplecake.com/@prplecake", rel="me", id = "ext-link-mastodon"},
+    {name = "fediverse", displayText = "@prplecake@prplecake.com", url = "https://gts.prplecake.com/@prplecake", rel="me", id = "ext-link-mastodon"},
     {name = "email", displayText = "matthew@jrgnsn.net", url = "mailto:matthew@jrgnsn.net", id = "ext-link-email"},
     {name = "age", displayText = "age1dsjqf5lj4pq0luactsx...", url = "/age_publickey.txt", id = "link-age" },
     {name = "pgp", displayText = "5C3C 6C19 379A 53AC", url = "/pgp_publickey.txt", id = "link-pgp" }
