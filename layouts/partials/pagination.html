@@ -17,7 +17,7 @@
 
 
     {{- if gt $page.Paginator.TotalPages 1 }}
-          {{- partial (printf "partials/inline/pagination/%s" $format) $page }}
+          {{- partial (printf "inline/pagination/%s" $format) $page }}
     {{- end }}
 
 {{- define "partials/inline/pagination/default" }}
