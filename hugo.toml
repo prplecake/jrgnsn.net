@@ -25,6 +25,7 @@ footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons
 displayCommitHash = true
 repoURL = "https://github.com/prplecake/jrgnsn.net"
 fathomSiteKey = "JGSRHLLS"
+postHogSiteKey = "phc_7DNHcK6qOm67FphObr17of1nPVAqVPoDcHxkVYgyeOK"
 externalLinks = [
     {name = "github", displayText = "prplecake", url = "https://github.com/prplecake", id = "ext-link-gh" },
     {name = "fediverse", displayText = "@prplecake@prplecake.com", url = "https://gts.prplecake.com/@prplecake", rel="me", id = "ext-link-mastodon"},
