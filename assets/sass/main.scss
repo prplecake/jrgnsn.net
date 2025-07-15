@@ -4,19 +4,13 @@
 
 html, body {
   font-family: Helvetica;
-  font-size: 12pt;
+  font-size: 100%;
 }
 
 body {
   background: #fff;
   padding-bottom: 2rem;
   max-width: 100%;
-}
-
-article p {
-  line-height: 1.25;
-  font-size: 12pt;
-  text-align: left;
 }
 
 pre {
@@ -33,13 +27,13 @@ pre {
 pre code {
   white-space: pre;
   word-wrap: normal;
-  font-size: 10pt;
+  font-size: 90%;
   display: inline-block;
 }
 
 code {
   font-family: monospace;
-  font-size: 0.9em;
+  font-size: 90%;
 }
 
 blockquote {
@@ -110,7 +104,7 @@ img.avatar {
 
 .author-greeting,
 .author-bio {
-  font-size: 12pt;
+  font-size: 100%;
 }
 
 .navigation {
@@ -159,7 +153,7 @@ li[role=menuitem] {
   position: absolute;
   top: -0.9rem;
   left: 0;
-  font-size: 0.8rem;
+  font-size: 80%;
   color: black;
   text-align: right
 }
@@ -173,7 +167,7 @@ li[role=menuitem] {
 }
 
 .recent-posts {
-  font-size: 11pt;
+  font-size: 90%;
   padding-bottom: 1rem;
 }
 
@@ -195,11 +189,11 @@ img {
 
 h1 {
   padding-top: 0px;
-  font-size: 16pt;
+  font-size: 135%;
 }
 
 .post-stub h2 {
-  font-size: 12pt;
+  font-size: 100%;
 }
 
 .post-stub .date {
@@ -224,7 +218,7 @@ h1 {
 }
 
 .page-tags {
-  font-size: 0.9em;
+  font-size: 90%;
 }
 
 .footnotes {
@@ -233,9 +227,6 @@ h1 {
 .footnotes::before {
   content: "Notes:";
 }
-.footnotes p {
-}
-
 
 .pagination-container {
   display: grid;
@@ -257,7 +248,7 @@ h1 {
 }
 
 .pull-center > p {
-  font-size: 11pt;
+  font-size: 95%;
 }
 
 .pull-right {
@@ -270,7 +261,7 @@ h1 {
   padding: .1rem .75rem;
   background: #e9ecef;
   border: #343a40 1px solid;
-  font-size: 0.9rem;
+  font-size: 90%;
   font-weight: 400;
   line-height: 1.5;
   cursor: pointer;
@@ -297,16 +288,6 @@ h1 {
 
 .icon path {
   fill: currentColor;
-}
-
-.project-title h2 {
-  font-size: 12pt;
-  display: inline;
-}
-
-.project-title .date {
-  display: inline-block;
-  min-width: 3rem;
 }
 
 .trip-title h2 {
@@ -343,7 +324,7 @@ h1 {
 }
 
 .site-footer {
-  font-size: 10pt;
+  font-size: 85%;
   padding-top: 0.5rem;
 }
 
@@ -365,49 +346,6 @@ dl > dt {
 
 /****************************************************
 /*
-/* webring rules
-/*
-/***************************************************/
-.webring .articles {
-  display: flex;
-}
-.webring h3 {
-  font-size: 1.1em;
-}
-.webring .title {
-  margin: 0;
-}
-.webring .article {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction:
-          column;
-  margin: 0
-  0.5rem;
-  padding: 0.5rem;
-  background: #eee;
-}
-.webring .article:first-child {
-  margin-left: 0;
-}
-.webring .article:last-child {
-  margin-right: 0;
-}
-.webring .summary {
-  font-size: 0.8rem;
-  flex: 1 1 0;
-}
-.webring .attribution {
-  text-align: right;
-  font-size: 0.8rem;
-  color: #555;
-}
-.webring .date {
-  color: black;
-}
-
-/****************************************************
-/*
 /* @media properties
 /*
 /***************************************************/
@@ -423,7 +361,7 @@ dl > dt {
     text-align: center;
   }
   .btn {
-    font-size: 0.8rem;
+    font-size: 90%;
   }
 }
 
