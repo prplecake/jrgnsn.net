@@ -365,49 +365,6 @@ dl > dt {
 
 /****************************************************
 /*
-/* webring rules
-/*
-/***************************************************/
-.webring .articles {
-  display: flex;
-}
-.webring h3 {
-  font-size: 1.1em;
-}
-.webring .title {
-  margin: 0;
-}
-.webring .article {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction:
-          column;
-  margin: 0
-  0.5rem;
-  padding: 0.5rem;
-  background: #eee;
-}
-.webring .article:first-child {
-  margin-left: 0;
-}
-.webring .article:last-child {
-  margin-right: 0;
-}
-.webring .summary {
-  font-size: 0.8rem;
-  flex: 1 1 0;
-}
-.webring .attribution {
-  text-align: right;
-  font-size: 0.8rem;
-  color: #555;
-}
-.webring .date {
-  color: black;
-}
-
-/****************************************************
-/*
 /* @media properties
 /*
 /***************************************************/
