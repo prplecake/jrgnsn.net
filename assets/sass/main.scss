@@ -13,12 +13,6 @@ body {
   max-width: 100%;
 }
 
-article p {
-  line-height: 1.25;
-  font-size: 12pt;
-  text-align: left;
-}
-
 pre {
   border-radius: 0;
   overflow-x: auto;
@@ -233,9 +227,6 @@ h1 {
 .footnotes::before {
   content: "Notes:";
 }
-.footnotes p {
-}
-
 
 .pagination-container {
   display: grid;
@@ -297,16 +288,6 @@ h1 {
 
 .icon path {
   fill: currentColor;
-}
-
-.project-title h2 {
-  font-size: 100%;
-  display: inline;
-}
-
-.project-title .date {
-  display: inline-block;
-  min-width: 3rem;
 }
 
 .trip-title h2 {
