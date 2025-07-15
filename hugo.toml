@@ -24,7 +24,6 @@ displayReadingTime = true
 footerText = "The content for this site is [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). The <a href=\"https://github.com/prplecake/jrgnsn.net\" id=\"ext-link-repo\" target=\"_blank\">code</a> for this site is [MIT](https://opensource.org/licenses/MIT/)."
 displayCommitHash = true
 repoURL = "https://github.com/prplecake/jrgnsn.net"
-fathomSiteKey = "JGSRHLLS"
 postHogSiteKey = "phc_7DNHcK6qOm67FphObr17of1nPVAqVPoDcHxkVYgyeOK"
 externalLinks = [
     {name = "github", displayText = "prplecake", url = "https://github.com/prplecake", id = "ext-link-gh" },
