@@ -53,7 +53,7 @@ jobs:
         with:
           name: build
           path: ./public
-      - uses: aws-actions/configure-aws-credentials@v4
+      - uses: aws-actions/configure-aws-credentials@v5
         with:
           aws-region: us-west-1
           role-to-assume: arn:aws:iam::021237303975:role/jrgnsn.netDeployRole
