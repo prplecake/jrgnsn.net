@@ -22,6 +22,6 @@ problem. I scoured the internet so you don't have to. You can still
 download the legacy application [from Evernote's own
 CDN](https://cdn1.evernote.com/scansnap/win/PFU_Scanner_Installer_b19.exe),
 or, when that goes away, I've saved a copy of the latest installer. You
-can get that from my [Nextcloud](https://cloud.fminus.co/s/NjyHicCXsyjqx8J).
+can get that from my [Drive](https://drive.google.com/drive/folders/10CMvELKLVccFU5Flep6HkzbOGohXsIXU).
 
 [^1]: Unknown to me, anyway.
