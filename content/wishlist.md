@@ -26,9 +26,9 @@ Harris
 
 ## Lego Sets
 *Model numbers in parenthesis*
-* [LEGO Ideas Apollo Saturn V](https://www.amazon.com/dp/B071G3QMS2) (92176)
+* [LEGO Ideas Apollo Saturn V](https://amzn.to/4r6Vy21) (92176)
 * [LEGO Ideas International Space
-  Station](https://www.amazon.com/dp/B083JWZNW7) (21321)
+  Station](https://amzn.to/40yPzYR) (21321)
 
 ## Puzzles
 * [Critical Role: The Mighty Vibe Series](https://shop.critrole.com/products/critical-role-the-mighty-vibe-series-caduceus1000-piece-jigsaw-puzzle)
